@@ -1,0 +1,190 @@
+/* Sitewide styles */
+body {
+  padding-top: 64px;
+}
+footer {
+  margin: 2em 0;
+}
+footer li {
+  float: right;
+  margin-right: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+/* Home page */
+#chart {
+  height: 600px;
+}
+#hover_description{
+  height: 26px;
+}
+.node rect {
+  fill-opacity: .9;
+  shape-rendering: crispEdges;
+}
+.node text {
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff;
+  font-size: 12px;
+}
+.link {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .2;
+}
+.link:hover {
+  stroke-opacity: .5;
+}
+#warning{
+  color: red;
+}
+
+.treemap .grandparent text {
+  color:#222;
+  font-size:18px;
+  font-family:'Arvo',"Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+.treemap .amount {
+  font-family:'Arvo',"Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+.treemap rect {
+  fill:none;
+  stroke:#fff
+}
+
+.treemap rect.parent {
+  stroke-width:1px
+}
+
+.grandparent rect {
+  stroke-width:1px
+}
+
+.treemap .grandparent rect {
+  fill:#fff
+}
+
+.treemap .children rect.parent {
+  cursor:pointer
+}
+
+.grandparent rect {
+  cursor:pointer
+}
+
+.treemap rect.parent {
+  pointer-events:all
+}
+
+.treemap .textdiv {
+  font-size:small;
+  padding:5px;
+  color:#fff;
+  pointer-events:none
+}
+
+.treemap text {
+  cursor:pointer
+}
+
+#tooltip {
+  background:#333;
+  color:#FFF;
+  padding:5px;
+  pointer-events:none
+}
+
+.spreadsheet table {
+  display:block;
+  margin:auto;
+  border-collapse:collapse;
+  border:0
+}
+
+.spreadsheet tbody {
+  border-collapse:collapse;
+  border:0
+}
+
+.spreadsheet th {
+  text-align:left
+}
+
+.spreadsheet th,.spreadsheet td {
+  border-top:1px solid #000;
+  border-left:0;
+  border-right:0;
+  border-collapse:collapse;
+  padding:5px
+}
+
+.spreadsheet td {
+  cursor:pointer
+}
+
+.square {
+  width:10px;
+  height:10px
+}
+
+#hover_description {
+  position:absolute;
+  opacity:0;
+  padding:8px;
+  background-color:#dfdfdf;
+  visibility:hidden;
+  -webkit-transition:visibility 0 0.1s,opacity .1s;
+  transition:visibility 0 0.1s,opacity .1s;
+  font-size:14px
+}
+
+#hover_description.show {
+  visibility:visible;
+  opacity:.85;
+  -webkit-transition-delay:0;
+  transition-delay:0
+}
+
+#sankey {
+  margin-top:30px
+}
+
+svg text {
+  font-family:'Arvo',"Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+svg .node rect {
+  fill-opacity:.9;
+  shape-rendering:crispEdges;
+  stroke-width:1px;
+  -webkit-transition:stroke-width .1s;
+  transition:stroke-width .1s
+}
+
+svg .node text {
+  pointer-events:none;
+  font-size:12px;
+  -webkit-transition:font-size .3s;
+  transition:font-size .3s
+}
+
+svg .node.highlight text,svg .node.hover text {
+  font-size:15px
+}
+
+svg .node.highlight rect,svg .node.hover rect {
+  stroke-width:2px
+}
+
+svg .link {
+  fill:none;
+  stroke-opacity:.2;
+  -webkit-transition:stroke-opacity .3s;
+  transition:stroke-opacity .3s
+}
+
+svg .link.highlight {
+  stroke-opacity:.6
+}
