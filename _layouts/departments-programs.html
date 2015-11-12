@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+  {% include header.html %}
+
+    <body>
+
+      <div class="container">
+        {{ content }}
+
+        {% include departments-programs.html %}
+
+      </div>
+
+      {% include footer.html %}
+
+    </body>
+
+</html>
