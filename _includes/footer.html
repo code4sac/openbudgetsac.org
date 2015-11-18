@@ -29,3 +29,13 @@
 <!-- <script src="js/jquery-1.11.1.js"></script> -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 <!-- <script src="js/bootstrap.js"></script> -->
+
+<!-- Smoothscroll
+================================================== -->
+<script>
+  $(".scroll").click(function(event){
+    event.preventDefault();
+    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 1000);
+
+  });
+</script>
