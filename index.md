@@ -1,7 +1,7 @@
 ---
 title: Open Budget Sacramento
 author: Code for Sacramento
-layout: default
+layout: home
 ---
 
 ## Sacramento City Budget
