@@ -13,6 +13,9 @@ footer li {
 @media only screen and (max-width: 767px) {
    .navbar-right{ display: none !important; }
 }
+#twitter-button-hack {
+  padding-top: 24px;
+}
 
 /* Home page */
 #chart {
