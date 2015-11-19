@@ -38,6 +38,14 @@ footer li {
 #warning{
   color: red;
 }
+/* Padding for anchor */
+#platforms:before {
+  display: block;
+  content: " ";
+  margin-top: -81px;
+  height: 81px;
+  visibility: hidden;
+}
 
 .treemap .grandparent text {
   color:#222;
