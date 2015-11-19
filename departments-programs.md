@@ -6,4 +6,4 @@ layout: departments-programs
 
 ## Departments and Programs
 
-Some text...
+#### Click a Department to get started.

@@ -10,6 +10,9 @@ footer li {
   margin-right: 1.5em;
   margin-bottom: 1.5em;
 }
+@media only screen and (max-width: 767px) {
+   .navbar-right{ display: none !important; }
+}
 
 /* Home page */
 #chart {
@@ -157,10 +160,6 @@ footer li {
 
 #sankey {
   margin-top:30px
-}
-
-svg text {
-  font-family:'Arvo',"Helvetica Neue",Helvetica,Arial,sans-serif
 }
 
 svg .node rect {

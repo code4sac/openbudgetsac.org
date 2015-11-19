@@ -1,17 +1,5 @@
 <style>
 
-body {
-  font-family: sans-serif;
-  font-weight: bold;
-}
-
-#footer {
-    text-align: left;
-    padding: 0px;
-	margin: 10px;
-	font-size: 11px;
-	line-height: 0%;
-}
 
 #chart {
   width: 960px;
@@ -94,14 +82,12 @@ rect.parent,
 .legend text {
   text-anchor: middle;
   font-size: 13px;
-  font-family: sans-serif;
   fill: black;
 }
 
 .textdiv { /* text in the boxes */
 	font-size: 16px;
 	padding: 5px;
-	font-family: sans-serif;
 }
 
 div.tooltip {
@@ -118,27 +104,26 @@ div.tooltip {
   border-radius: 8px;
   color: rgba(255, 255, 255, .95);
   pointer-events: none;
-  font-family: sans-serif;
 }
 
 </style>
 
-<h1> <center> City of Sacramento Budget 2015/16 </center></h1>
+<!-- <h1> <center> City of Sacramento Budget 2015/16 </center></h1> -->
 
 <p id="chart">
 
 <h3 style="font-weight: bold"><center></center></h3>
-<p style="width: 960px"><center> Change From Previous Year (%) </center></p>
+<h4 style="width: 960px"><center> Change From Previous Year (%) </center></h4>
 <div id="legend"></div>
 </br>
 <div id="footer">
 <p class="alignleft"> Source: City of Sacramento <a href="http://data.cityofsacramento.org/home/"> Open Data Portal;</a> <a href="http://portal.cityofsacramento.org/Finance/Budget/Proposed-Budget"> Budget FY 2015/16 </a> </p>
-<p class="alignright"> <span style="font-size: 14px"> by Andrew King and <a href="http://codeforsacramento.org/"> Code4Sac </a></span></p>
+<p class="alignright"> <span style="font-size: 14px"> by Andrew King and <a href="http://codeforsacramento.org/"> Code for Sacramento </a></span></p>
 <div style="clear: both;"></div>
-<p class="alignleft"> Note: Departgment descriptions verbatim from proposed budget.</p>
+<p class="alignleft"> Note: Department descriptions verbatim from proposed budget.</p>
 </div>
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-<script src="http://d3js.org/d3.v3.min.js"></script>
+<!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
+<!-- <script src="http://d3js.org/d3.v3.min.js"></script> -->
 <script>
 
 var dollarformat = d3.format("$0,000")
