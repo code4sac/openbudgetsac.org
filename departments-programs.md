@@ -127,7 +127,7 @@ div.tooltip {
 <h4 style="width: 960px"><center> Change From Previous Year (%) </center></h4>
 <div id="legend"></div>
 <div id="footer">
-<p class="alignleft"> Source: City of Sacramento <a href="http://data.cityofsacramento.org/home/"> Open Data Portal;</a> <a href="http://portal.cityofsacramento.org/Finance/Budget/Proposed-Budget"> Budget FY 2015/16 </a> </p>
+<p class="alignleft"> Source: City of Sacramento <a href="http://data.cityofsacramento.org"> Open Data Portal;</a> <a href="http://www.cityofsacramento.org/Finance/Budget/Documents/Approved-Budget2015-16"> Budget FY 2015/16 </a> </p>
 <p class="alignright"> <span style="font-size: 14px"> by Andrew King and <a href="http://codeforsacramento.org/"> Code for Sacramento </a></span></p>
 <div style="clear: both;"></div>
 <p class="alignleft"> Note: Department descriptions verbatim from proposed budget.</p>

@@ -6,7 +6,7 @@ layout: default
 
 <div class="jumbotron">
   <h2>The City of Sacramento spends nearly <strong>$1 billion</strong> annually to deliver services and fund government operations.</h2>
-  <p><a href="http://codeforsacramento.org" target="_blank">Code for Sacramento</a> used data from the city's <a href="http://data.cityofsacramento.org/home/" target="_blank">open data portal</a> to visualize where the money comes from and how it's spent.</p>
+  <p><a href="http://codeforsacramento.org" target="_blank">Code for Sacramento</a> used data from the city's <a href="http://data.cityofsacramento.org" target="_blank">open data portal</a> to visualize where the money comes from and how it's spent.</p>
   <p>
     <a class="btn btn-lg btn-success scroll" href="#platforms" target="_blank" role="button"><i class="fa fa-bar-chart"></i> Check out our work</a>
     <a class="btn btn-lg btn-primary" href="mailto:hello@codeforsacramento.org?subject=Open Budget Sacramento" role="button"><i class="fa fa-bullhorn"></i> Give us feedback</a>
