@@ -1,131 +1,3 @@
-<style>
-
-
-#chart {
-  width: 960px;
-  height: 460px;
-  margin: 1px auto;
-  position: relative;
-  pointer-events: all;
-}
-
-#legend {
-    width: 960px;
-    height: 20px;
-    margin: 25px auto;
-    position: relative;
-}
-
-
-
-text {
-  pointer-events: all;
-}
-
-.alignleft {
-	float: left;
-}
-.alignright {
-	float: right;
-}
-
-.grandparent text {
-  font-weight: bold;
-  font-size: 22px;
-}
-
-rect {
-  stroke: #fff;
-  stroke-width: 1.5px;
-}
-
-rect.parent,
-.grandparent rect {
-  stroke-width: 1.5px;
-}
-
-.grandparent rect {
-  fill: #bbb;
-  text-align: center;
-}
-
-.grandparent:hover rect {
-  fill: #f0f0f0;
-}
-
-.children rect.parent,
-.grandparent rect {
-  cursor: pointer;
-}
-
-.children rect.child {
-  opacity: 1;
-}
-
-.children rect.parent {
-	opacity: 1;
-}
-
-.children:hover rect.child {
-  opacity: 1;
-  stroke-width: 1.5px;
-}
-
-.children:hover rect.parent {
-  opacity: .5;
-}
-
-.legend rect {
-  stroke-width: 0px;
-}
-
-.legend text {
-  text-anchor: middle;
-  font-size: 13px;
-  fill: black;
-}
-
-.textdiv { /* text in the boxes */
-	font-size: 16px;
-	padding: 5px;
-}
-
-div.tooltip {
-  position: absolute;
-  text-align: center;
-  width: 500px;
-  height: 285px;
-  line-height: 18px;
-  padding: 2px;
-  font-size: 14px;
-  font-weight: normal;
-  background: rgba(0, 0, 0, 0.8);
-  border: 1px;
-  border-radius: 8px;
-  color: rgba(255, 255, 255, .95);
-  pointer-events: none;
-}
-
-</style>
-
-<!-- <h1> <center> City of Sacramento Budget 2015/16 </center></h1> -->
-
-<p id="chart">
-
-<h3 style="font-weight: bold"><center></center></h3>
-<h4 style="width: 960px"><center> Change From Previous Year (%) </center></h4>
-<div id="legend"></div>
-</br>
-<div id="footer">
-<p class="alignleft"> Source: City of Sacramento <a href="http://data.cityofsacramento.org/home/"> Open Data Portal;</a> <a href="http://portal.cityofsacramento.org/Finance/Budget/Proposed-Budget"> Budget FY 2015/16 </a> </p>
-<p class="alignright"> <span style="font-size: 14px"> by Andrew King and <a href="http://codeforsacramento.org/"> Code for Sacramento </a></span></p>
-<div style="clear: both;"></div>
-<p class="alignleft"> Note: Department descriptions verbatim from proposed budget.</p>
-</div>
-<!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
-<!-- <script src="http://d3js.org/d3.v3.min.js"></script> -->
-<script>
-
 var dollarformat = d3.format("$0,000")
 var pctformat = d3.format("00.0%")
 
@@ -227,7 +99,7 @@ var lgsize=100
 var smsize=50
 
 
-d3.json("data/sacbudget_v2.json", function(root) {
+d3.json("/data/sacbudget_v2.json", function(root) {
   initialize(root);
   accumulate(root);
   accum2(root);
@@ -456,4 +328,3 @@ d3.json("data/sacbudget_v2.json", function(root) {
         : d.name + ": "+ dollarformat(d.amount2016);
   }
 });
-</script>
