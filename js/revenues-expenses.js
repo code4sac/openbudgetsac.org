@@ -1,11 +1,13 @@
 var datafiles = [];
 //datafiles.push("FY15-16__FY16-17.csv");
-datafiles.push("FY14-15__FY15-16.csv");
+// datafiles.push("FY14-15__FY15-16.csv");
+datafiles.push("FY15__FY16__FY17__FY18.csv");
 
 var years = []
 datafiles.forEach(function(datafile){
   years = years.concat(datafile.slice(0,-4).split("__"));
 })
+
 console.log(years);
 years.reverse();
 
@@ -29,8 +31,7 @@ function drawFlow(){
       fy_i = years.indexOf(fy),//index of fy
       file_i = Math.floor(fy_i / 2),// index of fy div 2.... why??? returns 0
       //file_i = Math.floor(fy_i / 3),
-      filename = datafiles[file_i];
-  console.log(filename);
+      filename = datafiles[0];
   years.reverse();
 
   d3.csv("/data/" + filename, function(error, data){
