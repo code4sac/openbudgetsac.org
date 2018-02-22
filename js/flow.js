@@ -115,7 +115,7 @@ function data_wrangle(dataset, fy){
     ];
 
     rev = newdata.filter(function(v,i,a){
-        return v.account_type == "Revenue";
+        return v.account_type == "Revenues";
     });
     revcats = d3.nest()
         .key(function(d){
@@ -164,9 +164,9 @@ function data_wrangle(dataset, fy){
 
     }
     exp = newdata.filter(function(v,i,a){
-        return v.account_type == "Expense";
+        return v.account_type == "Expenses";
     });
-
+    
     //    Sac expense items - department column
     exp_order = [
         "Police",
