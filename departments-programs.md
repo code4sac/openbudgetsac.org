@@ -14,11 +14,11 @@ permalink: /departments-programs/
 <p id="chart">
 
 <h3 style="font-weight: bold"><center></center></h3>
-<h4 style="width: 960px"><center> Change From Previous Year (%) </center></h4>
+<h4 id="legend-title">Change From Previous Year (%)</h4>
 <div id="legend"></div>
 <div id="footer">
-<p class="alignleft"> Source: City of Sacramento <a href="http://data.cityofsacramento.org"> Open Data Portal;</a> <a href="http://www.cityofsacramento.org/Finance/Budget/Documents/Approved-Budget2015-16"> Budget FY 2015/16 </a> </p>
-<p class="alignright"> <span style="font-size: 14px"> by Andrew King and <a href="http://codeforsacramento.org/"> Code for Sacramento </a></span></p>
+<p class="alignleft"> Source: City of Sacramento <a href="http://data.cityofsacramento.org"> Open Data Portal;</a> <a href="http://data.cityofsacramento.org/datasets/00aa04d56178482b8b33248d32a2cd12_0"> Budget FY 2017/18 </a> </p>
+<p class="alignright"> <span style="font-size: 14px"> by Andrew King, John Loper and <a href="http://codeforsacramento.org/"> Code for Sacramento </a></span></p>
 <div style="clear: both;"></div>
 <p class="alignleft"> Note: Department descriptions verbatim from proposed budget.</p>
 </div>
