@@ -2,8 +2,8 @@ var dollarformat = d3.format("$0,000")
 var pctformat = d3.format("00.0%")
 
 var margin = {top: 40, right: 0, bottom: 0, left: 0},
-    width = 960,
-    height = 460 - margin.top - margin.bottom,
+    width = 1100,
+    height = 600 - margin.top - margin.bottom,
     formatNumber = d3.format(",d"),
 	formatLegend = d3.format(",%"),
     colorDomain = [-5000, -500, -20, -5, 0, 5, 20, 500, 5000],
@@ -23,12 +23,12 @@ var color = d3.scale.linear()
     .range(colorRange);
 
 var treemap = d3.layout.treemap()
-    .value(function(d) {return d.amount2016})
+    .value(function(d) {return d.amount2018})
     .children(function(d, depth) { return depth ? null : d._children; })
-    .sort(function(a, b) { console.log(a.amount2016); return a.amount2016 - b.amount2016; })
+    .sort(function(a, b) { return a.amount2018 - b.amount2018; })
     .ratio(height / width * 0.5 * (1 + Math.sqrt(5)))
     .round(false);
-
+	
 /////////////
 /// LEGEND //
 /////////////
@@ -41,7 +41,7 @@ var legend = d3.select("#legend").append("svg")
   .selectAll("g")
       .data([0,2,4,6,8,10,12])
       .enter()
-	  .append('g');
+	  .append('g');	
 
 
 
@@ -61,7 +61,7 @@ legend.append("text")
         .text(function(d){return formatLegend(colorIncrements(d)/100)})
         .attr('y', 30)
         .attr('x', function(d){return margin.left + d * 40 + 20});
-
+		
 /// END LEGEND ///
 
 var svg = d3.select("#chart").append("svg")
@@ -72,9 +72,9 @@ var svg = d3.select("#chart").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
     .style("shape-rendering", "crispEdges");
-
-var div = d3.select("#chart").append("div")
-    .attr("class", "tooltip")
+	
+var div = d3.select("#chart").append("div")   
+    .attr("class", "tooltip")               
     .style("opacity", 0);
 
 var grandparent = svg.append("g")
@@ -89,17 +89,17 @@ grandparent.append("text")
     .attr("x", 6)
     .attr("y", 10 - margin.top)
     .attr("dy", ".75em");
+	
 
-
-
+	
 //////////////////
-/// Second chart
+/// Second chart 
 //////////////////
 var lgsize=100
 var smsize=50
 
 
-d3.json("/data/sacbudget_v2.json", function(root) {
+d3.json("/data/sacbudget_2018.json", function(root) {
   initialize(root);
   accumulate(root);
   accum2(root);
@@ -118,17 +118,15 @@ d3.json("/data/sacbudget_v2.json", function(root) {
   // We also take a snapshot of the original children (_children) to avoid
   // the children being overwritten when when layout is computed.
   function accumulate(d) {
-     console.log(d.amount2016);
     return (d._children = d.children)
-        ? d.amount2016 = d.children.reduce(function(p, v) { return p + accumulate(v); }, 0)
-        : d.amount2016;
+        ? d.amount2018 = d.children.reduce(function(p, v) { return p + accumulate(v); }, 0)
+        : d.amount2018;
   }
-
+  
   function accum2(d) {
-     console.log(d.amount2015);
     return (d._children = d.children)
-        ? d.amount2015 = d.children.reduce(function(p, v) { return p + accum2(v); }, 0)
-        : d.amount2015;
+        ? d.amount2017 = d.children.reduce(function(p, v) { return p + accum2(v); }, 0)
+        : d.amount2017;
   }
 
   // Compute the treemap layout recursively such that each group of siblings
@@ -139,7 +137,7 @@ d3.json("/data/sacbudget_v2.json", function(root) {
   // of sibling was laid out in 1×1, we must rescale to fit using absolute
   // coordinates. This lets us use a viewport to zoom.
 
-
+  
   function layout(d) {
     if (d._children) {
       treemap.nodes({_children: d._children});
@@ -155,17 +153,17 @@ d3.json("/data/sacbudget_v2.json", function(root) {
   }
 
   function display(d) {
-
-	// filter
-    //var data=d._children.filter(function(d) { return d.amount2016 >= 20000000; });
-
+	  
+	// filter 
+    //var data=d._children.filter(function(d) { return d.amount2018 >= 20000000; });		  
+	  
 	//added for small box
-
+	  
     grandparent
         .datum(d.parent)
         .on("click", transition_out)
       .select("text")
-        .text(name(d));
+        .text(name(d));    
 
     var g1 = svg.insert("g", ".grandparent")
         .datum(d)
@@ -180,14 +178,14 @@ d3.json("/data/sacbudget_v2.json", function(root) {
         .on("click", transition_in);
 
 //
-
+	
 	   g.on("mouseover", function(d) {
 	      div.transition().duration(50)
 	      .style("opacity", 1)
 		  .style("height", (d.desc!=null ? (Math.ceil(d.desc.length/75)*19+107) + "px" : "107px"))
-	      div.html("<br/>"+d.name + "<br/> <br/>" + "2015/16 (Proposed) :     " + dollarformat(d.amount2016) + " <br/> 2014/15 (Actual) :     " + dollarformat(d.amount2015) +"<br/> <br/>"+(d.desc!=null ? d.desc : ""))
-	      .style("left", Math.max(Math.min((d3.event.pageX - 350),430),20) + "px")
-		  .style("top", Math.min((d3.event.pageY-70),200) + "px");
+	      div.html("<br/>"+d.name + "<br/> <br/>" + "2018 (Proposed) :     " + dollarformat(d.amount2018) + " <br/> 2017 (Actual) :     " + dollarformat(d.amount2017) +"<br/> <br/>"+(d.desc!=null ? d.desc : ""))
+	      .style("left", Math.max(Math.min((d3.event.pageX - 350),900),20) + "px")
+		  .style("top", Math.min((d3.event.pageY-200),500) + "px");
 	    })
 	    .on("mouseout", function() {
 	      div.transition().duration(50)
@@ -197,22 +195,22 @@ d3.json("/data/sacbudget_v2.json", function(root) {
         .attr("class", "parent")
         .call(rect)
       .append("title")
-        .text(function(d) { return formatNumber(d.amount2016); });
-
-
+        .text(function(d) { return formatNumber(d.amount2018); });
+		
+		
     g.append("foreignObject")
 		.call(rect)
 		.attr("class","foreignobj")
 		.append("xhtml:div")
         .attr("dy", ".75em")
-        .html(function(d) { return d.name + ": " + dollarformat(d.amount2016); })
+        .html(function(d) { return d.name + ": " + dollarformat(d.amount2018); })
 		.attr("class","textdiv"); //textdiv class allows us to style the text easily with CSS
-
+	
 
     function transition_in(d) {
       if (transitioning || !d) return;
       transitioning = true;
-
+	  
 	  arrow=grandparent.append("text")		// append arrow
 	  	.attr('font-family', 'FontAwesome')
 	  	.attr("class", "svg-icon")
@@ -222,13 +220,13 @@ d3.json("/data/sacbudget_v2.json", function(root) {
 	  	.style("opacity", 0);
 	  arrow.transition().duration(500)		// fade in arrow
 		.style("opacity", 1)
-
+	  
 	  g.selectAll(".child")
 	      .data(function(d) { return d.parent._children || [d]; })
 	    .enter().append("rect")
 	      .attr("class", "child")
 		  .call(rect);
-
+		  
       var g2 = display(d),
           t1 = g1.transition().duration(750),
           t2 = g2.transition().duration(750);
@@ -245,17 +243,17 @@ d3.json("/data/sacbudget_v2.json", function(root) {
 
       // Fade-in entering text.
 	  g2.selectAll(".textdiv").style("color", "rgba(0, 0, 0, 0)"); /* added */
-
+	  
       // Transition to the new view.
       t1.selectAll("rect").call(rect);
       t2.selectAll("rect").call(rect);
 
-
+ 
 	  t1.selectAll(".textdiv").style("display", "block"); /* added */
 	  t2.selectAll(".textdiv").style("display", "block"); /* added */
 	  g2.transition().delay(650).duration(100).selectAll(".textdiv").style("color", "rgba(0, 0, 0, 1)"); /* added */
 	  t1.selectAll(".foreignobj").call(foreign); /* added */
-	  t2.selectAll(".foreignobj").call(foreign); /* added */
+	  t2.selectAll(".foreignobj").call(foreign); /* added */ 
 
       // Remove the old node when the transition is finished.
       t1.remove().each("end", function() {
@@ -289,12 +287,12 @@ d3.json("/data/sacbudget_v2.json", function(root) {
       // Transition to the new view.
       t1.selectAll("rect").call(rect);
       t2.selectAll("rect").call(rect);
-
+	 
 	  t1.selectAll(".textdiv").style("display", "block"); /* added */
 	  t2.selectAll(".textdiv").style("display", "block"); /* added */
 	  g2.transition().delay(650).duration(100).selectAll(".textdiv").style("color", "rgba(0, 0, 0, 1)"); /* added */
 	  t1.selectAll(".foreignobj").call(foreign); /* added */
-	  t2.selectAll(".foreignobj").call(foreign); /* added */
+	  t2.selectAll(".foreignobj").call(foreign); /* added */ 
 
       // Remove the old node when the transition is finished.
       t1.remove().each("end", function() {
@@ -311,10 +309,10 @@ d3.json("/data/sacbudget_v2.json", function(root) {
        .attr("y", function(d) { return y(d.y); })
        .attr("width", function(d) { return x(d.x + d.dx) - x(d.x); })
 	   .attr("height", function(d) { return y(d.y + d.dy) - y(d.y); })
-	   .attr("fill", function(d){return isNaN((parseFloat(d.amount2016)/parseFloat(d.amount2015)-1)*100) ? color(0) : color((parseFloat(d.amount2016)/parseFloat(d.amount2015)-1)*100);});
+	   .attr("fill", function(d){return (parseFloat(d.amount2017) < 3000) ? color(0) : color((parseFloat(d.amount2018)/parseFloat(d.amount2017)-1)*100);});
   }
-
-
+  
+  
   function foreign(foreign){ /* added */
 		foreign.attr("x", function(d) { return x(d.x); })
 		.attr("y", function(d) { return y(d.y); })
@@ -324,7 +322,7 @@ d3.json("/data/sacbudget_v2.json", function(root) {
 
   function name(d) {
     return d.parent
-        ? d.name + ": "+ dollarformat(d.amount2016)
-        : d.name + ": "+ dollarformat(d.amount2016);
+        ? d.name + ": "+ dollarformat(d.amount2018)
+        : d.name + ": "+ dollarformat(d.amount2018);
   }
 });
