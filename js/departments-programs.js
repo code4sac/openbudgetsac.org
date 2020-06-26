@@ -3,7 +3,7 @@ var pctformat = d3.format("00.0%")
 
 var margin = {top: 40, right: 0, bottom: 0, left: 0},
     width = 1100,
-    height = 600 - margin.top - margin.bottom,
+    height = 650 - margin.top - margin.bottom,
     formatNumber = d3.format(",d"),
 	formatLegend = d3.format(",%"),
     colorDomain = [-5000, -500, -20, -5, 0, 5, 20, 500, 5000],
