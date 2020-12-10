@@ -27,7 +27,7 @@ git commit -m "deploy"
 # !!! Never push --force on any public branch besides gh-pages!
 git push --set-upstream origin gh-pages --force
 
-echo "http://openbudgetoakland.org updated"
+echo "https://openbudgetsac.org updated"
 # set this back to development so we don't go 
 # accidentally running prod code in dev environments
 NODE_ENV=development

@@ -2,7 +2,7 @@
 
 # Publish site changes to staging site
 
-URL="staging.openbudgetoakland.org"
+URL="staging.openbudgetsac.org"
 # BASEDIR=$(dirname $0)
 FILE="../_staging/CNAME"
 # for staging, we want a development build.
