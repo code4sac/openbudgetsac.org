@@ -24,3 +24,6 @@ Temporary Items
 _site/
 .sass-cache/
 .jekyll-metadata
+
+# Misc
+node_modules/
