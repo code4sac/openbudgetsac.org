@@ -4,7 +4,7 @@
 
 If you're looking for a starter development task to get your feet wet with our codebase, any of our Issues tagged [help wanted](https://github.com/openoakland/openbudgetoakland/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) might be a good fit. 
 
-Some of the other Issues are larger and require some deeper design or architectural work; if one of those catches your eye, you'll probably want to talk with us for some more context and background. Either comment on the Issue or — even better — catch up with us at one of [OpenOakland's weekly Hack Nights](https://www.openoakland.org/).
+Some of the other Issues are larger and require some deeper design or architectural work; if one of those catches your eye, you'll probably want to talk with us for some more context and background. Either comment on the Issue or — even better — catch up with us at one of [CodeForSacramento's weekly Hack Nights](https://www.meetup.com/Code4Sac/).
 
 ## Developing Locally
 
