@@ -1,8 +1,8 @@
-# Open Budget: Oakland
+# Open Budget: Sacramento
 
 ## Contributing
 
-If you're looking for a starter development task to get your feet wet with our codebase, any of our Issues tagged [help wanted](https://github.com/openoakland/openbudgetoakland/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) might be a good fit.
+If you're looking for a starter development task to get your feet wet with our codebase, any of our Issues tagged [help wanted](https://github.com/code4sac/openbudgetsac.org/issues) might be a good fit.
 
 Some of the other Issues are larger and require some deeper design or architectural work; if one of those catches your eye, you'll probably want to talk with us for some more context and background. Either comment on the Issue or — even better — catch up with us at one of [CodeForSacramento's weekly Hack Nights](https://www.meetup.com/Code4Sac/).
 
@@ -59,7 +59,7 @@ This project is coded with:
 ## Creating & Editing Pages
 
 - Please note that it is your responsibility to keep your fork of the repo up-to-date with changes made by others working on the project. Doing this diligently should go a long way towards protecting you from scary git merge conflicts.
-- All development activity occurs in `_src/`. The root folder is only for compiled output for deployment.
+- All development activity occurs in \_src/ The root folder is only for compiled output for deployment.
 - Make sure NODE_ENV in your shell environment is set to 'development'! Setting it to 'production' will trigger prod-only features such as Google Analytics that you don't want to run in any environment other than our live site.
 - Page content is inserted into the `layout.jade` file (which includes basic header and footer snippets)
 - Create your `.jade` file
@@ -89,7 +89,7 @@ This project is coded with:
 
 1. The Compare page is mainly powered by a React application. The source files are in `_src/js/compare/` and are are bundled with [Webpack](https://webpack.js.org/).
 1. When developing on the Compare page, run `yarn` to install all the necessary node dependencies and `yarn run watch` to watch the source files for changes and rebuild the asset bundles accordingly.
-1. The Compare page communicates with a separately maintained API to fetch its data. Documentation for that API can be found [in our wiki](https://github.com/openoakland/openbudgetoakland/wiki/API-Documentation).
+<!-- 1. The Compare page communicates with a separately maintained API to fetch its data. Documentation for that API can be found [in our wiki](https://github.com/openoakland/openbudgetoakland/wiki/API-Documentation). -->
 
 ## Publishing Changes
 
@@ -109,13 +109,13 @@ Starting in March 2020, code changes pushed to the master branch of the (origina
 
 ### Background
 
-Oakland budget data are hosted in a special table that lives in the database of a WordPress site. This site exists primarily for the purpose of managing this data, and is not intended for public consumption. Should you need access to the backend of the site, please contact Felicia on Slack.
+Sacramento budget data are hosted in a special table that lives in the database of a WordPress site. This site exists primarily for the purpose of managing this data, and is not intended for public consumption. Should you need access to the backend of the site, please contact <!-- Felicia on Slack. -->
 
-The API we have built is completely independent of the Open Budget Oakland site, and can be consumed by anyone. Thus far, we have not had to place any limits on traffic to the server, but that may change in the future. To learn how to use the API, please see the documentation in our GitHub wiki.
+The API we have built is completely independent of the Open Budget Sacramento site, and can be consumed by anyone. Thus far, we have not had to place any limits on traffic to the server, but that may change in the future. To learn how to use the API, please see the documentation in our GitHub wiki.
 
 ### Using the plugin to generate the API
 
-The WordPress plugin (OBO Custom Routes) that generates our API can be installed and used on any WordPress site, providing a database table with the expected column names is present. Currently, the plugin is hard-coded to expect a table called `oakland_budget_items`. Obviously, that would be something you'd want to change if you were to use the plugin for another project. Additionally, database queries can easily be altered to fit a different table structure and to create different kinds of endpoints with a bit of PHP skill.
+The WordPress plugin (OBO Custom Routes) that generates our API can be installed and used on any WordPress site, providing a database table with the expected column names is present. Currently, the plugin is hard-coded to expect a table called <!--`oakland_budget_items`-->. Obviously, that would be something you'd want to change if you were to use the plugin for another project. Additionally, database queries can easily be altered to fit a different table structure and to create different kinds of endpoints with a bit of PHP skill.
 
 ### Developing locally
 
