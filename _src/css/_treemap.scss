@@ -1,0 +1,85 @@
+// Styles for D3 Treemap
+
+.treemap {
+  rect {
+    fill: none;
+    stroke: #fff;
+    &.parent {
+      pointer-events: all;
+      stroke-width: 1px;
+    }
+  }
+  text {
+    /*pointer-events: none;*/
+    cursor: pointer;
+  }
+  .amount {
+    font-family: $headings-font-family;
+  }
+  .grandparent {
+    text {
+      // header text
+      color: $gray-darker;
+      font-size: 18px;
+      font-family: $headings-font-family;
+    }
+    rect {
+      cursor: pointer;
+      fill: #fff;
+      stroke-width: 1px;
+    }
+  }
+  .children rect.parent {
+    cursor: pointer;
+  }
+  .textdiv {
+    /* text in the boxes */
+    color: white;
+    font-size: small;
+    padding: 5px;
+    pointer-events: none;
+  }
+}
+
+// Tooltip
+
+#tooltip {
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  pointer-events: none;
+}
+
+// Spreadsheet
+
+.spreadsheet {
+  table {
+    display: block;
+    margin: auto;
+    border-collapse: collapse;
+    border: 0px;
+  }
+  tbody {
+    border-collapse: collapse;
+    border: 0px;
+  }
+  th {
+    text-align: left;
+  }
+  th,
+  td {
+    border-top: 1px solid black;
+    border-left: 0px;
+    border-right: 0px;
+    border-collapse: collapse;
+    padding: 5px;
+  }
+  td {
+    cursor: pointer;
+  }
+}
+
+.square {
+  width: 10px;
+  height: 10px;
+}

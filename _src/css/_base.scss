@@ -1,0 +1,42 @@
+.img-default {
+  margin-bottom: 10px;
+}
+
+.inline {
+  width: auto;
+  display: inline-block;
+}
+
+.lead {
+  margin: 1em auto;
+  max-width: 40em;
+}
+
+.intro {
+  margin-top: 1em;
+}
+
+* {
+  background-repeat: no-repeat;
+}
+
+.auto-columns {
+  display: flex;
+  flex: 1 1 100%;
+  flex-wrap: nowrap;
+  li {
+    min-width: 15em;
+  }
+}
+
+.navbar-toggle {
+  position: absolute;
+  right: 0;
+}
+
+.navbar-brand {
+  height: 75px;
+  .img-responsive {
+    max-height: 50px;
+  }
+}
