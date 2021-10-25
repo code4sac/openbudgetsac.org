@@ -9,48 +9,50 @@ block bodyClass
 block content
   section.container
 
-    h1.lead Oaklanders deserve to know what is in the budget and how it is made. 
-    p.lead Open Budget: Oakland takes current and past budget data published by the City of Oakland and sums up the information in easy-to-read charts. We want to help people look at the city's budget themselves. To learn more, check out the #[a(href='https://github.com/openoakland/openbudgetoakland/wiki/API-Documentation') Open Budget: Oakland API].
+    h1.lead Sacramento deserve to know what is in the budget and how it is made. 
+    p.lead Open Budget: Sacramento takes current and past budget data published by the City of Sacramento and transforms them into accessible visualizations. Our aim is to enable community members to examine their city's budget for themselves.
+    //- p.lead Open Budget: Oakland takes current and past budget data published by the City of Oakland and sums up the information in easy-to-read charts. We want to help people look at the city's budget themselves. To learn more, check out the #[a(href='https://github.com/openoakland/openbudgetoakland/wiki/API-Documentation') Open Budget: Oakland API].
     //- See Oakland's #[a(href='/budget-visuals.html') previous budgets], as well as the city's #[a(href='https://www.oaklandca.gov/documents/fiscal-year-2019-20-to-2023-24-five-year-financial-forecast' target='_blank') five-year forecast].
 
     .row.main
 
 
-      .col-md-8
-
-        p.intro We have a suite of data viewing tools to help you understand Oakland's budget.
-        p For information about Oakland Schools' budget, please visit #[a(href='https://openousd.org') Open OUSD].
+      .col.col-md-3
+      .col-md-auto
+        p.intro.lead We have a suite of data viewing tools to help you understand Sacramento's budget.
+        //- p For information about Oakland Schools' budget, please visit #[a(href='https://openousd.org') Open OUSD].
         a(href="/2019-21-adopted-budget-flow")
           section
-            h2 Overview
-            p Get a bird's eye view of the big picture for a single year: where money comes from, and where it goes.
-            img.img-responsive.thumbnail(src="/images/home/2020-flow-thumb.png" alt="Our flow chart shows where the money comes from and where it goes. Are the things you care about underfunded? Find out!")
+            h2.lead Overview
+            p.lead Get a bird's eye view of the big picture for a single year: where money comes from, and where it goes.
+            img.img-responsive.thumbnail.lead(src="/images/home/2020-flow-thumb.png" alt="Our flow chart shows where the money comes from and where it goes. Are the things you care about underfunded? Find out!")
 
         a(href="/compare")
           section
-            h2 Comparison
-            p Put two budgets head-to-head. How much did the budget grow or shrink? How are cuts and increases distributed across spending categories? How did revenue sources change?
-            img.img-responsive.thumbnail(src="/images/home/compare-thumb.jpg" alt="Our comparison tool lets you compare two Oakland city budgets.")
-
+            h2.lead Comparison
+            p.lead Put two budgets head-to-head. How much did the budget grow or shrink? How are cuts and increases distributed across spending categories? How did revenue sources change?
+            img.img-responsive.thumbnail.lead(src="/images/home/compare-thumb.jpg" alt="Our comparison tool lets you compare two Oakland city budgets.")
+        
+        // TODO CodeForSac change to new route
         a(href="/2019-21-adopted-budget-tree")
           section
-            h2 Detail
-            p Drill down into detailed spending and revenue data for each department and fund for a single year.
-            img.img-responsive.thumbnail(src="/images/home/tree-thumb.jpg" alt="Our drill-down tool lets you examine Oakland city spending and revenue in detail.")
+            h2.lead Detail
+            p.lead Drill down into detailed spending and revenue data for each department and fund for a single year.
+            img.img-responsive.thumbnail.lead(src="/images/home/tree-thumb.jpg" alt="Our drill-down tool lets you examine Oakland city spending and revenue in detail.")
 
-        a(href="/budget-process")
-          section
-            h2 Timeline
-            p Orient yourself within the two-year cycle of Oakland's budget process.
-            img.img-responsive.thumbnail(src="/images/home/timeline-thumb.png" alt="Our timeline shows important events coming up in the budget process.")
+        //- a(href="/budget-process")
+        //-   section
+        //-     h2 Timeline
+        //-     p Orient yourself within the two-year cycle of Oakland's budget process.
+        //-     img.img-responsive.thumbnail(src="/images/home/timeline-thumb.png" alt="Our timeline shows important events coming up in the budget process.")
 
-      .col-sm-4.left-col
-        .well
-          h3.blurb__title The Adopted Policy Budget Ups Violence Prevention Funding Across the Board
-          p On June 24, #[a(href='https://oaklandside.org/wp-content/uploads/2021/06/CP-Team-Amendments-FY-2021-23-6-24-21_budget-review-v2.xlsx.pdf') ammendments to the Mayor's proposed budget] for 2021-2023 were adopted by the Oakland City Council. While the Police Department saw a modest increase in funding over the last (2019-2021) budget, spending on the Department of Violence Prevention will triple and the Fire Department's MACRO program will also enjoy greater support, according to reporting by the #[a(href='https://www.postnewsgroup.com/no-cuts-to-policing-made-oakland-police-budget-is-increasing-by-38-5-million-or-6-say-councilmembers/') Post News Group]. We at Open Budget: Oakland will update our charts when details are made available.
-        div
-          h3.blurb__title "A Just Recovery": The Mayor's Proposed Policy Budget
-          p The Mayor's Office released the #[a(href= 'https://stories.opengov.com/oaklandca/published/5SOgtGYw_') proposed policy budget for the upcoming 2-year budget cycle] on May 7, 2021. An #[a(href='https://oakland.legistar.com/LegislationDetail.aspx?ID=4937156&GUID=43F7BF0F-E398-425F-B634-DB8D9DD7FFE7&Options=&Search=') independent analysis] of the proposed budget by Harvey M. Rose Associates was comissioned by the City Council and presented a few weeks later.
+      //- .col-sm-4.left-col
+      //-   .well
+      //-     h3.blurb__title The Adopted Policy Budget Ups Violence Prevention Funding Across the Board
+      //-     p On June 24, #[a(href='https://oaklandside.org/wp-content/uploads/2021/06/CP-Team-Amendments-FY-2021-23-6-24-21_budget-review-v2.xlsx.pdf') ammendments to the Mayor's proposed budget] for 2021-2023 were adopted by the Oakland City Council. While the Police Department saw a modest increase in funding over the last (2019-2021) budget, spending on the Department of Violence Prevention will triple and the Fire Department's MACRO program will also enjoy greater support, according to reporting by the #[a(href='https://www.postnewsgroup.com/no-cuts-to-policing-made-oakland-police-budget-is-increasing-by-38-5-million-or-6-say-councilmembers/') Post News Group]. We at Open Budget: Oakland will update our charts when details are made available.
+      //-   div
+      //-     h3.blurb__title "A Just Recovery": The Mayor's Proposed Policy Budget
+      //-     p The Mayor's Office released the #[a(href= 'https://stories.opengov.com/oaklandca/published/5SOgtGYw_') proposed policy budget for the upcoming 2-year budget cycle] on May 7, 2021. An #[a(href='https://oakland.legistar.com/LegislationDetail.aspx?ID=4937156&GUID=43F7BF0F-E398-425F-B634-DB8D9DD7FFE7&Options=&Search=') independent analysis] of the proposed budget by Harvey M. Rose Associates was comissioned by the City Council and presented a few weeks later.
 
         //- div
         //-   h3.blurb__title Let Your Voice Be Heard! 
