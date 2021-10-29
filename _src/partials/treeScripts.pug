@@ -10,17 +10,17 @@ script.
     var config = {
         /* set values available in dropdown files */
         dropdown_values: {
-        "Year": ["FY20-21", "FY19-20", "FY16-17", "FY15-16", "FY14-15", "FY13-14"],
+        "Year": ["FY13-14", "FY14-15", "FY15-16"],
         "Account": ["Revenue", "Expense"]
         },
         /* set the default values */
         dropdown_choice: {
-        "Year": "FY20-21",
+        "Year": "FY15-16",
         "Account": "Expense"
         },
         /* create the url to the data file based on the dropdown choices */
         url: function() {
-        return '/data/tree/Adopted.' + this.dropdown_choice["Account"] + "." + this.dropdown_choice["Year"] + ".json";
+        return '/data/tree/Proposed.' + this.dropdown_choice["Account"] + "." + this.dropdown_choice["Year"] + ".json";
         }
     };
   function _hash_normalize(s) {
