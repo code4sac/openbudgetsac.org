@@ -10,17 +10,18 @@ script.
     var config = {
         /* set values available in dropdown files */
         dropdown_values: {
-        "Year": ["FY13-14", "FY14-15", "FY15-16"],
+        "Year": ["FY15", "FY16", "FY17", "FY18"],
+
         "Account": ["Revenue", "Expense"]
         },
         /* set the default values */
         dropdown_choice: {
-        "Year": "FY15-16",
+        "Year": "FY18",
         "Account": "Expense"
         },
         /* create the url to the data file based on the dropdown choices */
         url: function() {
-        return '/data/tree/Proposed.' + this.dropdown_choice["Account"] + "." + this.dropdown_choice["Year"] + ".json";
+        return '/data/tree/Approved.' + this.dropdown_choice["Account"] + "." + this.dropdown_choice["Year"] + ".json";
         }
     };
   function _hash_normalize(s) {
