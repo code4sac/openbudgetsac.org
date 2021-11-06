@@ -253,7 +253,7 @@ d3.sankey = function() {
       return a.y - b.y;
     }
 
-    // custom vertical placement of Funds
+    // custom placement of Funds
     function centerFunds(){
       // figure out leftover vertical space
       var funds = nodesByBreadth[2];
@@ -266,7 +266,7 @@ d3.sankey = function() {
       funds[0].y += vpad / 3;
       funds[1].y += (vpad / 3) * 2
     }
-  } // end of function computeNodeDepths
+  }
 
   function computeLinkDepths() {
     nodes.forEach(function(node) {
