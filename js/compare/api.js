@@ -4,7 +4,7 @@ import { descending } from "d3-array";
 // const API_BASE = 'https://live-open-budget-oakland-administration.pantheonsite.io' +
 //   '/wp-json/obo/v1';
 
-const API_BASE = "http://198.199.114.93:8000/" + "?rest_route=/obo/v1";
+const API_BASE = "https://api.openbudgetsac.org/" + "?rest_route=/obo/v1";
 // const API_BASE = '/data/compare';
 
 const typePaths = {
