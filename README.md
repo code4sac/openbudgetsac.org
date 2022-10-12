@@ -62,7 +62,7 @@ This project is coded with, among other things:
 - Please note that it is your responsibility to keep your fork of the repo up-to-date with changes made by others working on the project. Doing this diligently should go a long way towards protecting you from scary git merge conflicts.
 - All development activity occurs in `_src/`. The root folder is only for compiled output for deployment.
 - Page content is inserted into the `content` block. If you are updating data, be sure you understand how it will be consumed.
-- In many cases you will simple create or update a `.pug` file, which Eleventy will turn into HTML. If you are making another type of change, you may need to read Pug documentation (which is excellent, by the way!).
+- In many cases you will simply create or update a `.pug` file, which Eleventy will turn into HTML. If you are making another type of change, you may need to read Pug documentation (which is excellent, by the way!).
 - If your page uses custom page-specific css, add it to a new `.scss` partial and import it into the main stylesheet. (Make sure to namespace it the same way the others are.)
 
 ### Additional instructions for "flow" diagram pages
@@ -90,7 +90,7 @@ This project is coded with, among other things:
 
 ## Publishing Changes
 
-Make changes and review them on your local development site. If everyting looks good, push your changes to your personal fork and merge the commit(s) into your master branch. Finally, issue a pull request and we'll take it from there!
+Make changes and review them on your local development site. If everything looks good, push your changes to your personal fork and merge the commit(s) into your master branch. Finally, issue a pull request and we'll take it from there!
 
 ### Issuing a pull request
 
