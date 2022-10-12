@@ -5,7 +5,7 @@
 		"revenue": "Revenue",
 		"expense": "Expense"
 	},
-	"grouping_headers": ["Account Type", "Fiscal Year"],
+	"grouping_headers": ["Account Type", "Budget Year Name"],
 	"groups": [
 		{
 			"values": ["Revenue", "FY13-14"],
