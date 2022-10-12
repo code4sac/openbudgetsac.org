@@ -41,7 +41,7 @@ npm install
 
 This command usually runs without a glitch, but if you run into trouble, check your version of node. The latest version of node that we can confirm works with our set-up is **v15.14.0**.
 
-To start eleventy, simply enter the following. (You may choose any network port on your system that is available; 8011 is just a suggestion.)
+To start Eleventy, simply enter the following. (You may choose any network port on your system that is available; 8011 is just a suggestion.)
 
 ```
 npx @11ty/eleventy --serve --port=8011
@@ -87,7 +87,6 @@ This project is coded with, among other things:
 
 1. The Compare page is a React application. The source files are in `_src/js/compare/` and are are bundled with [Webpack](https://webpack.js.org/).
 1. When developing on the Compare page, run `yarn` to install all the necessary node dependencies and `yarn run watch` to watch the source files for changes and rebuild the asset bundles accordingly.
-1. The Compare page communicates with a separately maintained API to fetch its data. Documentation for that API can be found [in our wiki](https://github.com/openoakland/openbudgetoakland/wiki/API-Documentation).
 
 ## Publishing Changes
 
@@ -102,25 +101,3 @@ Starting in March 2020, code changes pushed to the master branch of the (origina
 - runs WebPack;
 - builds static files with Eleventy; and
 - deploys the updated web files to GitHub Pages
-
-## Generating the API
-
-### Background
-
-Oakland budget data are hosted in a special table that lives in the database of a WordPress site. This site exists primarily for the purpose of managing this data, and is not intended for public consumption. Should you need access to the backend of the site, please contact Felicia on Slack.
-
-The API we have built is completely independent of the Open Budget Oakland site, and can be consumed by anyone. Thus far, we have not had to place any limits on traffic to the server, but that may change in the future. To learn how to use the API, please see the documentation in our GitHub wiki.
-
-### Using the plugin to generate the API
-
-The WordPress plugin (OBO Custom Routes) that generates our API can be installed and used on any WordPress site, providing a database table with the expected column names is present. Currently, the plugin is hard-coded to expect a table called `oakland_budget_items`. Obviously, that would be something you'd want to change if you were to use the plugin for another project. Additionally, database queries can easily be altered to fit a different table structure and to create different kinds of endpoints with a bit of PHP skill.
-
-### Developing locally
-
-To develop new features for the API, you may want to run Wordpress locally.
-This repo includes a configuration file for doing so with [Docker Compose](https://docs.docker.com/compose/).
-With Docker Compose installed, simply run `docker-compose up` in `wordpress plugin for custom API endpoints/`
-to activate linked containers for Wordpress, MySQL, and PhpMyAdmin. The Wordpress container will
-mount that directory as though it were Wordpress' `plugins/` directory, allowing your edits to
-the plugin files in `obo_custom_routes/` to be reflected in your Wordpress instance. (Additional plugins that
-are not part of this repository will appear in that directory; they should be ignored by git.)
