@@ -2,9 +2,9 @@
 
 ## Contributing
 
-If you're looking for a starter development task to get your feet wet with our codebase, any of our Issues tagged [help wanted](https://github.com/openoakland/openbudgetoakland/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) might be a good fit.
+If you're looking for a starter development task to get your feet wet with our codebase, any of our Issues tagged [help wanted](https://github.com/code4sac/openbudgetsac.org/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) might be a good fit.
 
-Some of the other Issues are larger and require some deeper design or architectural work; if one of those catches your eye, you'll probably want to talk with us for some more context and background. Either comment on the Issue or — even better — catch up with us at one of [OpenOakland's weekly Hack Nights](https://www.openoakland.org).
+Some of the other Issues are larger and require some deeper design or architectural work; if one of those catches your eye, you'll probably want to talk with us for some more context and background. Either comment on the Issue or — even better — catch up with us at one of [Code for Sacramento's weekly Hack Nights](https://codeforsacramento.org/).
 
 ## Developing Locally
 
@@ -17,7 +17,7 @@ Some of the other Issues are larger and require some deeper design or architectu
 1. Install dependencies with `npm install`
 1. Serve the website by entering `npx @11ty/eleventy --serve --port=8011`
 
-Congratulations! Your local copy of Open Budget Oakland's website should now be running at http://localhost:8011. That means you're ready to do the codez if you want to contribute to the codebase of Open Budget Oakland. You will probably want to open a new terminal window, though, to regain access to the command line.
+Congratulations! Your local copy of Open Budget Sacramento's website should now be running at http://localhost:8011. That means you're ready to do the codez if you want to contribute to the codebase of Open Budget Sacramento. You will probably want to open a new terminal window, though, to regain access to the command line.
 
 - Please note that after editing a SASS file you should run `npm run build-css` from the \_src/ folder in order to incorporate your changes into the CSS
 
