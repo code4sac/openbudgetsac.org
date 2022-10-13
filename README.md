@@ -2,9 +2,9 @@
 
 ## Contributing
 
-If you're looking for a starter development task to get your feet wet with our codebase, any of our Issues tagged [help wanted](https://github.com/openoakland/openbudgetoakland/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) might be a good fit.
+If you're looking for a starter development task to get your feet wet with our codebase, any of our Issues tagged [help wanted](https://github.com/code4sac/openbudgetsac.org/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) might be a good fit.
 
-Some of the other Issues are larger and require some deeper design or architectural work; if one of those catches your eye, you'll probably want to talk with us for some more context and background. Either comment on the Issue or — even better — catch up with us at one of [OpenOakland's weekly Hack Nights](https://www.openoakland.org).
+Some of the other Issues are larger and require some deeper design or architectural work; if one of those catches your eye, you'll probably want to talk with us for some more context and background. Either comment on the Issue or — even better — catch up with us at one of [Code for Sacramento's weekly Hack Nights](https://codeforsacramento.org/).
 
 ## Developing Locally
 
@@ -17,7 +17,7 @@ Some of the other Issues are larger and require some deeper design or architectu
 1. Install dependencies with `npm install`
 1. Serve the website by entering `npx @11ty/eleventy --serve --port=8011`
 
-Congratulations! Your local copy of Open Budget Oakland's website should now be running at http://localhost:8011. That means you're ready to do the codez if you want to contribute to the codebase of Open Budget Oakland. You will probably want to open a new terminal window, though, to regain access to the command line.
+Congratulations! Your local copy of Open Budget Sacramento's website should now be running at http://localhost:8011. That means you're ready to do the codez if you want to contribute to the codebase of Open Budget Sacramento. You will probably want to open a new terminal window, though, to regain access to the command line.
 
 - Please note that after editing a SASS file you should run `npm run build-css` from the \_src/ folder in order to incorporate your changes into the CSS
 
@@ -41,7 +41,7 @@ npm install
 
 This command usually runs without a glitch, but if you run into trouble, check your version of node. The latest version of node that we can confirm works with our set-up is **v15.14.0**.
 
-To start eleventy, simply enter the following. (You may choose any network port on your system that is available; 8011 is just a suggestion.)
+To start Eleventy, simply enter the following. (You may choose any network port on your system that is available; 8011 is just a suggestion.)
 
 ```
 npx @11ty/eleventy --serve --port=8011
@@ -62,7 +62,7 @@ This project is coded with, among other things:
 - Please note that it is your responsibility to keep your fork of the repo up-to-date with changes made by others working on the project. Doing this diligently should go a long way towards protecting you from scary git merge conflicts.
 - All development activity occurs in `_src/`. The root folder is only for compiled output for deployment.
 - Page content is inserted into the `content` block. If you are updating data, be sure you understand how it will be consumed.
-- In many cases you will simple create or update a `.pug` file, which Eleventy will turn into HTML. If you are making another type of change, you may need to read Pug documentation (which is excellent, by the way!).
+- In many cases you will simply create or update a `.pug` file, which Eleventy will turn into HTML. If you are making another type of change, you may need to read Pug documentation (which is excellent, by the way!).
 - If your page uses custom page-specific css, add it to a new `.scss` partial and import it into the main stylesheet. (Make sure to namespace it the same way the others are.)
 
 ### Additional instructions for "flow" diagram pages
@@ -87,11 +87,10 @@ This project is coded with, among other things:
 
 1. The Compare page is a React application. The source files are in `_src/js/compare/` and are are bundled with [Webpack](https://webpack.js.org/).
 1. When developing on the Compare page, run `yarn` to install all the necessary node dependencies and `yarn run watch` to watch the source files for changes and rebuild the asset bundles accordingly.
-1. The Compare page communicates with a separately maintained API to fetch its data. Documentation for that API can be found [in our wiki](https://github.com/openoakland/openbudgetoakland/wiki/API-Documentation).
 
 ## Publishing Changes
 
-Make changes and review them on your local development site. If everyting looks good, push your changes to your personal fork and merge the commit(s) into your master branch. Finally, issue a pull request and we'll take it from there!
+Make changes and review them on your local development site. If everything looks good, push your changes to your personal fork and merge the commit(s) into your master branch. Finally, issue a pull request and we'll take it from there!
 
 ### Issuing a pull request
 
@@ -102,25 +101,3 @@ Starting in March 2020, code changes pushed to the master branch of the (origina
 - runs WebPack;
 - builds static files with Eleventy; and
 - deploys the updated web files to GitHub Pages
-
-## Generating the API
-
-### Background
-
-Oakland budget data are hosted in a special table that lives in the database of a WordPress site. This site exists primarily for the purpose of managing this data, and is not intended for public consumption. Should you need access to the backend of the site, please contact Felicia on Slack.
-
-The API we have built is completely independent of the Open Budget Oakland site, and can be consumed by anyone. Thus far, we have not had to place any limits on traffic to the server, but that may change in the future. To learn how to use the API, please see the documentation in our GitHub wiki.
-
-### Using the plugin to generate the API
-
-The WordPress plugin (OBO Custom Routes) that generates our API can be installed and used on any WordPress site, providing a database table with the expected column names is present. Currently, the plugin is hard-coded to expect a table called `oakland_budget_items`. Obviously, that would be something you'd want to change if you were to use the plugin for another project. Additionally, database queries can easily be altered to fit a different table structure and to create different kinds of endpoints with a bit of PHP skill.
-
-### Developing locally
-
-To develop new features for the API, you may want to run Wordpress locally.
-This repo includes a configuration file for doing so with [Docker Compose](https://docs.docker.com/compose/).
-With Docker Compose installed, simply run `docker-compose up` in `wordpress plugin for custom API endpoints/`
-to activate linked containers for Wordpress, MySQL, and PhpMyAdmin. The Wordpress container will
-mount that directory as though it were Wordpress' `plugins/` directory, allowing your edits to
-the plugin files in `obo_custom_routes/` to be reflected in your Wordpress instance. (Additional plugins that
-are not part of this repository will appear in that directory; they should be ignored by git.)
