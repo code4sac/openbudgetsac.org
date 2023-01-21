@@ -8,24 +8,54 @@
   "grouping_headers": ["ExpenseRevenue", "Fiscal_Year"],
   "groups": [
     {
+      "values": ["R", "2013"],
+      "hierarchy": ["Fund_Category", "CATEGORY"],
+      "filename": "Approved.Revenue.FY13.json"
+    },
+    {
+      "values": ["R", "2014"],
+      "hierarchy": ["Fund_Category", "CATEGORY"],
+      "filename": "Approved.Revenue.FY14.json"
+    },
+    {
       "values": ["R", "2019"],
       "hierarchy": ["Fund_Category", "CATEGORY"],
-      "filename": "Approved.Revenue.2019.json"
+      "filename": "Approved.Revenue.FY19.json"
     },
     {
       "values": ["R", "2020"],
       "hierarchy": ["Fund_Category", "CATEGORY"],
-      "filename": "Approved.Revenue.2020.json"
+      "filename": "Approved.Revenue.FY20.json"
     },
     {
       "values": ["R", "2021"],
       "hierarchy": ["Fund_Category", "CATEGORY"],
-      "filename": "Approved.Revenue.2021.json"
+      "filename": "Approved.Revenue.FY21.json"
     },
     {
       "values": ["R", "2022"],
       "hierarchy": ["Fund_Category", "CATEGORY"],
-      "filename": "Approved.Revenue.2022.json"
+      "filename": "Approved.Revenue.FY22.json"
+    },
+    {
+      "values": ["E", "2013"],
+      "hierarchy": [
+        "Fund_Category",
+        "Department",
+        "Fund",
+        "CATEGORY"
+      ],
+      "filename": "Approved.Expense.FY13.json"
+    },
+    {
+      "values": ["E", "2014"],
+      "hierarchy": [
+        "Fund_Category",
+        "Department",
+        "Fund",
+        "CATEGORY"
+      ],
+      "filename": "Approved.Expense.FY14.json"
     },
     {
       "values": ["E", "2019"],
@@ -35,7 +65,7 @@
         "Fund",
         "CATEGORY"
       ],
-      "filename": "Approved.Expense.2019.json"
+      "filename": "Approved.Expense.FY19.json"
     },
     {
       "values": ["E", "2020"],
@@ -46,7 +76,7 @@
         "Fund",
         "CATEGORY"
       ],
-      "filename": "Approved.Expense.2020.json"
+      "filename": "Approved.Expense.FY20.json"
     },
     {
       "values": ["E", "2021"],
@@ -56,7 +86,7 @@
         "Fund",
         "CATEGORY"
       ],
-      "filename": "Approved.Expense.2021.json"
+      "filename": "Approved.Expense.FY21.json"
     },
     {
       "values": ["E", "2022"],
@@ -66,7 +96,7 @@
         "Fund",
         "CATEGORY"
       ],
-      "filename": "Approved.Expense.2022.json"
+      "filename": "Approved.Expense.FY22.json"
     }
   ]
 }
