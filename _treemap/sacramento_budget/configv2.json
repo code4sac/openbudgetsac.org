@@ -1,0 +1,72 @@
+{
+  "amount_header": "Amount",
+  "account_type_header": "ExpenseRevenue",
+  "account_types": {
+    "revenue": "R",
+    "expense": "E"
+  },
+  "grouping_headers": ["ExpenseRevenue", "Fiscal_Year"],
+  "groups": [
+    {
+      "values": ["R", "2019"],
+      "hierarchy": ["Fund_Category", "CATEGORY"],
+      "filename": "Approved.Revenue.2019.json"
+    },
+    {
+      "values": ["R", "2020"],
+      "hierarchy": ["Fund_Category", "CATEGORY"],
+      "filename": "Approved.Revenue.2020.json"
+    },
+    {
+      "values": ["R", "2021"],
+      "hierarchy": ["Fund_Category", "CATEGORY"],
+      "filename": "Approved.Revenue.2021.json"
+    },
+    {
+      "values": ["R", "2022"],
+      "hierarchy": ["Fund_Category", "CATEGORY"],
+      "filename": "Approved.Revenue.2022.json"
+    },
+    {
+      "values": ["E", "2019"],
+      "hierarchy": [
+        "Fund_Category",
+        "Department",
+        "Fund",
+        "CATEGORY"
+      ],
+      "filename": "Approved.Expense.2019.json"
+    },
+    {
+      "values": ["E", "2020"],
+
+      "hierarchy": [
+        "Fund_Category",
+        "Department",
+        "Fund",
+        "CATEGORY"
+      ],
+      "filename": "Approved.Expense.2020.json"
+    },
+    {
+      "values": ["E", "2021"],
+      "hierarchy": [
+        "Fund_Category",
+        "Department",
+        "Fund",
+        "CATEGORY"
+      ],
+      "filename": "Approved.Expense.2021.json"
+    },
+    {
+      "values": ["E", "2022"],
+      "hierarchy": [
+        "Fund_Category",
+        "Department",
+        "Fund",
+        "CATEGORY"
+      ],
+      "filename": "Approved.Expense.2022.json"
+    }
+  ]
+}
