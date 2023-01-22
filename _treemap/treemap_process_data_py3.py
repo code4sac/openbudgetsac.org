@@ -189,9 +189,8 @@ def _squeeze(hierarchy):
     if 'children' in hierarchy:
         if len(hierarchy['children']) == 1:
             if len(hierarchy['key']) > 0:
-                last_key_elem_of_only_child_key = [v['key'] for k, v in hierarchy['children'].items()][0][-1]
-                if hierarchy['key'][-1] == last_key_elem_of_only_child_key:
-                    hierarchy['children'] = last_key_elem_of_only_child_key
+                if hierarchy['key'][-1] == [v['key'] for k, v in hierarchy['children'].items()][0][-1]:
+                    hierarchy['children'] = [v for k, v in hierarchy['children'].items()][0]['children']
         for key, child in hierarchy['children'].items():
             _squeeze(child)
         if len(hierarchy['children']) == 0:
