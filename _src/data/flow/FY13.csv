@@ -1,0 +1,539 @@
+ObjectId,Fiscal_Year,Department,Fund,CATEGORY,Amount,ExpenseRevenue,Fund_Category
+1,2013,Convention & Cultural Services,Zoo Fund,"Charges, Fees, and Services",50000,R,Other Governmental Funds
+2,2013,Convention & Cultural Services,Zoo Fund,Labor/Supply Offset,50000,E,Other Governmental Funds
+3,2013,Convention & Cultural Services,Fairytale Town,"Charges, Fees, and Services",50000,R,Other Governmental Funds
+4,2013,Convention & Cultural Services,Fairytale Town,Labor/Supply Offset,25000,E,Other Governmental Funds
+5,2013,Convention & Cultural Services,Fairytale Town,Other Services and Supplies,25000,E,Other Governmental Funds
+6,2013,Convention & Cultural Services,Sacramento Marina Fund,"Charges, Fees, and Services",262500,R,Enterprise Funds
+7,2013,Convention & Cultural Services,Sacramento Marina Fund,Debt Service,1239112,E,Enterprise Funds
+8,2013,Convention & Cultural Services,Sacramento Marina Fund,Employee Services,432594,E,Enterprise Funds
+9,2013,Convention & Cultural Services,Sacramento Marina Fund,"Interest, Rents, Concessions",18000,R,Enterprise Funds
+10,2013,Convention & Cultural Services,Sacramento Marina Fund,Intergovernmental,18000,R,Enterprise Funds
+11,2013,Convention & Cultural Services,Sacramento Marina Fund,Labor/Supply Offset,59308,E,Enterprise Funds
+12,2013,Convention & Cultural Services,Sacramento Marina Fund,Licenses  Permits,1117000,R,Enterprise Funds
+13,2013,Convention & Cultural Services,Sacramento Marina Fund,Operating Transfers,183300,E,Enterprise Funds
+14,2013,Convention & Cultural Services,Sacramento Marina Fund,Other Services and Supplies,388755,E,Enterprise Funds
+15,2013,Convention & Cultural Services,Sacramento Marina Fund,Property,1000,E,Enterprise Funds
+16,2013,Convention & Cultural Services,Community Center Fund,"Charges, Fees, and Services",6359000,R,Enterprise Funds
+17,2013,Convention & Cultural Services,Community Center Fund,Employee Services,6802942,E,Enterprise Funds
+18,2013,Convention & Cultural Services,Community Center Fund,"Interest, Rents, Concessions",577000,R,Enterprise Funds
+19,2013,Convention & Cultural Services,Community Center Fund,Intergovernmental,65000,R,Enterprise Funds
+20,2013,Convention & Cultural Services,Community Center Fund,Labor/Supply Offset,1051281,E,Enterprise Funds
+21,2013,Convention & Cultural Services,Community Center Fund,Operating Transfers,1517200,E,Enterprise Funds
+22,2013,Convention & Cultural Services,Community Center Fund,Other Services and Supplies,4792729,E,Enterprise Funds
+23,2013,Convention & Cultural Services,Community Center Fund,Other Taxes,16024000,R,Enterprise Funds
+24,2013,Convention & Cultural Services,Community Center Fund,Property,122000,E,Enterprise Funds
+25,2013,Economic Development,General Fund,"Charges, Fees, and Services",1230251,R,General Fund
+26,2013,Economic Development,General Fund,Employee Services,1391181,E,General Fund
+27,2013,Economic Development,General Fund,Labor/Supply Offset,-47144,E,General Fund
+28,2013,Economic Development,General Fund,Other Services and Supplies,1481374,E,General Fund
+29,2013,Economic Development,General Fund,Property,2000,E,General Fund
+30,2013,Economic Development,Parking Fund,Labor/Supply Offset,50000,E,Enterprise Funds
+31,2013,Parks & Recreation,General Fund,"Charges, Fees, and Services",527072,R,General Fund
+32,2013,Parks & Recreation,General Fund,Employee Services,16628131,E,General Fund
+33,2013,Parks & Recreation,General Fund,Intergovernmental,219780,R,General Fund
+34,2013,Parks & Recreation,General Fund,Labor/Supply Offset,-10928187,E,General Fund
+35,2013,Parks & Recreation,General Fund,Licenses  Permits,187500,R,General Fund
+36,2013,Parks & Recreation,General Fund,Operating Transfers,552702,E,General Fund
+37,2013,Parks & Recreation,General Fund,Other Services and Supplies,7742126,E,General Fund
+38,2013,Parks & Recreation,General Fund,Property,82789,E,General Fund
+39,2013,Parks & Recreation,Laguna Creek Maint District,Labor/Supply Offset,126524,E,Other Governmental Funds
+40,2013,Parks & Recreation,Neighborhood Water Quality Dst,Labor/Supply Offset,23944,E,Other Governmental Funds
+41,2013,Parks & Recreation,N Natomas Lands Cfd 3,Labor/Supply Offset,745549,E,Other Governmental Funds
+42,2013,Parks & Recreation,Citywide Lndscpng&Lghting Dist,Labor/Supply Offset,3243814,E,Other Governmental Funds
+43,2013,Parks & Recreation,Neighborhood Park Maint CFD,"Charges, Fees, and Services",1013085,R,Other Governmental Funds
+44,2013,Parks & Recreation,Neighborhood Park Maint CFD,Labor/Supply Offset,976569,E,Other Governmental Funds
+45,2013,Parks & Recreation,Start,"Charges, Fees, and Services",10000,R,Other Governmental Funds
+46,2013,Parks & Recreation,Start,Employee Services,5037322,E,Other Governmental Funds
+47,2013,Parks & Recreation,Start,Intergovernmental,5208199,R,Other Governmental Funds
+48,2013,Parks & Recreation,Start,Labor/Supply Offset,350,E,Other Governmental Funds
+49,2013,Parks & Recreation,Start,Operating Transfers,-552702,E,Other Governmental Funds
+50,2013,Parks & Recreation,Start,Other Services and Supplies,704303,E,Other Governmental Funds
+51,2013,Mayor/Council,General Fund,Employee Services,3435866,E,General Fund
+52,2013,Mayor/Council,General Fund,Intergovernmental,83169,R,General Fund
+53,2013,Mayor/Council,General Fund,Labor/Supply Offset,-1564995,E,General Fund
+54,2013,Mayor/Council,General Fund,Other Services and Supplies,492026,E,General Fund
+55,2013,Mayor/Council,General Fund,Property,2010,E,General Fund
+56,2013,Mayor/Council,Interdepartmental Service Fund,Labor/Supply Offset,1221495,E,General Fund
+57,2013,Mayor/Council,Risk Management,Labor/Supply Offset,344000,E,Internal Service Funds
+58,2013,City Manager,General Fund,Employee Services,2050087,E,General Fund
+59,2013,City Manager,General Fund,Labor/Supply Offset,-1098950,E,General Fund
+60,2013,City Manager,General Fund,Other Services and Supplies,554395,E,General Fund
+61,2013,City Manager,General Fund,Property,16826,E,General Fund
+62,2013,City Manager,Interdepartmental Service Fund,Labor/Supply Offset,1103006,E,General Fund
+63,2013,City Attorney,General Fund,Employee Services,6067305,E,General Fund
+64,2013,City Attorney,General Fund,Intergovernmental,52000,R,General Fund
+65,2013,City Attorney,General Fund,Labor/Supply Offset,-2592441,E,General Fund
+66,2013,City Attorney,General Fund,Other Services and Supplies,388902,E,General Fund
+67,2013,City Attorney,General Fund,Property,13750,E,General Fund
+68,2013,City Attorney,Interdepartmental Service Fund,Labor/Supply Offset,1924546,E,General Fund
+69,2013,City Attorney,Water Fund,Labor/Supply Offset,188263,E,Enterprise Funds
+70,2013,City Attorney,Risk Management,Labor/Supply Offset,471112,E,Internal Service Funds
+71,2013,City Attorney,Cty/Cnty Office-Water Planning,Labor/Supply Offset,10000,E,Other Governmental Funds
+72,2013,City Clerk,General Fund,"Charges, Fees, and Services",2000,R,General Fund
+73,2013,City Clerk,General Fund,Employee Services,1245677,E,General Fund
+74,2013,City Clerk,General Fund,Labor/Supply Offset,-413258,E,General Fund
+75,2013,City Clerk,General Fund,Other Services and Supplies,502727,E,General Fund
+76,2013,City Clerk,General Fund,Property,11000,E,General Fund
+77,2013,City Clerk,Interdepartmental Service Fund,Labor/Supply Offset,417258,E,General Fund
+78,2013,City Treasurer,General Fund,Contributions from Other Funds,1257000,R,General Fund
+79,2013,City Treasurer,General Fund,Employee Services,1668288,E,General Fund
+80,2013,City Treasurer,General Fund,Intergovernmental,1424000,R,General Fund
+81,2013,City Treasurer,General Fund,Labor/Supply Offset,-305326,E,General Fund
+82,2013,City Treasurer,General Fund,Other Services and Supplies,426467,E,General Fund
+83,2013,City Treasurer,General Fund,Property,2000,E,General Fund
+84,2013,City Treasurer,Interdepartmental Service Fund,Labor/Supply Offset,86809,E,General Fund
+85,2013,City Treasurer,Assessment Bond Registration,"Charges, Fees, and Services",218867,R,Other Governmental Funds
+86,2013,City Treasurer,Assessment Bond Registration,Labor/Supply Offset,218867,E,Other Governmental Funds
+87,2013,Finance,General Fund,"Charges, Fees, and Services",70500,R,General Fund
+88,2013,Finance,General Fund,Employee Services,6626341,E,General Fund
+89,2013,Finance,General Fund,Fines Forfeitures Penalties,20000,R,General Fund
+90,2013,Finance,General Fund,Intergovernmental,768851,R,General Fund
+91,2013,Finance,General Fund,Labor/Supply Offset,-4043935,E,General Fund
+92,2013,Finance,General Fund,Licenses  Permits,384000,R,General Fund
+93,2013,Finance,General Fund,Miscellaneous Revenue,124000,R,General Fund
+94,2013,Finance,General Fund,Other Services and Supplies,1874900,E,General Fund
+95,2013,Finance,General Fund,Other Taxes,675000,R,General Fund
+96,2013,Finance,General Fund,Property,17000,E,General Fund
+97,2013,Finance,Interdepartmental Service Fund,Labor/Supply Offset,2317827,E,General Fund
+98,2013,Finance,Major Street Construction,Other Taxes,500000,R,Other Governmental Funds
+99,2013,Finance,Transportation Development,Intergovernmental,292601,R,Other Governmental Funds
+100,2013,Finance,Power Inn Rd Md 2003-01,"Charges, Fees, and Services",7896,R,Other Governmental Funds
+101,2013,General Services,Fleet Management,Labor/Supply Offset,1856677,E,Internal Service Funds
+102,2013,General Services,Fleet Management,Miscellaneous Revenue,27979272,R,Internal Service Funds
+103,2013,General Services,Fleet Management,Other Services and Supplies,17057417,E,Internal Service Funds
+104,2013,General Services,Fleet Management,Property,11579887,E,Internal Service Funds
+105,2013,Utilities,General Fund,Labor/Supply Offset,122410,E,General Fund
+106,2013,Utilities,Northside Subdiv Maint Dist,Labor/Supply Offset,5000,E,Other Governmental Funds
+107,2013,Utilities,Neighborhood Water Quality Dst,Labor/Supply Offset,25515,E,Other Governmental Funds
+108,2013,Utilities,Willowcreek Assmnt Md,Labor/Supply Offset,19450,E,Other Governmental Funds
+109,2013,Utilities,N Natomas Lands Cfd 3,Labor/Supply Offset,957323,E,Other Governmental Funds
+110,2013,Utilities,Citywide Lndscpng&Lghting Dist,Labor/Supply Offset,137592,E,Other Governmental Funds
+111,2013,Utilities,Golf Fund,Labor/Supply Offset,60000,E,Other Governmental Funds
+112,2013,Utilities,Parking Fund,Labor/Supply Offset,1359,E,Enterprise Funds
+113,2013,Utilities,Water Fund,"Charges, Fees, and Services",85087650,R,Enterprise Funds
+114,2013,Utilities,Water Fund,Employee Services,23420792,E,Enterprise Funds
+115,2013,Utilities,Water Fund,Intergovernmental,276357,R,Enterprise Funds
+116,2013,Utilities,Water Fund,Labor/Supply Offset,566927,E,Enterprise Funds
+117,2013,Utilities,Water Fund,Licenses  Permits,33239,R,Enterprise Funds
+118,2013,Utilities,Water Fund,Operating Transfers,9489016,E,Enterprise Funds
+119,2013,Utilities,Water Fund,Other Services and Supplies,22419949,E,Enterprise Funds
+120,2013,Utilities,Water Fund,Property,1416858,E,Enterprise Funds
+121,2013,Utilities,Wastewater Fund,"Charges, Fees, and Services",23062991,R,Enterprise Funds
+122,2013,Utilities,Wastewater Fund,Employee Services,7828771,E,Enterprise Funds
+123,2013,Utilities,Wastewater Fund,Intergovernmental,898225,R,Enterprise Funds
+124,2013,Utilities,Wastewater Fund,Labor/Supply Offset,3494482,E,Enterprise Funds
+125,2013,Utilities,Wastewater Fund,Operating Transfers,2391600,E,Enterprise Funds
+126,2013,Utilities,Wastewater Fund,Other Services and Supplies,8310243,E,Enterprise Funds
+127,2013,Utilities,Wastewater Fund,Property,592850,E,Enterprise Funds
+128,2013,Utilities,Solid Waste and Recycling,Labor/Supply Offset,1878651,E,Enterprise Funds
+129,2013,Utilities,Solid Waste and Recycling,Other Services and Supplies,2000,E,Enterprise Funds
+130,2013,Utilities,Community Center Fund,Labor/Supply Offset,4983,E,Enterprise Funds
+131,2013,Utilities,Storm Drainage Fund,"Charges, Fees, and Services",35013206,R,Enterprise Funds
+132,2013,Utilities,Storm Drainage Fund,Employee Services,20014648,E,Enterprise Funds
+133,2013,Utilities,Storm Drainage Fund,Labor/Supply Offset,-4790317,E,Enterprise Funds
+134,2013,Utilities,Storm Drainage Fund,Operating Transfers,3812800,E,Enterprise Funds
+135,2013,Utilities,Storm Drainage Fund,Other Services and Supplies,10690739,E,Enterprise Funds
+136,2013,Utilities,Storm Drainage Fund,Property,1218704,E,Enterprise Funds
+137,2013,Utilities,Water Grant Fund,Intergovernmental,423232,R,Enterprise Funds
+138,2013,Utilities,Water Grant Fund,Other Services and Supplies,423232,E,Enterprise Funds
+139,2013,Utilities,Storm Drainage Grant Fund,Intergovernmental,1039500,R,Enterprise Funds
+140,2013,Utilities,Storm Drainage Grant Fund,Other Services and Supplies,1039500,E,Enterprise Funds
+141,2013,Utilities,Fleet Management,Labor/Supply Offset,158979,E,Internal Service Funds
+142,2013,Public Works,General Fund,"Charges, Fees, and Services",5720082,R,General Fund
+143,2013,Public Works,General Fund,Debt Service,408518,E,General Fund
+144,2013,Public Works,General Fund,Employee Services,31886484,E,General Fund
+145,2013,Public Works,General Fund,Fines Forfeitures Penalties,10175022,R,General Fund
+146,2013,Public Works,General Fund,Intergovernmental,148000,R,General Fund
+147,2013,Public Works,General Fund,Labor/Supply Offset,-43927697,E,General Fund
+148,2013,Public Works,General Fund,Licenses  Permits,39000,R,General Fund
+149,2013,Public Works,General Fund,Other Services and Supplies,18533183,E,General Fund
+150,2013,Public Works,General Fund,Property,426975,E,General Fund
+151,2013,Public Works,Gas Tax 2106,Labor/Supply Offset,5374629,E,Other Governmental Funds
+152,2013,Public Works,Gas Tax 2107,Labor/Supply Offset,1707167,E,Other Governmental Funds
+153,2013,Public Works,Sacto Transp.Sales Tax-Maint.,Labor/Supply Offset,32417,E,Other Governmental Funds
+154,2013,Public Works,Traffic Safety,Labor/Supply Offset,930914,E,Other Governmental Funds
+155,2013,Public Works,Street Cut Fund,Licenses  Permits,75000,R,Other Governmental Funds
+156,2013,Public Works,State Route #160-Relinq,Labor/Supply Offset,81228,E,Other Governmental Funds
+157,2013,Public Works,State Route 275,Labor/Supply Offset,99856,E,Other Governmental Funds
+158,2013,Public Works,Citation I-5 Main Fund,Labor/Supply Offset,10500,E,Other Governmental Funds
+159,2013,Public Works,New Measure A Maintenance,Labor/Supply Offset,8183375,E,Other Governmental Funds
+160,2013,Public Works,Power Inn Rd Md 2003-01,Labor/Supply Offset,6610,E,Other Governmental Funds
+161,2013,Public Works,Neighborhood Lighting Dist,Labor/Supply Offset,28460,E,Other Governmental Funds
+162,2013,Public Works,Northside Subdiv Maint Dist,Labor/Supply Offset,2576,E,Other Governmental Funds
+163,2013,Public Works,Subdiv Lndscpng Maint Dist,Labor/Supply Offset,187350,E,Other Governmental Funds
+164,2013,Public Works,Laguna Creek Maint District,Labor/Supply Offset,30286,E,Other Governmental Funds
+165,2013,Public Works,12th Street Maint Benefit Area,Labor/Supply Offset,6343,E,Other Governmental Funds
+166,2013,Public Works,Neighborhood Water Quality Dst,Labor/Supply Offset,15351,E,Other Governmental Funds
+167,2013,Public Works,N Nat Lndscp 99-02,Labor/Supply Offset,404500,E,Other Governmental Funds
+168,2013,Public Works,Willowcreek Lndscpng Cfd,Labor/Supply Offset,85000,E,Other Governmental Funds
+169,2013,Public Works,N Natomas Lands Cfd 3,Labor/Supply Offset,340000,E,Other Governmental Funds
+170,2013,Public Works,Village Garden N.-Mtce Dist #1,Labor/Supply Offset,25305,E,Other Governmental Funds
+171,2013,Public Works,Citywide Lndscpng&Lghting Dist,Labor/Supply Offset,10010672,E,Other Governmental Funds
+172,2013,Public Works,Del Paso Nuevo Landscaping CFD,Labor/Supply Offset,9000,E,Other Governmental Funds
+173,2013,Public Works,William Land Park Fund,Labor/Supply Offset,20000,E,Other Governmental Funds
+174,2013,Public Works,Parking Fund,"Charges, Fees, and Services",16083662,R,Enterprise Funds
+175,2013,Public Works,Parking Fund,Employee Services,4524625,E,Enterprise Funds
+176,2013,Public Works,Parking Fund,"Interest, Rents, Concessions",1119724,R,Enterprise Funds
+177,2013,Public Works,Parking Fund,Labor/Supply Offset,1091020,E,Enterprise Funds
+178,2013,Public Works,Parking Fund,Operating Transfers,1849000,E,Enterprise Funds
+179,2013,Public Works,Parking Fund,Other Services and Supplies,4920485,E,Enterprise Funds
+180,2013,Public Works,Parking Fund,Property,93905,E,Enterprise Funds
+181,2013,Public Works,Storm Drainage Fund,Labor/Supply Offset,397721,E,Enterprise Funds
+182,2013,Convention & Cultural Services,General Fund,"Charges, Fees, and Services",699529,R,General Fund
+183,2013,Convention & Cultural Services,General Fund,Employee Services,2927167,E,General Fund
+184,2013,Convention & Cultural Services,General Fund,"Interest, Rents, Concessions",267000,R,General Fund
+185,2013,Convention & Cultural Services,General Fund,Intergovernmental,557409,R,General Fund
+186,2013,Convention & Cultural Services,General Fund,Labor/Supply Offset,-720356,E,General Fund
+187,2013,Convention & Cultural Services,General Fund,Licenses  Permits,36000,R,General Fund
+188,2013,Convention & Cultural Services,General Fund,Other Services and Supplies,2499914,E,General Fund
+189,2013,Convention & Cultural Services,General Fund,Property,2500,E,General Fund
+190,2013,Convention & Cultural Services,Old Sacto Maint Dist,Labor/Supply Offset,69758,E,Other Governmental Funds
+191,2013,Convention & Cultural Services,Old Sac Market,"Charges, Fees, and Services",60000,R,Other Governmental Funds
+192,2013,Convention & Cultural Services,Old Sac Market,Other Services and Supplies,54000,E,Other Governmental Funds
+193,2013,Convention & Cultural Services,H Street Theater Fund,Intergovernmental,30000,R,Other Governmental Funds
+194,2013,Convention & Cultural Services,H Street Theater Fund,Miscellaneous Revenue,15000,R,Other Governmental Funds
+195,2013,Convention & Cultural Services,H Street Theater Fund,Other Services and Supplies,25000,E,Other Governmental Funds
+196,2013,Convention & Cultural Services,H Street Theater Fund,Property,20000,E,Other Governmental Funds
+197,2013,Convention & Cultural Services,Golf Fund,"Charges, Fees, and Services",1365460,R,Other Governmental Funds
+198,2013,Convention & Cultural Services,Golf Fund,Employee Services,110470,E,Other Governmental Funds
+199,2013,Convention & Cultural Services,Golf Fund,Miscellaneous Revenue,168075,R,Other Governmental Funds
+200,2013,Convention & Cultural Services,Golf Fund,Other Services and Supplies,97940,E,Other Governmental Funds
+201,2013,Finance,Power Inn Rd Md 2003-01,Labor/Supply Offset,3601,E,Other Governmental Funds
+202,2013,Finance,Neighborhood Lighting Dist,"Charges, Fees, and Services",31167,R,Other Governmental Funds
+203,2013,Finance,Neighborhood Lighting Dist,Labor/Supply Offset,9084,E,Other Governmental Funds
+204,2013,Finance,Northside Subdiv Maint Dist,"Charges, Fees, and Services",5544,R,Other Governmental Funds
+205,2013,Finance,Northside Subdiv Maint Dist,Labor/Supply Offset,3743,E,Other Governmental Funds
+206,2013,Finance,Subdiv Lndscpng Maint Dist,"Charges, Fees, and Services",204490,R,Other Governmental Funds
+207,2013,Finance,Subdiv Lndscpng Maint Dist,Labor/Supply Offset,23923,E,Other Governmental Funds
+208,2013,Finance,Laguna Creek Maint District,"Charges, Fees, and Services",192796,R,Other Governmental Funds
+209,2013,Finance,Laguna Creek Maint District,Labor/Supply Offset,24636,E,Other Governmental Funds
+210,2013,Finance,12th Street Maint Benefit Area,"Charges, Fees, and Services",13302,R,Other Governmental Funds
+211,2013,Finance,12th Street Maint Benefit Area,Labor/Supply Offset,3308,E,Other Governmental Funds
+212,2013,Finance,Old Sacto Maint Dist,"Charges, Fees, and Services",70606,R,Other Governmental Funds
+213,2013,Finance,Citywide Lndscpng&Lghting Dist,Labor/Supply Offset,210639,E,Other Governmental Funds
+214,2013,Finance,Old Sacto Maint Dist,Labor/Supply Offset,3538,E,Other Governmental Funds
+215,2013,Finance,Downtown Plaza Bid,"Charges, Fees, and Services",116000,R,Other Governmental Funds
+216,2013,Finance,Assessment Bond Registration,"Charges, Fees, and Services",44293,R,Other Governmental Funds
+217,2013,Finance,Assessment Bond Registration,Labor/Supply Offset,44293,E,Other Governmental Funds
+218,2013,Finance,Old Sacramento Bid,"Charges, Fees, and Services",142000,R,Other Governmental Funds
+219,2013,Finance,Franklin Blvd Bid,"Charges, Fees, and Services",35000,R,Other Governmental Funds
+220,2013,Finance,Sacramento Tourism Bid,Labor/Supply Offset,40000,E,Other Governmental Funds
+221,2013,Finance,Del Paso Bid,"Charges, Fees, and Services",40000,R,Other Governmental Funds
+222,2013,Finance,Stockton Blvd BIA,"Charges, Fees, and Services",43000,R,Other Governmental Funds
+223,2013,Finance,Oak Park PBID,"Charges, Fees, and Services",218654,R,Other Governmental Funds
+224,2013,Finance,Oak Park PBID,Labor/Supply Offset,5763,E,Other Governmental Funds
+225,2013,Finance,Franklin Boulevard Pbid,"Charges, Fees, and Services",111317,R,Other Governmental Funds
+226,2013,Finance,Franklin Boulevard Pbid,Labor/Supply Offset,4787,E,Other Governmental Funds
+227,2013,Finance,Del Paso Prop & Business Imprv,"Charges, Fees, and Services",366387,R,Other Governmental Funds
+228,2013,Finance,Del Paso Prop & Business Imprv,Labor/Supply Offset,8990,E,Other Governmental Funds
+229,2013,Finance,Special District Info/Rpt Sys,Labor/Supply Offset,54000,E,Other Governmental Funds
+230,2013,Finance,Special District Info/Rpt Sys,Other Services and Supplies,93993,E,Other Governmental Funds
+231,2013,Finance,Downtown Sacramento Mgmt Dist,"Charges, Fees, and Services",2453241,R,Other Governmental Funds
+232,2013,Finance,Downtown Sacramento Mgmt Dist,Labor/Supply Offset,7616,E,Other Governmental Funds
+233,2013,Finance,The River District PBID,"Charges, Fees, and Services",345742,R,Other Governmental Funds
+234,2013,Finance,The River District PBID,Labor/Supply Offset,5430,E,Other Governmental Funds
+235,2013,Finance,N Natomas Transp Mgmt Assoc,"Charges, Fees, and Services",1040971,R,Other Governmental Funds
+236,2013,Finance,N Natomas Transp Mgmt Assoc,Labor/Supply Offset,19483,E,Other Governmental Funds
+237,2013,Finance,Stockton Blvd Pbid,"Charges, Fees, and Services",284435,R,Other Governmental Funds
+238,2013,Finance,Stockton Blvd Pbid,Labor/Supply Offset,3336,E,Other Governmental Funds
+239,2013,Finance,Neighborhood Water Quality Dst,"Charges, Fees, and Services",51320,R,Other Governmental Funds
+240,2013,Finance,Neighborhood Water Quality Dst,Labor/Supply Offset,10712,E,Other Governmental Funds
+241,2013,Finance,N Nat Lndscp 99-02,"Charges, Fees, and Services",245600,R,Other Governmental Funds
+242,2013,Finance,N Nat Lndscp 99-02,Labor/Supply Offset,19409,E,Other Governmental Funds
+243,2013,Finance,Willowcreek Assmnt Md,"Charges, Fees, and Services",3153,R,Other Governmental Funds
+244,2013,Finance,Willowcreek Assmnt Md,Labor/Supply Offset,6927,E,Other Governmental Funds
+245,2013,Finance,Willowcreek Lndscpng Cfd,"Charges, Fees, and Services",90586,R,Other Governmental Funds
+246,2013,Finance,Willowcreek Lndscpng Cfd,Labor/Supply Offset,2769,E,Other Governmental Funds
+247,2013,Finance,N Natomas Lands Cfd 3,"Charges, Fees, and Services",1721986,R,Other Governmental Funds
+248,2013,Finance,N Natomas Lands Cfd 3,Labor/Supply Offset,21246,E,Other Governmental Funds
+249,2013,Finance,Village Garden N.-Mtce Dist #1,"Charges, Fees, and Services",36684,R,Other Governmental Funds
+250,2013,Finance,Village Garden N.-Mtce Dist #1,Labor/Supply Offset,5337,E,Other Governmental Funds
+251,2013,Finance,Citywide Lndscpng&Lghting Dist,"Charges, Fees, and Services",14360431,R,Other Governmental Funds
+252,2013,Finance,Neighborhood Park Maint CFD,Labor/Supply Offset,70584,E,Other Governmental Funds
+253,2013,Finance,Power Inn Area Prop & Business,"Charges, Fees, and Services",498000,R,Other Governmental Funds
+254,2013,Finance,Power Inn Area Prop & Business,Labor/Supply Offset,6867,E,Other Governmental Funds
+255,2013,Finance,Greater Broadway PBID,"Charges, Fees, and Services",226397,R,Other Governmental Funds
+256,2013,Finance,Greater Broadway PBID,Labor/Supply Offset,3066,E,Other Governmental Funds
+257,2013,Finance,Midtown Sacramento PBID,"Charges, Fees, and Services",628319,R,Other Governmental Funds
+258,2013,Finance,Midtown Sacramento PBID,Labor/Supply Offset,6961,E,Other Governmental Funds
+259,2013,Finance,Del Paso Nuevo Landscaping CFD,"Charges, Fees, and Services",24917,R,Other Governmental Funds
+260,2013,Finance,Del Paso Nuevo Landscaping CFD,Labor/Supply Offset,3834,E,Other Governmental Funds
+261,2013,Finance,Sutter Business Imprvmt Area,"Charges, Fees, and Services",150000,R,Other Governmental Funds
+262,2013,Finance,Sutter Business Imprvmt Area,Other Services and Supplies,150000,E,Other Governmental Funds
+263,2013,Finance,Mack Road PBID,"Charges, Fees, and Services",410511,R,Other Governmental Funds
+264,2013,Finance,Mack Road PBID,Labor/Supply Offset,6859,E,Other Governmental Funds
+265,2013,Finance,Natomas Central CFD 2006-02,Labor/Supply Offset,11735,E,Other Governmental Funds
+266,2013,Finance,Cty/Cnty Office-Water Planning,Labor/Supply Offset,39000,E,Other Governmental Funds
+267,2013,Technology,General Fund,Employee Services,5921076,E,General Fund
+268,2013,Technology,General Fund,Labor/Supply Offset,-3832719,E,General Fund
+269,2013,Technology,General Fund,Other Services and Supplies,866978,E,General Fund
+270,2013,Technology,General Fund,Property,392213,E,General Fund
+271,2013,Technology,Interdepartmental Service Fund,Labor/Supply Offset,3832719,E,General Fund
+272,2013,Technology,Storm Drainage Fund,Employee Services,127506,E,Enterprise Funds
+273,2013,Human Resources,General Fund,"Charges, Fees, and Services",152000,R,General Fund
+274,2013,Human Resources,General Fund,Employee Services,3008678,E,General Fund
+275,2013,Human Resources,General Fund,Intergovernmental,120000,R,General Fund
+276,2013,Human Resources,General Fund,Labor/Supply Offset,-1339915,E,General Fund
+277,2013,Human Resources,General Fund,Operating Transfers,-27620,E,General Fund
+278,2013,Human Resources,General Fund,Other Services and Supplies,578661,E,General Fund
+279,2013,Human Resources,General Fund,Property,5500,E,General Fund
+280,2013,Human Resources,Interdepartmental Service Fund,Labor/Supply Offset,1442392,E,General Fund
+281,2013,Human Resources,Water Fund,Labor/Supply Offset,54653,E,Enterprise Funds
+282,2013,Human Resources,Wastewater Fund,Labor/Supply Offset,17604,E,Enterprise Funds
+283,2013,Human Resources,Solid Waste and Recycling,Labor/Supply Offset,91063,E,Enterprise Funds
+284,2013,Human Resources,Storm Drainage Fund,Labor/Supply Offset,42802,E,Enterprise Funds
+285,2013,Human Resources,Fleet Management,Labor/Supply Offset,40582,E,Internal Service Funds
+286,2013,Human Resources,Risk Management,"Charges, Fees, and Services",302000,R,Internal Service Funds
+287,2013,Human Resources,Risk Management,Employee Services,2533194,E,Internal Service Funds
+288,2013,Human Resources,Risk Management,Labor/Supply Offset,2519125,E,Internal Service Funds
+289,2013,Human Resources,Risk Management,Miscellaneous Revenue,12774306,R,Internal Service Funds
+290,2013,Human Resources,Risk Management,Operating Transfers,27620,E,Internal Service Funds
+291,2013,Human Resources,Risk Management,Other Services and Supplies,8590493,E,Internal Service Funds
+292,2013,Human Resources,Risk Management,Property,25606,E,Internal Service Funds
+293,2013,Human Resources,Worker's Compensation Fund,Employee Services,1747336,E,Internal Service Funds
+294,2013,Human Resources,Worker's Compensation Fund,Labor/Supply Offset,447869,E,Internal Service Funds
+295,2013,Human Resources,Worker's Compensation Fund,Miscellaneous Revenue,8874354,R,Internal Service Funds
+296,2013,Human Resources,Worker's Compensation Fund,Other Services and Supplies,8181618,E,Internal Service Funds
+297,2013,Human Resources,Worker's Compensation Fund,Property,17500,E,Internal Service Funds
+298,2013,Police,General Fund,"Charges, Fees, and Services",8693500,R,General Fund
+299,2013,Police,General Fund,Employee Services,121819689,E,General Fund
+300,2013,Police,General Fund,Intergovernmental,634000,R,General Fund
+301,2013,Parks & Recreation,Special Recreation,"Charges, Fees, and Services",2278179,R,Other Governmental Funds
+302,2013,Police,General Fund,Labor/Supply Offset,-9311430,E,General Fund
+303,2013,Police,General Fund,Licenses  Permits,555500,R,General Fund
+304,2013,Police,General Fund,Operating Transfers,1422379,E,General Fund
+305,2013,Police,General Fund,Other Services and Supplies,9906701,E,General Fund
+306,2013,Police,General Fund,Property,186839,E,General Fund
+307,2013,Police,Traffic Safety,Fines Forfeitures Penalties,900000,R,Other Governmental Funds
+308,2013,Police,Risk Management,Labor/Supply Offset,532735,E,Internal Service Funds
+309,2013,Fire,General Fund,"Charges, Fees, and Services",17943423,R,General Fund
+310,2013,Fire,General Fund,Debt Service,419144,E,General Fund
+311,2013,Fire,General Fund,Employee Services,85298329,E,General Fund
+312,2013,Fire,General Fund,Intergovernmental,4529000,R,General Fund
+313,2013,Fire,General Fund,Labor/Supply Offset,-3700895,E,General Fund
+314,2013,Fire,General Fund,Licenses  Permits,514181,R,General Fund
+315,2013,Fire,General Fund,Other Services and Supplies,9991961,E,General Fund
+316,2013,Fire,General Fund,Property,1263213,E,General Fund
+317,2013,Fire,Risk Management,Labor/Supply Offset,500000,E,Internal Service Funds
+318,2013,General Services,General Fund,"Charges, Fees, and Services",255000,R,General Fund
+319,2013,General Services,General Fund,Employee Services,12362676,E,General Fund
+320,2013,General Services,General Fund,Fines Forfeitures Penalties,174000,R,General Fund
+321,2013,General Services,General Fund,"Interest, Rents, Concessions",123000,R,General Fund
+322,2013,General Services,General Fund,Intergovernmental,25000,R,General Fund
+323,2013,General Services,General Fund,Labor/Supply Offset,-8082537,E,General Fund
+324,2013,General Services,General Fund,Licenses  Permits,558000,R,General Fund
+325,2013,General Services,General Fund,Other Services and Supplies,4787830,E,General Fund
+326,2013,General Services,General Fund,Property,125240,E,General Fund
+327,2013,General Services,Interdepartmental Service Fund,Labor/Supply Offset,2404510,E,General Fund
+328,2013,General Services,Gas Tax 2106,Labor/Supply Offset,185043,E,Other Governmental Funds
+329,2013,General Services,State Route 275,Labor/Supply Offset,22119,E,Other Governmental Funds
+330,2013,General Services,Willowcreek Assmnt Md,Labor/Supply Offset,5000,E,Other Governmental Funds
+331,2013,General Services,Citywide Lndscpng&Lghting Dist,Labor/Supply Offset,100000,E,Other Governmental Funds
+332,2013,General Services,Cal Epa Fund,Intergovernmental,7874000,R,Other Governmental Funds
+333,2013,General Services,Cal Epa Fund,Other Services and Supplies,7701630,E,Other Governmental Funds
+334,2013,General Services,Parking Fund,Labor/Supply Offset,27864,E,Enterprise Funds
+335,2013,General Services,Water Fund,Labor/Supply Offset,81308,E,Enterprise Funds
+336,2013,General Services,Wastewater Fund,Labor/Supply Offset,27132,E,Enterprise Funds
+337,2013,General Services,Solid Waste and Recycling,"Charges, Fees, and Services",60141000,R,Enterprise Funds
+338,2013,General Services,Solid Waste and Recycling,Employee Services,14262383,E,Enterprise Funds
+339,2013,General Services,Solid Waste and Recycling,Intergovernmental,110000,R,Enterprise Funds
+340,2013,General Services,Solid Waste and Recycling,Labor/Supply Offset,2181263,E,Enterprise Funds
+341,2013,General Services,Solid Waste and Recycling,Operating Transfers,6811000,E,Enterprise Funds
+342,2013,General Services,Solid Waste and Recycling,Other Services and Supplies,20221729,E,Enterprise Funds
+343,2013,General Services,Solid Waste and Recycling,Property,8093786,E,Enterprise Funds
+344,2013,General Services,Community Center Fund,Labor/Supply Offset,1453,E,Enterprise Funds
+345,2013,General Services,Storm Drainage Fund,Labor/Supply Offset,96590,E,Enterprise Funds
+346,2013,General Services,Solid Waste Grant Fund,Intergovernmental,270000,R,Enterprise Funds
+347,2013,General Services,Solid Waste Grant Fund,Other Services and Supplies,270000,E,Enterprise Funds
+348,2013,General Services,Fleet Management,"Charges, Fees, and Services",8944081,R,Internal Service Funds
+349,2013,General Services,Fleet Management,Debt Service,-419144,E,Internal Service Funds
+350,2013,General Services,Fleet Management,Employee Services,6734619,E,Internal Service Funds
+351,2013,General Services,Fleet Management,"Interest, Rents, Concessions",404009,R,Internal Service Funds
+352,2013,Parks & Recreation,Special Recreation,Intergovernmental,17500,R,Other Governmental Funds
+353,2013,Parks & Recreation,Special Recreation,Labor/Supply Offset,2324075,E,Other Governmental Funds
+354,2013,Parks & Recreation,Special Recreation,Licenses  Permits,19500,R,Other Governmental Funds
+355,2013,Parks & Recreation,Special Recreation,Miscellaneous Revenue,12500,R,Other Governmental Funds
+356,2013,Parks & Recreation,William Land Park Fund,"Charges, Fees, and Services",91000,R,Other Governmental Funds
+357,2013,Parks & Recreation,William Land Park Fund,Labor/Supply Offset,139000,E,Other Governmental Funds
+358,2013,Parks & Recreation,Park Development,Labor/Supply Offset,158400,E,Other Governmental Funds
+359,2013,Parks & Recreation,Park Development,Property,20000,E,Other Governmental Funds
+360,2013,Parks & Recreation,4th R Program,"Charges, Fees, and Services",5060012,R,Other Governmental Funds
+361,2013,Parks & Recreation,4th R Program,Debt Service,20000,E,Other Governmental Funds
+362,2013,Parks & Recreation,4th R Program,Employee Services,4959018,E,Other Governmental Funds
+363,2013,Parks & Recreation,4th R Program,Intergovernmental,904263,R,Other Governmental Funds
+364,2013,Parks & Recreation,4th R Program,Labor/Supply Offset,21000,E,Other Governmental Funds
+365,2013,Parks & Recreation,4th R Program,Other Services and Supplies,924457,E,Other Governmental Funds
+366,2013,Parks & Recreation,4th R Program,Property,39800,E,Other Governmental Funds
+367,2013,Community Development,General Fund,"Charges, Fees, and Services",4149793,R,General Fund
+368,2013,Community Development,General Fund,Employee Services,17448428,E,General Fund
+369,2013,Community Development,General Fund,Fines Forfeitures Penalties,2637892,R,General Fund
+370,2013,Community Development,General Fund,Intergovernmental,653800,R,General Fund
+371,2013,Community Development,General Fund,Labor/Supply Offset,-1704269,E,General Fund
+372,2013,Community Development,General Fund,Licenses  Permits,8465845,R,General Fund
+373,2013,Community Development,General Fund,Operating Transfers,432000,E,General Fund
+374,2013,Community Development,General Fund,Other Services and Supplies,3589772,E,General Fund
+375,2013,Community Development,General Fund,Property,90445,E,General Fund
+376,2013,Community Development,Development Services Fund,Operating Transfers,-432000,E,Other Governmental Funds
+377,2013,Community Development,Citywide Lndscpng&Lghting Dist,Labor/Supply Offset,228908,E,Other Governmental Funds
+378,2013,Community Development,Block Grant/Housing & Redev,Intergovernmental,250000,R,Other Governmental Funds
+379,2013,Community Development,Block Grant/Housing & Redev,Labor/Supply Offset,250000,E,Other Governmental Funds
+380,2013,Community Development,No Natomas Community Improv,Labor/Supply Offset,20000,E,Other Governmental Funds
+381,2013,Projects,General Fund,Capital Improvements,3940000,E,General Fund
+382,2013,Projects,Sacto Transp.Sales Tax-Cip.,Capital Improvements,2455180,E,Other Governmental Funds
+383,2013,Projects,Gas Tax 2106,Capital Improvements,5294439,E,Other Governmental Funds
+384,2013,Projects,Major Street Construction,Capital Improvements,1273196,E,Other Governmental Funds
+385,2013,Projects,Street Cut Fund,Capital Improvements,100777,E,Other Governmental Funds
+386,2013,Projects,Transp Systems Mgmt Fund,Capital Improvements,20000,E,Other Governmental Funds
+387,2013,Projects,Transportation Development,Capital Improvements,285955,E,Other Governmental Funds
+388,2013,Projects,Development Services Fund,Capital Improvements,432000,E,Other Governmental Funds
+389,2013,Projects,So Natomas Comm Improv,Capital Improvements,200000,E,Other Governmental Funds
+390,2013,Projects,New Measure A Specific Project,Capital Improvements,14374000,E,Other Governmental Funds
+391,2013,Projects,New Measure A Construction,Capital Improvements,2165012,E,Other Governmental Funds
+392,2013,Projects,New Measure A Maintenance,Capital Improvements,2075987,E,Other Governmental Funds
+393,2013,Projects,Citywide Lndscpng&Lghting Dist,Capital Improvements,440000,E,Other Governmental Funds
+394,2013,Projects,Quimby Act,Capital Improvements,110000,E,Other Governmental Funds
+395,2013,Projects,Golf Fund,Capital Improvements,15000,E,Other Governmental Funds
+396,2013,Projects,No Natomas Community Improv,Capital Improvements,11500,E,Other Governmental Funds
+397,2013,Projects,Park Development,Capital Improvements,-297088,E,Other Governmental Funds
+398,2013,Projects,Cip Reimbursable Fund,Capital Improvements,52314960,E,Other Governmental Funds
+399,2013,Projects,Federal Capital Grant,Capital Improvements,9520052,E,Other Governmental Funds
+400,2013,Projects,Other Capital Grants,Capital Improvements,17427000,E,Other Governmental Funds
+551,2013,Citywide and Community Support,Cty/Cnty Office-Water Planning,Other Services and Supplies,1072698,E,Other Governmental Funds
+571,2013,Projects,Sewer Development Fees,Capital Improvements,200000,E,Other Governmental Funds
+603,2013,Citywide and Community Support,Cty/Cnty Office-Water Planning,Property,5000,E,Other Governmental Funds
+605,2013,Citywide and Community Support,Habitat Management Element,Intergovernmental,376772,R,Other Governmental Funds
+606,2013,Citywide and Community Support,Habitat Management Element,Operating Transfers,-188386,E,Other Governmental Funds
+607,2013,Citywide and Community Support,Habitat Management Element,Other Services and Supplies,1165158,E,Other Governmental Funds
+608,2013,Citywide and Community Support,Sports Commission,Intergovernmental,100000,R,Other Governmental Funds
+609,2013,Citywide and Community Support,Sports Commission,Operating Transfers,-141600,E,Other Governmental Funds
+610,2013,Citywide and Community Support,Sports Commission,Other Services and Supplies,241600,E,Other Governmental Funds
+611,2013,Non Appropriated,General Fund,"Charges, Fees, and Services",3147700,R,General Fund
+612,2013,Non Appropriated,General Fund,"Interest, Rents, Concessions",300000,R,General Fund
+613,2013,Non Appropriated,General Fund,Labor/Supply Offset,93879,E,General Fund
+614,2013,Non Appropriated,Interdepartmental Service Fund,Labor/Supply Offset,-15263538,E,General Fund
+615,2013,Non Appropriated,Gas Tax 2106,"Interest, Rents, Concessions",120000,R,Other Governmental Funds
+616,2013,Non Appropriated,Major Street Construction,"Interest, Rents, Concessions",200000,R,Other Governmental Funds
+617,2013,Non Appropriated,Quimby Act,"Charges, Fees, and Services",100000,R,Other Governmental Funds
+618,2013,Non Appropriated,No Natomas Community Improv,"Interest, Rents, Concessions",800000,R,Other Governmental Funds
+619,2013,Non Appropriated,Parking Fund,"Interest, Rents, Concessions",600000,R,Enterprise Funds
+620,2013,Non Appropriated,Water Fund,"Interest, Rents, Concessions",400000,R,Enterprise Funds
+621,2013,Non Appropriated,Wastewater Fund,"Interest, Rents, Concessions",392000,R,Enterprise Funds
+622,2013,Non Appropriated,Community Center Fund,"Interest, Rents, Concessions",425000,R,Enterprise Funds
+623,2013,Non Appropriated,Storm Drainage Fund,"Interest, Rents, Concessions",422000,R,Enterprise Funds
+624,2013,Non Appropriated,Worker's Compensation Fund,"Interest, Rents, Concessions",700000,R,Internal Service Funds
+654,2013,Projects,Parking Fund,Capital Improvements,2878000,E,Enterprise Funds
+655,2013,Projects,Water Fund,Capital Improvements,10488750,E,Enterprise Funds
+656,2013,Projects,Wastewater Fund,Capital Improvements,100000,E,Enterprise Funds
+657,2013,Projects,Solid Waste and Recycling,Capital Improvements,811000,E,Enterprise Funds
+658,2013,Projects,Sacramento Marina Fund,Capital Improvements,50000,E,Enterprise Funds
+659,2013,Projects,Community Center Fund,Capital Improvements,1150000,E,Enterprise Funds
+660,2013,Projects,Storm Drainage Fund,Capital Improvements,2355000,E,Enterprise Funds
+661,2013,Projects,Fleet Management,Capital Improvements,175000,E,Internal Service Funds
+662,2013,Debt Service,General Fund,Debt Service,22441245,E,General Fund
+663,2013,Debt Service,General Fund,"Interest, Rents, Concessions",300000,R,General Fund
+664,2013,Debt Service,Citywide Lndscpng&Lghting Dist,Debt Service,582463,E,Other Governmental Funds
+665,2013,Debt Service,Golf Fund,Debt Service,1183059,E,Other Governmental Funds
+666,2013,Debt Service,No Natomas Community Improv,Debt Service,2549953,E,Other Governmental Funds
+667,2013,Debt Service,Debt Service - Other City Debt,Debt Service,102599,E,Other Governmental Funds
+668,2013,Debt Service,Debt Service - Other City Debt,Intergovernmental,36532,R,Other Governmental Funds
+669,2013,Debt Service,Debt Service-93 Series A,Debt Service,300000,E,Other Governmental Funds
+670,2013,Debt Service,Debt Service-93 Series B,Debt Service,400000,E,Other Governmental Funds
+671,2013,Debt Service,Kings-Arco Arena Acquisition,Debt Service,5378672,E,Other Governmental Funds
+672,2013,Debt Service,Kings-Arco Arena Acquisition,"Interest, Rents, Concessions",5378672,R,Other Governmental Funds
+673,2013,Debt Service,Debt Service-CFD#2 Lease,Debt Service,100000,E,Other Governmental Funds
+674,2013,Debt Service,2002 Cap Inpr Bds Debt Service,Debt Service,2091212,E,Other Governmental Funds
+675,2013,Debt Service,2002 Cap Inpr Bds Debt Service,Intergovernmental,2091212,R,Other Governmental Funds
+676,2013,Debt Service,Debt Service - 2003 Cirbs,Debt Service,0,E,Other Governmental Funds
+677,2013,Debt Service,2005 Refunding Revenue Bonds,Debt Service,1602913,E,Other Governmental Funds
+678,2013,Debt Service,2005 Refunding Revenue Bonds,Intergovernmental,1602913,R,Other Governmental Funds
+679,2013,Debt Service,2006 Cirbs Ser A (Crcip),Debt Service,2390587,E,Other Governmental Funds
+680,2013,Debt Service,2006 Cirbs Ser A (Crcip),Intergovernmental,610137,R,Other Governmental Funds
+681,2013,Debt Service,2006 Cirbs Ser A (Crcip),Miscellaneous Revenue,1580450,R,Other Governmental Funds
+682,2013,Debt Service,2006 Cirbs Ser B (Crcip),Debt Service,1128867,E,Other Governmental Funds
+683,2013,Debt Service,2006 Cirbs Ser B (Crcip),Intergovernmental,1128867,R,Other Governmental Funds
+684,2013,Debt Service,2006 Cirbs Ser C,Debt Service,0,E,Other Governmental Funds
+685,2013,Debt Service,2006 Cirbs Ser D,Debt Service,0,E,Other Governmental Funds
+686,2013,Debt Service,2006 Cirbs (Refunding) Ser E,Debt Service,104466,E,Other Governmental Funds
+687,2013,Debt Service,2006 Cirbs (Refunding) Ser E,Intergovernmental,104466,R,Other Governmental Funds
+688,2013,Debt Service,Parking Fund,Debt Service,4636469,E,Enterprise Funds
+689,2013,Debt Service,Water Fund,Debt Service,12393778,E,Enterprise Funds
+690,2013,Debt Service,Wastewater Fund,Debt Service,910300,E,Enterprise Funds
+691,2013,Debt Service,Solid Waste and Recycling,Debt Service,4425837,E,Enterprise Funds
+692,2013,Debt Service,Community Center Fund,Debt Service,7969790,E,Enterprise Funds
+693,2013,Debt Service,Storm Drainage Fund,Debt Service,3641480,E,Enterprise Funds
+694,2013,Debt Service,Fleet Management,Debt Service,501089,E,Internal Service Funds
+695,2013,Citywide and Community Support,General Fund,"Charges, Fees, and Services",3313600,R,General Fund
+696,2013,Citywide and Community Support,General Fund,Contingency,1075000,E,General Fund
+697,2013,Citywide and Community Support,General Fund,Contributions from Other Funds,25504100,R,General Fund
+698,2013,Citywide and Community Support,General Fund,Employee Services,18328147,E,General Fund
+699,2013,Citywide and Community Support,General Fund,"Interest, Rents, Concessions",125000,R,General Fund
+700,2013,Citywide and Community Support,General Fund,Intergovernmental,3829400,R,General Fund
+701,2013,Citywide and Community Support,General Fund,Labor/Supply Offset,-2777629,E,General Fund
+702,2013,Citywide and Community Support,General Fund,Licenses  Permits,1145000,R,General Fund
+703,2013,Citywide and Community Support,General Fund,Operating Transfers,41600,E,General Fund
+704,2013,Citywide and Community Support,General Fund,Other Services and Supplies,28053326,E,General Fund
+705,2013,Citywide and Community Support,General Fund,Other Taxes,16121700,R,General Fund
+706,2013,Citywide and Community Support,General Fund,Property,604910,E,General Fund
+707,2013,Citywide and Community Support,General Fund,Property Tax,114481800,R,General Fund
+708,2013,Citywide and Community Support,General Fund,Sales Tax,67158800,R,General Fund
+709,2013,Citywide and Community Support,General Fund,Utility User Tax,58982200,R,General Fund
+710,2013,Citywide and Community Support,Interdepartmental Service Fund,Labor/Supply Offset,512976,E,General Fund
+711,2013,Citywide and Community Support,Gas Tax 2106,Intergovernmental,11703000,R,Other Governmental Funds
+712,2013,Citywide and Community Support,New Measure A Construction,Sales Tax,2126000,R,Other Governmental Funds
+713,2013,Citywide and Community Support,New Measure A Maintenance,Sales Tax,9169000,R,Other Governmental Funds
+714,2013,Citywide and Community Support,Downtown Plaza Bid,Other Services and Supplies,110000,E,Other Governmental Funds
+715,2013,Citywide and Community Support,Old Sacramento Bid,Other Services and Supplies,140000,E,Other Governmental Funds
+716,2013,Citywide and Community Support,Franklin Blvd Bid,Other Services and Supplies,36000,E,Other Governmental Funds
+717,2013,Citywide and Community Support,Sacramento Tourism Bid,"Charges, Fees, and Services",2100000,R,Other Governmental Funds
+718,2013,Citywide and Community Support,Sacramento Tourism Bid,Other Services and Supplies,2060000,E,Other Governmental Funds
+719,2013,Citywide and Community Support,Del Paso Bid,Other Services and Supplies,37000,E,Other Governmental Funds
+720,2013,Citywide and Community Support,Stockton Blvd BIA,Other Services and Supplies,42000,E,Other Governmental Funds
+721,2013,Citywide and Community Support,Oak Park PBID,Other Services and Supplies,212891,E,Other Governmental Funds
+722,2013,Citywide and Community Support,Franklin Boulevard Pbid,Other Services and Supplies,106530,E,Other Governmental Funds
+723,2013,Citywide and Community Support,Del Paso Prop & Business Imprv,Other Services and Supplies,357397,E,Other Governmental Funds
+724,2013,Citywide and Community Support,Downtown Sacramento Mgmt Dist,Other Services and Supplies,2445625,E,Other Governmental Funds
+725,2013,Citywide and Community Support,The River District PBID,Other Services and Supplies,340312,E,Other Governmental Funds
+726,2013,Citywide and Community Support,N Natomas Transp Mgmt Assoc,Other Services and Supplies,1000000,E,Other Governmental Funds
+727,2013,Citywide and Community Support,Stockton Blvd Pbid,Other Services and Supplies,273599,E,Other Governmental Funds
+728,2013,Citywide and Community Support,Power Inn Area Prop & Business,Other Services and Supplies,483633,E,Other Governmental Funds
+729,2013,Citywide and Community Support,Greater Broadway PBID,Other Services and Supplies,223331,E,Other Governmental Funds
+730,2013,Citywide and Community Support,Midtown Sacramento PBID,Other Services and Supplies,621358,E,Other Governmental Funds
+731,2013,Citywide and Community Support,Library Services Parcel Tax,"Charges, Fees, and Services",4400000,R,Other Governmental Funds
+732,2013,Citywide and Community Support,Library Services Parcel Tax,Other Services and Supplies,4400000,E,Other Governmental Funds
+733,2013,Citywide and Community Support,Mack Road PBID,Other Services and Supplies,403652,E,Other Governmental Funds
+734,2013,Citywide and Community Support,Golf Fund,Employee Services,52735,E,Other Governmental Funds
+735,2013,Citywide and Community Support,2006 Cirbs Ser B Cap Proj'S,Other Services and Supplies,400000,E,Other Governmental Funds
+736,2013,Citywide and Community Support,Parking Fund,Employee Services,31471,E,Enterprise Funds
+737,2013,Citywide and Community Support,Water Fund,Contingency,500000,E,Enterprise Funds
+738,2013,Citywide and Community Support,Water Fund,Employee Services,337624,E,Enterprise Funds
+739,2013,Citywide and Community Support,Wastewater Fund,Contingency,100000,E,Enterprise Funds
+740,2013,Citywide and Community Support,Wastewater Fund,Employee Services,139114,E,Enterprise Funds
+741,2013,Citywide and Community Support,Solid Waste and Recycling,Contingency,500000,E,Enterprise Funds
+742,2013,Citywide and Community Support,Solid Waste and Recycling,Employee Services,484103,E,Enterprise Funds
+743,2013,Citywide and Community Support,Sacramento Marina Fund,Employee Services,8,E,Enterprise Funds
+744,2013,Citywide and Community Support,Community Center Fund,Employee Services,19362,E,Enterprise Funds
+745,2013,Citywide and Community Support,Community Center Fund,Other Services and Supplies,58168,E,Enterprise Funds
+746,2013,Citywide and Community Support,Storm Drainage Fund,Contingency,300000,E,Enterprise Funds
+747,2013,Citywide and Community Support,Storm Drainage Fund,Employee Services,216198,E,Enterprise Funds
+748,2013,Citywide and Community Support,Fleet Management,Employee Services,150000,E,Internal Service Funds
+749,2013,Citywide and Community Support,Risk Management,Employee Services,359,E,Internal Service Funds
+750,2013,Citywide and Community Support,Cty/Cnty Office-Water Planning,Employee Services,413957,E,Other Governmental Funds
+751,2013,Citywide and Community Support,Cty/Cnty Office-Water Planning,Intergovernmental,639427,R,Other Governmental Funds
+752,2013,Citywide and Community Support,Cty/Cnty Office-Water Planning,Operating Transfers,-261430,E,Other Governmental Funds
+1569,2013,Projects,Water Revenue Bonds Ser. 2013,Capital Improvements,164500000,E,Enterprise Funds
+1570,2013,Projects,Wastewater Revenue Bonds 2013,Capital Improvements,5520000,E,Enterprise Funds
+1571,2013,Projects,Wastewater Revenue Bonds 2013,Capital Improvements,6200000,E,Enterprise Funds
+1572,2013,Citywide and Community Support,General Fund,Other Sources (Uses),-980700,E,General Fund
+1573,2013,Citywide and Community Support,Community Center Fund,Other Sources (Uses),750000,E,Enterprise Funds
+1574,2013,Citywide and Community Support,Solid Waste and Recycling,Other Sources (Uses),-1000000,E,Enterprise Funds
+1575,2013,Citywide and Community Support,Wastewater Fund,Other Sources (Uses),12033000,E,Enterprise Funds
+1576,2013,Citywide and Community Support,Water Fund,Other Sources (Uses),170713000,E,Enterprise Funds
+1577,2013,Citywide and Community Support,Cip Reimbursable Fund,Other Sources (Uses),52314960,E,Other Governmental Funds
+1578,2013,Citywide and Community Support,Federal Capital Grant,Other Sources (Uses),9520052,E,Other Governmental Funds
+1579,2013,Citywide and Community Support,Sacto Transp.Sales Tax-Cip.,Other Sources (Uses),2455180,E,Other Governmental Funds
+1580,2013,Citywide and Community Support,New Measure A Specific Project,Other Sources (Uses),14374000,E,Other Governmental Funds
+1581,2013,Citywide and Community Support,New Measure A Construction,Other Sources (Uses),2165012,E,Other Governmental Funds
+1582,2013,Citywide and Community Support,Risk Management,Other Sources (Uses),2801233,E,Internal Service Funds
+1583,2013,Citywide and Community Support,Worker's Compensation Fund,Other Sources (Uses),769897,E,Internal Service Funds
+1584,2013,Citywide and Community Support,Other Capital Grants,Other Sources (Uses),17427000,E,Other Governmental Funds
