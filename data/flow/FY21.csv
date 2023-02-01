@@ -1,0 +1,551 @@
+ObjectId,Fiscal_Year,Department,Fund,CATEGORY,Amount,ExpenseRevenue,Fund_Category
+4001,2021,City Auditor,General Fund,Labor and Supply Offset,-571754,E,Governmental Funds
+4002,2021,City Auditor,General Fund,Other Services and Supplies,131581,E,Governmental Funds
+4005,2021,City Auditor,General Fund,Transfers,-123914,E,Governmental Funds
+4006,2021,Citywide and Community Support,General Fund,Licenses and Permits,1714289,R,Governmental Funds
+4007,2021,City Auditor,Interdepartmental Service Fund,Labor and Supply Offset,449428,E,Other Governmental Funds
+4010,2021,City Attorney,Storm Drainage Fund,Labor and Supply Offset,42018,E,Enterprise Funds
+4013,2021,City Attorney,Wastewater Fund,Labor and Supply Offset,42018,E,Enterprise Funds
+4014,2021,Citywide and Community Support,General Fund,Taxes,350083856,R,Governmental Funds
+4017,2021,City Attorney,Water Fund,Labor and Supply Offset,126055,E,Enterprise Funds
+4018,2021,Citywide and Community Support,Measure U Fund,Taxes,80179186,R,Governmental Funds
+4021,2021,City Attorney,General Fund,City Property,13750,E,Governmental Funds
+4022,2021,Citywide and Community Support,Cty/Cnty Office-Water Planning,Intergovernmental,683727,R,Other Governmental Funds
+4025,2021,City Attorney,General Fund,Employee Services,10893159,E,Governmental Funds
+4026,2021,Citywide and Community Support,Del Paso PBID,"Charges, Fees, and Services",37000,R,Other Governmental Funds
+4029,2021,City Attorney,General Fund,Labor and Supply Offset,-3826416,E,Governmental Funds
+4030,2021,Citywide and Community Support,Downtown Plaza PBID,"Charges, Fees, and Services",72450,R,Other Governmental Funds
+4031,2021,Citywide and Community Support,General Fund,Employee Services,16366304,E,Governmental Funds
+4032,2021,Convention and Cultural Services,General Fund,Operating Transfers,0,E,Governmental Funds
+4077,2021,Convention and Cultural Services,General Fund,Other Services and Supplies,3047351,E,Governmental Funds
+4078,2021,Citywide and Community Support,General Fund,Labor and Supply Offset,-2044153,E,Governmental Funds
+4079,2021,City Attorney,General Fund,Other Services and Supplies,301391,E,Governmental Funds
+4080,2021,Citywide and Community Support,Franklin Blvd PBID,"Charges, Fees, and Services",80730,R,Other Governmental Funds
+4081,2021,City Attorney,Cty/Cnty Office-Water Planning,Labor and Supply Offset,10000,E,Other Governmental Funds
+4083,2021,Citywide and Community Support,General Fund,Operating Transfers,0,E,Governmental Funds
+4084,2021,City Attorney,Interdepartmental Service Fund,Labor and Supply Offset,2395712,E,Other Governmental Funds
+4085,2021,Citywide and Community Support,Gas Tax 2106,"Interest, Rents, and Concessions",239000,R,Other Governmental Funds
+4086,2021,Convention and Cultural Services,General Fund,Transfers,-101347,E,Governmental Funds
+4088,2021,Citywide and Community Support,General Fund,Other Services and Supplies,58291382,E,Governmental Funds
+4089,2021,City Attorney,General Fund,Intergovernmental,52000,R,Governmental Funds
+4090,2021,Citywide and Community Support,Gas Tax 2106,Intergovernmental,0,R,Other Governmental Funds
+4091,2021,Convention and Cultural Services,Fairytale Town Fund,Labor and Supply Offset,25000,E,Other Governmental Funds
+4093,2021,Citywide and Community Support,Measure U Fund,Employee Services,77208259,E,Governmental Funds
+4094,2021,City Clerk,General Fund,City Property,2000,E,Governmental Funds
+4095,2021,Citywide and Community Support,Habitat Management Element,Intergovernmental,440476,R,Other Governmental Funds
+4096,2021,Convention and Cultural Services,Fairytale Town Fund,Other Services and Supplies,25000,E,Other Governmental Funds
+4098,2021,Citywide and Community Support,Measure U Fund,Other Services and Supplies,9151367,E,Governmental Funds
+4099,2021,City Clerk,General Fund,Employee Services,2432387,E,Governmental Funds
+4100,2021,Citywide and Community Support,Innovation and Growth Fund,Taxes,8127901,R,Other Governmental Funds
+4101,2021,Convention and Cultural Services,H Street Theater Fund,City Property,20000,E,Other Governmental Funds
+4103,2021,Citywide and Community Support,Fleet Management Fund,Employee Services,317387,E,Internal Service Funds
+4104,2021,City Clerk,General Fund,Labor and Supply Offset,-959135,E,Governmental Funds
+4105,2021,Citywide and Community Support,Library Services Parcel Tax,"Charges, Fees, and Services",8639847,R,Other Governmental Funds
+4106,2021,Convention and Cultural Services,H Street Theater Fund,Other Services and Supplies,25000,E,Other Governmental Funds
+4108,2021,Citywide and Community Support,4th R Program,Employee Services,34498,E,Other Governmental Funds
+4109,2021,City Clerk,General Fund,Other Services and Supplies,619340,E,Governmental Funds
+4110,2021,Citywide and Community Support,Major Street Construction Fund,"Interest, Rents, and Concessions",95000,R,Other Governmental Funds
+4111,2021,Convention and Cultural Services,Old Sac Market,Other Services and Supplies,104000,E,Other Governmental Funds
+4113,2021,Citywide and Community Support,Cty/Cnty Office-Water Planning,City Property,3000,E,Other Governmental Funds
+4114,2021,City Clerk,Interdepartmental Service Fund,Labor and Supply Offset,959135,E,Other Governmental Funds
+4115,2021,Citywide and Community Support,Marina Fund,"Interest, Rents, and Concessions",18000,R,Other Governmental Funds
+4116,2021,Convention and Cultural Services,Old Sacto Maint Dist,Labor and Supply Offset,65246,E,Other Governmental Funds
+4117,2021,Convention and Cultural Services,Winchester G & Mary Alice Felt,Transfers,101347,E,Other Governmental Funds
+4118,2021,Convention and Cultural Services,Zoo,Labor and Supply Offset,50000,E,Other Governmental Funds
+4119,2021,Convention and Cultural Services,Community Center Fund,"Charges, Fees, and Services",1993966,R,Enterprise Funds
+4120,2021,Convention and Cultural Services,Community Center Fund,"Fines, Forfeitures, and  Penalties",3100,R,Enterprise Funds
+4121,2021,Convention and Cultural Services,Community Center Fund,"Interest, Rents, and Concessions",148792,R,Enterprise Funds
+4122,2021,Convention and Cultural Services,Community Center Fund,Intergovernmental,12000,R,Enterprise Funds
+4123,2021,Convention and Cultural Services,Community Center Fund,Miscellaneous Revenue,866000,R,Enterprise Funds
+4124,2021,Convention and Cultural Services,Community Center Fund,Taxes,12672049,R,Enterprise Funds
+4125,2021,Convention and Cultural Services,General Fund,"Charges, Fees, and Services",277677,R,Governmental Funds
+4126,2021,Convention and Cultural Services,General Fund,"Interest, Rents, and Concessions",180000,R,Governmental Funds
+4127,2021,Convention and Cultural Services,General Fund,Intergovernmental,458650,R,Governmental Funds
+4128,2021,Convention and Cultural Services,General Fund,Licenses and Permits,5500,R,Governmental Funds
+4129,2021,Convention and Cultural Services,Fairytale Town Fund,"Charges, Fees, and Services",50000,R,Other Governmental Funds
+4130,2021,Convention and Cultural Services,H Street Theater Fund,Intergovernmental,30000,R,Other Governmental Funds
+4131,2021,Convention and Cultural Services,H Street Theater Fund,Miscellaneous Revenue,15000,R,Other Governmental Funds
+4132,2021,Convention and Cultural Services,Old Sac Market,"Charges, Fees, and Services",110000,R,Other Governmental Funds
+4133,2021,Convention and Cultural Services,Zoo,"Charges, Fees, and Services",50000,R,Other Governmental Funds
+4134,2021,Debt Service,2019 STID Revenue Bonds,City Debt Service,0,E,Enterprise Funds
+4135,2021,Debt Service,"6330:2018 TOT Revenue Bonds, Tax Exempt",City Debt Service,1244,E,Enterprise Funds
+4136,2021,Debt Service,"6331:2018 TOT Revenue Bonds, Taxable",City Debt Service,293,E,Enterprise Funds
+4137,2021,Debt Service,Community Center Fund,City Debt Service,27118566,E,Enterprise Funds
+4138,2021,Debt Service,Parking Fund,City Debt Service,11908522,E,Enterprise Funds
+4139,2021,Debt Service,Parking Fund,Operating Transfers,-5300000,E,Enterprise Funds
+4140,2021,Debt Service,Recycling and Solid Waste,City Debt Service,1687725,E,Enterprise Funds
+4141,2021,Debt Service,Storm Drainage Fund,City Debt Service,3242327,E,Enterprise Funds
+4142,2021,Debt Service,Wastewater Fund,City Debt Service,4030512,E,Enterprise Funds
+4143,2021,Debt Service,Wastewater Revenue Bonds,City Debt Service,0,E,Enterprise Funds
+4144,2021,Debt Service,Wastewater Revenue Bonds 2019,City Debt Service,0,E,Enterprise Funds
+4145,2021,Debt Service,Water Fund,City Debt Service,29773117,E,Enterprise Funds
+4146,2021,Debt Service,Water Revenue Bonds,City Debt Service,0,E,Enterprise Funds
+4147,2021,Debt Service,Water Revenue Bonds Ser. 2017,City Debt Service,0,E,Enterprise Funds
+4148,2021,Debt Service,General Fund,City Debt Service,15123244,E,Governmental Funds
+4149,2021,Debt Service,General Fund,Operating Transfers,5300000,E,Governmental Funds
+4150,2021,Debt Service,Fleet Management Fund,City Debt Service,46021,E,Internal Service Funds
+4151,2021,Debt Service,"2006 CIRBs (Refunding), Series E",City Debt Service,102268,E,Other Governmental Funds
+4152,2021,Debt Service,"2006 CIRBs, Series B (CRCIP)",City Debt Service,1515382,E,Other Governmental Funds
+4153,2021,Debt Service,2015 Golden 1 Center Revenue Bonds,City Debt Service,10778689,E,Other Governmental Funds
+4154,2021,Debt Service,2015 Refunding Revenue Bond,City Debt Service,0,E,Other Governmental Funds
+4155,2021,Debt Service,2016 Lease Financing-H Street,City Debt Service,671315,E,Other Governmental Funds
+4156,2021,Debt Service,Debt Service-93 Series A,City Debt Service,1051819,E,Other Governmental Funds
+4157,2021,Debt Service,Debt Service-93 Series B,City Debt Service,2979535,E,Other Governmental Funds
+4160,2021,City Clerk,General Fund,"Charges, Fees, and Services",2000,R,Governmental Funds
+4161,2021,Citywide and Community Support,New Measure A Maintenance,"Interest, Rents, and Concessions",20000,R,Other Governmental Funds
+4163,2021,City Clerk,General Fund,Intergovernmental,40000,R,Governmental Funds
+4164,2021,Citywide and Community Support,New Measure A Maintenance,Taxes,0,R,Other Governmental Funds
+4166,2021,City Manager,General Fund,City Property,27826,E,Governmental Funds
+4167,2021,Citywide and Community Support,Cty/Cnty Office-Water Planning,Employee Services,1037994,E,Other Governmental Funds
+4168,2021,City Manager,General Fund,Employee Services,10887163,E,Governmental Funds
+4169,2021,Citywide and Community Support,"NMA Safety, Streets, Ped, Bic","Interest, Rents, and Concessions",42000,R,Other Governmental Funds
+4171,2021,Citywide and Community Support,Cty/Cnty Office-Water Planning,Labor and Supply Offset,-195952,E,Other Governmental Funds
+4172,2021,City Manager,General Fund,Labor and Supply Offset,-4703599,E,Governmental Funds
+4173,2021,Citywide and Community Support,"NMA Safety, Streets, Ped, Bic",Taxes,0,R,Other Governmental Funds
+4175,2021,Citywide and Community Support,Cty/Cnty Office-Water Planning,Operating Transfers,-268182,E,Other Governmental Funds
+4176,2021,City Manager,General Fund,Other Services and Supplies,1819992,E,Governmental Funds
+4177,2021,Citywide and Community Support,NMA Traffic Control & Safety,"Interest, Rents, and Concessions",30000,R,Other Governmental Funds
+4179,2021,Citywide and Community Support,Cty/Cnty Office-Water Planning,Other Services and Supplies,439977,E,Other Governmental Funds
+4180,2021,City Manager,2003 North Sac TE TABS,Other Services and Supplies,9000,E,Other Governmental Funds
+4181,2021,Citywide and Community Support,NMA Traffic Control & Safety,Taxes,0,R,Other Governmental Funds
+4183,2021,Citywide and Community Support,Del Paso PBID,Other Services and Supplies,35224,E,Other Governmental Funds
+4184,2021,City Manager,Block Grant/Housing & Redev,Other Services and Supplies,29250,E,Other Governmental Funds
+4185,2021,Citywide and Community Support,Old Sacramento PBID,"Charges, Fees, and Services",165600,R,Other Governmental Funds
+4187,2021,Citywide and Community Support,Del Paso Prop & Business Imprv,Other Services and Supplies,474427,E,Other Governmental Funds
+4188,2021,City Manager,Innovation and Growth Fund,Employee Services,409669,E,Other Governmental Funds
+4189,2021,Citywide and Community Support,Quimby Act Fund,"Charges, Fees, and Services",100000,R,Other Governmental Funds
+4191,2021,Citywide and Community Support,Downtown Management District,Other Services and Supplies,3199807,E,Other Governmental Funds
+4192,2021,City Manager,Innovation and Growth Fund,Other Services and Supplies,385000,E,Other Governmental Funds
+4193,2021,Citywide and Community Support,Sac Tourism Marketing District,"Charges, Fees, and Services",7300000,R,Other Governmental Funds
+4216,2021,City Auditor,Storm Drainage Fund,Transfers,27261,E,Enterprise Funds
+4217,2021,City Auditor,Wastewater Fund,Transfers,23544,E,Enterprise Funds
+4218,2021,City Auditor,Water Fund,Transfers,73109,E,Enterprise Funds
+4219,2021,City Auditor,General Fund,City Property,5000,E,Governmental Funds
+4220,2021,City Auditor,General Fund,Employee Services,1480669,E,Governmental Funds
+4223,2021,Citywide and Community Support,Downtown Plaza PBID,Other Services and Supplies,48692,E,Other Governmental Funds
+4224,2021,City Manager,Interdepartmental Service Fund,Labor and Supply Offset,1909053,E,Other Governmental Funds
+4225,2021,Citywide and Community Support,Stockton Blvd BIA,"Charges, Fees, and Services",53000,R,Other Governmental Funds
+4226,2021,Citywide and Community Support,Franklin Blvd PBID,Other Services and Supplies,77000,E,Other Governmental Funds
+4227,2021,City Manager,General Fund,"Charges, Fees, and Services",158208,R,Governmental Funds
+4228,2021,Citywide and Community Support,Worker's Compensation Fund,"Interest, Rents, and Concessions",500000,R,Risk Management
+4229,2021,City Manager,General Fund,Licenses and Permits,2370800,R,Governmental Funds
+4230,2021,Citywide and Community Support,Franklin Boulevard PBID,Other Services and Supplies,144663,E,Other Governmental Funds
+4231,2021,City Manager,Block Grant/Housing & Redev,Intergovernmental,29250,R,Other Governmental Funds
+4232,2021,Community Development,General Fund,City Property,596907,E,Governmental Funds
+4233,2021,Citywide and Community Support,Greater Broadway PBID,Other Services and Supplies,288681,E,Other Governmental Funds
+4234,2021,City Treasurer,General Fund,City Property,10000,E,Governmental Funds
+4235,2021,Community Development,General Fund,Employee Services,34493527,E,Governmental Funds
+4236,2021,Citywide and Community Support,Habitat Management Element,Labor and Supply Offset,195952,E,Other Governmental Funds
+4237,2021,City Treasurer,General Fund,Employee Services,2333686,E,Governmental Funds
+4238,2021,Community Development,General Fund,Labor and Supply Offset,-3146114,E,Governmental Funds
+4239,2021,Citywide and Community Support,Habitat Management Element,Operating Transfers,-220238,E,Other Governmental Funds
+4240,2021,City Treasurer,General Fund,Labor and Supply Offset,-389302,E,Governmental Funds
+4241,2021,Community Development,General Fund,Other Services and Supplies,7952444,E,Governmental Funds
+4242,2021,Citywide and Community Support,Habitat Management Element,Other Services and Supplies,558197,E,Other Governmental Funds
+4243,2021,City Treasurer,General Fund,Other Services and Supplies,278547,E,Governmental Funds
+4244,2021,Community Development,General Fund,Transfers,288340,E,Governmental Funds
+4245,2021,Citywide and Community Support,Innovation and Growth Fund,Operating Transfers,0,E,Other Governmental Funds
+4246,2021,City Treasurer,Interdepartmental Service Fund,Labor and Supply Offset,389652,E,Other Governmental Funds
+4247,2021,Community Development,Citywide Low Income Housing Fund,Other Services and Supplies,3050000,E,Other Governmental Funds
+4248,2021,Citywide and Community Support,Innovation and Growth Fund,Other Services and Supplies,3211000,E,Other Governmental Funds
+4249,2021,City Treasurer,General Fund,Contributions from Other Funds,2600000,R,Governmental Funds
+4250,2021,Community Development,Development Services Fund,Other Services and Supplies,2000000,E,Other Governmental Funds
+4251,2021,Citywide and Community Support,Interdepartmental Service Fund,Labor and Supply Offset,1974601,E,Other Governmental Funds
+4252,2021,City Treasurer,General Fund,Intergovernmental,1180000,R,Governmental Funds
+4253,2021,Community Development,Landscaping and Lighting,Labor and Supply Offset,200000,E,Other Governmental Funds
+4254,2021,Citywide and Community Support,Library Services Parcel Tax,Other Services and Supplies,8639847,E,Other Governmental Funds
+4255,2021,Citywide and Community Support,Community Center Fund,Employee Services,127215,E,Enterprise Funds
+4256,2021,Community Development,Special Program Donations Fund,Other Services and Supplies,250000,E,Other Governmental Funds
+4257,2021,Citywide and Community Support,Mack Road PBID,Other Services and Supplies,666817,E,Other Governmental Funds
+4258,2021,Citywide and Community Support,Community Center Fund,Other Services and Supplies,1558763,E,Enterprise Funds
+4259,2021,Community Development,General Fund,"Charges, Fees, and Services",5741187,R,Governmental Funds
+4260,2021,Citywide and Community Support,Midtown Sacramento PBID,Other Services and Supplies,1594405,E,Other Governmental Funds
+4261,2021,Citywide and Community Support,Parking Fund,Employee Services,134843,E,Enterprise Funds
+4262,2021,Community Development,General Fund,"Fines, Forfeitures, and  Penalties",2224684,R,Governmental Funds
+4263,2021,Citywide and Community Support,N Natomas Transp Mgmt Assoc,Other Services and Supplies,1400000,E,Other Governmental Funds
+4264,2021,Citywide and Community Support,Parking Fund,Other Services and Supplies,321000,E,Enterprise Funds
+4265,2021,Citywide and Community Support,Recycling and Solid Waste,Employee Services,1070712,E,Enterprise Funds
+4266,2021,Citywide and Community Support,Storm Drainage Fund,Employee Services,432195,E,Enterprise Funds
+4267,2021,Citywide and Community Support,Wastewater Fund,Employee Services,292835,E,Enterprise Funds
+4268,2021,Citywide and Community Support,Water Fund,Employee Services,840599,E,Enterprise Funds
+4269,2021,Citywide and Community Support,General Fund,City Property,300000,E,Governmental Funds
+4270,2021,Citywide and Community Support,General Fund,Contingency,1000000,E,Governmental Funds
+4273,2021,Community Development,General Fund,Licenses and Permits,22004625,R,Governmental Funds
+4274,2021,Citywide and Community Support,Oak Park PBID,Other Services and Supplies,311783,E,Other Governmental Funds
+4275,2021,Community Development,General Fund,Miscellaneous Revenue,356599,R,Governmental Funds
+4276,2021,Citywide and Community Support,Old Sacramento PBID,Other Services and Supplies,165000,E,Other Governmental Funds
+4277,2021,Community Development,Citywide Low Income Housing Fund,Licenses and Permits,3050000,R,Other Governmental Funds
+4278,2021,Citywide and Community Support,Power Inn Area Prop & Business,Other Services and Supplies,522567,E,Other Governmental Funds
+4279,2021,Citywide and Community Support,Sac Tourism Marketing District,Other Services and Supplies,7154000,E,Other Governmental Funds
+4280,2021,Citywide and Community Support,START Fund,Employee Services,9317,E,Other Governmental Funds
+4281,2021,Community Development,Development Services Fund,"Charges, Fees, and Services",2000000,R,Other Governmental Funds
+4282,2021,Citywide and Community Support,Stockton Blvd BIA,Other Services and Supplies,53000,E,Other Governmental Funds
+4283,2021,Community Development,Development Services Fund,Intergovernmental,1450600,R,Other Governmental Funds
+4284,2021,Citywide and Community Support,Stockton Blvd PBID,Other Services and Supplies,349997,E,Other Governmental Funds
+4285,2021,Community Development,Special Program Donations Fund,Miscellaneous Revenue,250000,R,Other Governmental Funds
+4286,2021,Citywide and Community Support,The River District PBID,Other Services and Supplies,545805,E,Other Governmental Funds
+4287,2021,Convention and Cultural Services,Community Center Fund,City Property,218000,E,Enterprise Funds
+4288,2021,Citywide and Community Support,Risk Mgmt Fund,Employee Services,17628,E,Risk Management
+4289,2021,Convention and Cultural Services,Community Center Fund,Employee Services,5938033,E,Enterprise Funds
+4290,2021,Citywide and Community Support,Worker's Compensation Fund,Employee Services,19518,E,Risk Management
+4291,2021,Convention and Cultural Services,Community Center Fund,Labor and Supply Offset,1580652,E,Enterprise Funds
+4292,2021,Citywide and Community Support,Community Center Fund,"Interest, Rents, and Concessions",200000,R,Enterprise Funds
+4293,2021,Convention and Cultural Services,Community Center Fund,Operating Transfers,1036800,E,Enterprise Funds
+4294,2021,Citywide and Community Support,Parking Fund,"Interest, Rents, and Concessions",300000,R,Enterprise Funds
+4295,2021,Convention and Cultural Services,Community Center Fund,Other Services and Supplies,4346034,E,Enterprise Funds
+4296,2021,Citywide and Community Support,Recycling and Solid Waste,"Interest, Rents, and Concessions",750000,R,Enterprise Funds
+4297,2021,Convention and Cultural Services,General Fund,City Property,35951,E,Governmental Funds
+4298,2021,Citywide and Community Support,Storm Drainage Fund,"Interest, Rents, and Concessions",422000,R,Enterprise Funds
+4299,2021,Convention and Cultural Services,General Fund,Employee Services,3223238,E,Governmental Funds
+4300,2021,Citywide and Community Support,Wastewater Fund,"Interest, Rents, and Concessions",392000,R,Enterprise Funds
+4301,2021,Citywide and Community Support,Water Fund,"Interest, Rents, and Concessions",400000,R,Enterprise Funds
+4302,2021,Citywide and Community Support,General Fund,"Charges, Fees, and Services",5730523,R,Governmental Funds
+4303,2021,Citywide and Community Support,General Fund,Contributions from Other Funds,34312700,R,Governmental Funds
+4304,2021,Citywide and Community Support,General Fund,"Interest, Rents, and Concessions",425000,R,Governmental Funds
+4305,2021,Citywide and Community Support,General Fund,Intergovernmental,4450000,R,Governmental Funds
+4308,2021,Convention and Cultural Services,General Fund,Labor and Supply Offset,-871726,E,Governmental Funds
+4401,2021,Public Works,General Fund,Transfers,400655,E,Governmental Funds
+4402,2021,Public Works,Fleet Management Fund,City Property,22659950,E,Internal Service Funds
+4403,2021,Public Works,Fleet Management Fund,Employee Services,7912658,E,Internal Service Funds
+4404,2021,Public Works,Fleet Management Fund,Labor and Supply Offset,2312404,E,Internal Service Funds
+4405,2021,Public Works,Fleet Management Fund,Other Services and Supplies,21256681,E,Internal Service Funds
+4406,2021,Public Works,12th Street Maint Benefit Area,Labor and Supply Offset,8400,E,Other Governmental Funds
+4407,2021,Public Works,Citation I-5 Maintenance,Labor and Supply Offset,40000,E,Other Governmental Funds
+4408,2021,Public Works,Del Paso Nuevo Landscaping CFD,Labor and Supply Offset,9000,E,Other Governmental Funds
+4409,2021,Public Works,Gas Tax 2106,City Property,678644,E,Other Governmental Funds
+4410,2021,Public Works,Gas Tax 2106,Labor and Supply Offset,7275722,E,Other Governmental Funds
+4411,2021,Public Works,Greenbriar Impact Fee,Operating Transfers,0,E,Other Governmental Funds
+4412,2021,Public Works,Interdepartmental Service Fund,Labor and Supply Offset,2401352,E,Other Governmental Funds
+4413,2021,Public Works,Laguna Creek Maint Dist,Labor and Supply Offset,46500,E,Other Governmental Funds
+4414,2021,Public Works,Land Park,Labor and Supply Offset,52850,E,Other Governmental Funds
+4415,2021,Public Works,Landscaping and Lighting,City Property,319925,E,Other Governmental Funds
+4416,2021,Public Works,Landscaping and Lighting,Labor and Supply Offset,14935977,E,Other Governmental Funds
+4417,2021,Public Works,Marina Fund,Employee Services,445600,E,Other Governmental Funds
+4418,2021,Public Works,Marina Fund,Labor and Supply Offset,3876,E,Other Governmental Funds
+4419,2021,Public Works,Marina Fund,Other Services and Supplies,490179,E,Other Governmental Funds
+4420,2021,Public Works,N Nat Lndscp 99-02,Labor and Supply Offset,570190,E,Other Governmental Funds
+4421,2021,Information Technology,Wastewater Fund,Other Services and Supplies,0,E,Enterprise Funds
+4422,2021,Public Works,Fair Share Contributions,"Charges, Fees, and Services",0,R,Other Governmental Funds
+4423,2021,Utilities,Storm Drainage Fund,Intergovernmental,10000,R,Enterprise Funds
+4424,2021,Public Works,N Natomas Lands CFD 3,Labor and Supply Offset,580000,E,Other Governmental Funds
+4425,2021,Public Works,Neighborhood Lighting Dist,Labor and Supply Offset,25009,E,Other Governmental Funds
+4426,2021,Public Works,Neighborhood Water Quality Dist,Labor and Supply Offset,48136,E,Other Governmental Funds
+4427,2021,Public Works,New Measure A Maintenance,Labor and Supply Offset,13529150,E,Other Governmental Funds
+4428,2021,Public Works,NNFP Transit Fee Fund,Operating Transfers,0,E,Other Governmental Funds
+4429,2021,Public Works,Northside Subdiv Maint Dist,Labor and Supply Offset,5850,E,Other Governmental Funds
+4430,2021,Public Works,Parkebridge CFD 2014-07,Labor and Supply Offset,56800,E,Other Governmental Funds
+4431,2021,Public Works,Power Inn Rd Md 2003-01,Labor and Supply Offset,14784,E,Other Governmental Funds
+4432,2021,Public Works,Railyards Maint CFD No 2014-04,Labor and Supply Offset,128139,E,Other Governmental Funds
+4433,2021,Public Works,SacMaintCFD2014-04 Annex Areas,Labor and Supply Offset,91355,E,Other Governmental Funds
+4434,2021,Public Works,SacMaintCFD2014-04 Area 01,Labor and Supply Offset,94500,E,Other Governmental Funds
+4435,2021,Public Works,Subdiv Lndscpng Maint Dist,Labor and Supply Offset,306645,E,Other Governmental Funds
+4436,2021,Public Works,Township 9 CFD No. 2012-06,Labor and Supply Offset,2000,E,Other Governmental Funds
+4437,2021,Public Works,Traffic Safety Fund,Labor and Supply Offset,436474,E,Other Governmental Funds
+4438,2021,Public Works,Village Garden N.-Mtce Dist #1,Labor and Supply Offset,21168,E,Other Governmental Funds
+4439,2021,Public Works,Willowcreek Assmnt Md,Labor and Supply Offset,38000,E,Other Governmental Funds
+4440,2021,Public Works,Willowcreek Lndscpng CFD,Labor and Supply Offset,147000,E,Other Governmental Funds
+4441,2021,Public Works,Parking Fund,"Charges, Fees, and Services",17244249,R,Enterprise Funds
+4442,2021,Public Works,Parking Fund,"Interest, Rents, and Concessions",684962,R,Enterprise Funds
+4443,2021,Public Works,Recycling and Solid Waste,"Charges, Fees, and Services",74746000,R,Enterprise Funds
+4444,2021,Public Works,Recycling and Solid Waste,Intergovernmental,32500,R,Enterprise Funds
+4445,2021,Public Works,General Fund,"Charges, Fees, and Services",10027789,R,Governmental Funds
+4446,2021,Public Works,General Fund,"Fines, Forfeitures, and  Penalties",6333683,R,Governmental Funds
+4447,2021,Public Works,General Fund,"Interest, Rents, and Concessions",49000,R,Governmental Funds
+4448,2021,Public Works,General Fund,Intergovernmental,592284,R,Governmental Funds
+4449,2021,Public Works,General Fund,Licenses and Permits,39000,R,Governmental Funds
+4450,2021,Public Works,Fleet Management Fund,"Charges, Fees, and Services",7657338,R,Internal Service Funds
+4451,2021,Public Works,Fleet Management Fund,"Interest, Rents, and Concessions",511254,R,Internal Service Funds
+4452,2021,Public Works,Fleet Management Fund,Miscellaneous Revenue,46264317,R,Internal Service Funds
+4453,2021,Public Works,Cal EPA Fund,Intergovernmental,188000,R,Other Governmental Funds
+4455,2021,Information Technology,Wastewater Fund,Transfers,74769,E,Enterprise Funds
+4456,2021,Public Works,Gas Tax 2106,Intergovernmental,12000000,R,Other Governmental Funds
+4457,2021,Utilities,Storm Drainage Fund,Licenses and Permits,40000,R,Enterprise Funds
+4458,2021,Information Technology,Water Fund,Labor and Supply Offset,10070,E,Enterprise Funds
+4459,2021,Public Works,Major Street Construction Fund,Taxes,2000000,R,Other Governmental Funds
+4460,2021,Utilities,Wastewater Fund,"Charges, Fees, and Services",43098492,R,Enterprise Funds
+4461,2021,Information Technology,Water Fund,Other Services and Supplies,0,E,Enterprise Funds
+4462,2021,Public Works,Marina Fund,"Charges, Fees, and Services",266500,R,Other Governmental Funds
+4463,2021,Utilities,Wastewater Fund,Intergovernmental,800000,R,Enterprise Funds
+4464,2021,Utilities,Water Fund,"Charges, Fees, and Services",135797324,R,Enterprise Funds
+4465,2021,Utilities,Water Fund,Intergovernmental,200000,R,Enterprise Funds
+4466,2021,Utilities,Water Fund,Licenses and Permits,55000,R,Enterprise Funds
+4467,2021,"Youth, Parks, and Community Enrichment",General Fund,City Property,1003907,E,Governmental Funds
+4468,2021,"Youth, Parks, and Community Enrichment",General Fund,Employee Services,34894688,E,Governmental Funds
+4469,2021,"Youth, Parks, and Community Enrichment",General Fund,Labor and Supply Offset,-20856746,E,Governmental Funds
+4470,2021,"Youth, Parks, and Community Enrichment",General Fund,Operating Transfers,269763,E,Governmental Funds
+4471,2021,"Youth, Parks, and Community Enrichment",General Fund,Other Services and Supplies,11413582,E,Governmental Funds
+4472,2021,"Youth, Parks, and Community Enrichment",4th R Program,City Property,142467,E,Other Governmental Funds
+4473,2021,"Youth, Parks, and Community Enrichment",4th R Program,Employee Services,6774340,E,Other Governmental Funds
+4474,2021,"Youth, Parks, and Community Enrichment",4th R Program,Labor and Supply Offset,-367140,E,Other Governmental Funds
+4475,2021,"Youth, Parks, and Community Enrichment",4th R Program,Other Services and Supplies,950166,E,Other Governmental Funds
+4476,2021,"Youth, Parks, and Community Enrichment",Golf Fund,Labor and Supply Offset,73125,E,Other Governmental Funds
+4477,2021,"Youth, Parks, and Community Enrichment",Golf Fund,Operating Transfers,-250000,E,Other Governmental Funds
+4478,2021,"Youth, Parks, and Community Enrichment",Golf Fund,Other Services and Supplies,70789,E,Other Governmental Funds
+4479,2021,"Youth, Parks, and Community Enrichment",Laguna Creek Maint Dist,Labor and Supply Offset,145000,E,Other Governmental Funds
+4480,2021,"Youth, Parks, and Community Enrichment",Land Park,Labor and Supply Offset,139000,E,Other Governmental Funds
+4481,2021,"Youth, Parks, and Community Enrichment",Landscaping and Lighting,Labor and Supply Offset,4000000,E,Other Governmental Funds
+4482,2021,"Youth, Parks, and Community Enrichment",N Natomas Lands CFD 3,Labor and Supply Offset,1607667,E,Other Governmental Funds
+4483,2021,"Youth, Parks, and Community Enrichment",Neighborhood Park Maint CFD,Labor and Supply Offset,1682000,E,Other Governmental Funds
+4484,2021,"Youth, Parks, and Community Enrichment",Neighborhood Water Quality Dist,Labor and Supply Offset,24000,E,Other Governmental Funds
+4485,2021,"Youth, Parks, and Community Enrichment",NW Land Park CFD 2013-02,Labor and Supply Offset,51000,E,Other Governmental Funds
+4486,2021,"Youth, Parks, and Community Enrichment",Park Development Fund,City Property,50000,E,Other Governmental Funds
+4487,2021,"Youth, Parks, and Community Enrichment",Park Development Fund,Labor and Supply Offset,142600,E,Other Governmental Funds
+4488,2021,"Youth, Parks, and Community Enrichment",Park Development Fund,Operating Transfers,-19763,E,Other Governmental Funds
+4489,2021,"Youth, Parks, and Community Enrichment",Quimby Act Fund,Other Services and Supplies,10000,E,Other Governmental Funds
+4490,2021,"Youth, Parks, and Community Enrichment",START Fund,Employee Services,868914,E,Other Governmental Funds
+4491,2021,"Youth, Parks, and Community Enrichment",START Fund,Labor and Supply Offset,25,E,Other Governmental Funds
+4492,2021,"Youth, Parks, and Community Enrichment",START Fund,Other Services and Supplies,677658,E,Other Governmental Funds
+4493,2021,"Youth, Parks, and Community Enrichment",Township 9 CFD No. 2012-06,Labor and Supply Offset,2000,E,Other Governmental Funds
+4494,2021,"Youth, Parks, and Community Enrichment",General Fund,"Charges, Fees, and Services",4127305,R,Governmental Funds
+4495,2021,"Youth, Parks, and Community Enrichment",General Fund,Intergovernmental,422970,R,Governmental Funds
+4496,2021,"Youth, Parks, and Community Enrichment",General Fund,Licenses and Permits,608651,R,Governmental Funds
+4497,2021,Debt Service,Golf Fund,City Debt Service,1166462,E,Other Governmental Funds
+4499,2021,"Youth, Parks, and Community Enrichment",4th R Program,"Charges, Fees, and Services",5918038,R,Other Governmental Funds
+4500,2021,"Youth, Parks, and Community Enrichment",4th R Program,Intergovernmental,20200,R,Other Governmental Funds
+4501,2021,"Youth, Parks, and Community Enrichment",4th R Program,Miscellaneous Revenue,12000,R,Other Governmental Funds
+4502,2021,"Youth, Parks, and Community Enrichment",Golf Fund,"Charges, Fees, and Services",921500,R,Other Governmental Funds
+4503,2021,"Youth, Parks, and Community Enrichment",Golf Fund,Miscellaneous Revenue,65900,R,Other Governmental Funds
+4504,2021,"Youth, Parks, and Community Enrichment",Land Park,"Charges, Fees, and Services",91000,R,Other Governmental Funds
+4505,2021,"Youth, Parks, and Community Enrichment",Park Development Fund,Licenses and Permits,229469,R,Other Governmental Funds
+4506,2021,"Youth, Parks, and Community Enrichment",START Fund,Intergovernmental,657759,R,Other Governmental Funds
+4512,2021,Finance,SacMaintCFD2014-04 Annex Areas,"Charges, Fees, and Services",123497,R,Other Governmental Funds
+4513,2021,Finance,Parkebridge CFD 2014-07,Labor and Supply Offset,4801,E,Other Governmental Funds
+4514,2021,Debt Service,Innovation and Growth Fund,City Debt Service,1100000,E,Other Governmental Funds
+4515,2021,Finance,SacMaintCFD2014-04 Area 01,"Charges, Fees, and Services",215871,R,Other Governmental Funds
+4516,2021,Information Technology,Water Fund,Transfers,208958,E,Enterprise Funds
+4517,2021,Public Works,Marina Fund,Intergovernmental,25000,R,Other Governmental Funds
+4518,2021,Finance,Power Inn Area Prop & Business,Labor and Supply Offset,3965,E,Other Governmental Funds
+4519,2021,Information Technology,General Fund,City Property,369195,E,Governmental Funds
+4521,2021,Public Works,Marina Fund,Licenses and Permits,1280075,R,Other Governmental Funds
+4522,2021,Finance,Power Inn Rd Md 2003-01,Labor and Supply Offset,4675,E,Other Governmental Funds
+4523,2021,Information Technology,General Fund,Employee Services,26518716,E,Governmental Funds
+4525,2021,Public Works,New Measure A Maintenance,Taxes,12563000,R,Other Governmental Funds
+4526,2021,Finance,Railyards Maint CFD No 2014-04,Labor and Supply Offset,6214,E,Other Governmental Funds
+4527,2021,Information Technology,General Fund,Labor and Supply Offset,-9855923,E,Governmental Funds
+4529,2021,Public Works,"NMA Safety, Streets, Ped, Bic",Taxes,1763000,R,Other Governmental Funds
+4530,2021,Finance,Sac Tourism Marketing District,Labor and Supply Offset,160000,E,Other Governmental Funds
+4531,2021,Information Technology,General Fund,Other Services and Supplies,422992,E,Governmental Funds
+4533,2021,Public Works,NMA Traffic Control & Safety,Taxes,1256000,R,Other Governmental Funds
+4534,2021,Finance,SacMaintCFD2014-04 Annex Areas,Labor and Supply Offset,9493,E,Other Governmental Funds
+4535,2021,Information Technology,General Fund,Transfers,-2696803,E,Governmental Funds
+4537,2021,Public Works,Road Maint and Rehabilitation,"Charges, Fees, and Services",0,R,Other Governmental Funds
+4538,2021,Finance,SacMaintCFD2014-04 Area 01,Labor and Supply Offset,10361,E,Other Governmental Funds
+4539,2021,Information Technology,4th R Program,Labor and Supply Offset,16000,E,Other Governmental Funds
+4542,2021,Public Works,Road Maint and Rehabilitation,Intergovernmental,8240000,R,Other Governmental Funds
+4544,2021,Finance,Stockton Blvd PBID,Labor and Supply Offset,2508,E,Other Governmental Funds
+4545,2021,Information Technology,Gas Tax 2106,Labor and Supply Offset,7337,E,Other Governmental Funds
+4546,2021,Public Works,Street Cut Fund,Licenses and Permits,157000,R,Other Governmental Funds
+4548,2021,Debt Service,Marina Fund,City Debt Service,920894,E,Other Governmental Funds
+4549,2021,Finance,Stockton Blvd PBID,"Charges, Fees, and Services",361902,R,Other Governmental Funds
+4550,2021,Information Technology,Gas Tax 2106,Transfers,112352,E,Other Governmental Funds
+4551,2021,Finance,Subdiv Lndscpng Maint Dist,Labor and Supply Offset,28872,E,Other Governmental Funds
+4552,2021,Public Works,Traffic Safety Fund,"Fines, Forfeitures, and  Penalties",400000,R,Other Governmental Funds
+4554,2021,Finance,Subdiv Lndscpng Maint Dist,"Charges, Fees, and Services",310722,R,Other Governmental Funds
+4555,2021,Debt Service,NNFP Public Facilities Fee Fund,City Debt Service,635626,E,Other Governmental Funds
+4556,2021,Information Technology,Interdepartmental Service Fund,Labor and Supply Offset,8778131,E,Other Governmental Funds
+4557,2021,Finance,Sutter Business Imprvmt Area,Other Services and Supplies,150000,E,Other Governmental Funds
+4558,2021,Public Works,Transportation Development,Taxes,378000,R,Other Governmental Funds
+4560,2021,Finance,Sutter Business Imprvmt Area,"Charges, Fees, and Services",150000,R,Other Governmental Funds
+4561,2021,Debt Service,NNFP Reg Park Land Acquisition,City Debt Service,422046,E,Other Governmental Funds
+4562,2021,Information Technology,START Fund,Labor and Supply Offset,5000,E,Other Governmental Funds
+4563,2021,Finance,The River District PBID,Labor and Supply Offset,2517,E,Other Governmental Funds
+4564,2021,Public Works,Transportation Development Impact Fee,Licenses and Permits,1000000,R,Other Governmental Funds
+4566,2021,Finance,The River District PBID,"Charges, Fees, and Services",575346,R,Other Governmental Funds
+4567,2021,Debt Service,Sacramento TID,City Debt Service,2740000,E,Other Governmental Funds
+4568,2021,Information Technology,Worker's Compensation Fund,Labor and Supply Offset,0,E,Risk Management
+4569,2021,Finance,Township 9 CFD No. 2012-06,Labor and Supply Offset,6358,E,Other Governmental Funds
+4570,2021,Public Works,Tree Planting Replacement,Licenses and Permits,120000,R,Other Governmental Funds
+4572,2021,Finance,Township 9 CFD No. 2012-06,"Charges, Fees, and Services",60000,R,Other Governmental Funds
+4573,2021,Debt Service,"2006 CIRBs (Refunding), Series E",Intergovernmental,102268,R,Other Governmental Funds
+4574,2021,Information Technology,Worker's Compensation Fund,Transfers,125361,E,Risk Management
+4575,2021,Finance,Village Garden N.-Mtce Dist #1,Labor and Supply Offset,16076,E,Other Governmental Funds
+4576,2021,Utilities,Community Center Fund,Labor and Supply Offset,4983,E,Enterprise Funds
+4578,2021,Finance,Transportation Development,Intergovernmental,0,R,Other Governmental Funds
+4579,2021,Debt Service,"2006 CIRBs, Series B (CRCIP)","Interest, Rents, and Concessions",87600,R,Other Governmental Funds
+4580,2021,Mayor/Council,General Fund,City Property,2000,E,Governmental Funds
+4581,2021,Finance,Willowcreek Assmnt Md,Labor and Supply Offset,9308,E,Other Governmental Funds
+4582,2021,Utilities,Parking Fund,Labor and Supply Offset,1359,E,Enterprise Funds
+4583,2021,Utilities,Recycling and Solid Waste,Labor and Supply Offset,3179828,E,Enterprise Funds
+4584,2021,Utilities,Recycling and Solid Waste,Other Services and Supplies,0,E,Enterprise Funds
+4585,2021,Utilities,Storm Drainage Fund,City Property,714455,E,Enterprise Funds
+4586,2021,Utilities,Storm Drainage Fund,Employee Services,16515568,E,Enterprise Funds
+4587,2021,Utilities,Storm Drainage Fund,Labor and Supply Offset,4177482,E,Enterprise Funds
+4588,2021,Utilities,Storm Drainage Fund,Operating Transfers,4146300,E,Enterprise Funds
+4589,2021,Utilities,Storm Drainage Fund,Other Services and Supplies,8222112,E,Enterprise Funds
+4590,2021,Utilities,Storm Drainage Fund,Transfers,-330500,E,Enterprise Funds
+4591,2021,Utilities,Wastewater Fund,City Property,1523352,E,Enterprise Funds
+4592,2021,Utilities,Wastewater Fund,Employee Services,12025990,E,Enterprise Funds
+4593,2021,Utilities,Wastewater Fund,Labor and Supply Offset,7286162,E,Enterprise Funds
+4594,2021,Utilities,Wastewater Fund,Operating Transfers,4726500,E,Enterprise Funds
+4595,2021,Utilities,Wastewater Fund,Other Services and Supplies,6237807,E,Enterprise Funds
+4596,2021,Utilities,Wastewater Fund,Transfers,845700,E,Enterprise Funds
+4597,2021,Utilities,Water Fund,City Property,3185535,E,Enterprise Funds
+4598,2021,Utilities,Water Fund,Employee Services,44295320,E,Enterprise Funds
+4599,2021,Utilities,Water Fund,Labor and Supply Offset,-8576545,E,Enterprise Funds
+4600,2021,Utilities,Water Fund,Operating Transfers,15710520,E,Enterprise Funds
+4601,2021,Utilities,Water Fund,Other Services and Supplies,26407613,E,Enterprise Funds
+4602,2021,Utilities,Water Fund,Transfers,-534200,E,Enterprise Funds
+4603,2021,Utilities,General Fund,Labor and Supply Offset,103410,E,Governmental Funds
+4604,2021,Utilities,General Fund,Transfers,19000,E,Governmental Funds
+4605,2021,Utilities,Fleet Management Fund,Labor and Supply Offset,147729,E,Internal Service Funds
+4606,2021,Utilities,Golf Fund,Labor and Supply Offset,8550,E,Other Governmental Funds
+4607,2021,Utilities,Landscaping and Lighting,Labor and Supply Offset,40000,E,Other Governmental Funds
+4608,2021,Utilities,N Natomas Lands CFD 3,Labor and Supply Offset,300000,E,Other Governmental Funds
+4609,2021,Utilities,Neighborhood Water Quality Dist,Labor and Supply Offset,3000,E,Other Governmental Funds
+4610,2021,Utilities,Northside Subdiv Maint Dist,Labor and Supply Offset,8000,E,Other Governmental Funds
+4611,2021,Utilities,SacMaintCFD2014-04 Area 01,Labor and Supply Offset,298120,E,Other Governmental Funds
+4612,2021,Utilities,Township 9 CFD No. 2012-06,Labor and Supply Offset,9000,E,Other Governmental Funds
+4613,2021,Utilities,Willowcreek Assmnt Md,Labor and Supply Offset,20774,E,Other Governmental Funds
+4614,2021,Utilities,Storm Drainage Fund,"Charges, Fees, and Services",38533647,R,Enterprise Funds
+4616,2021,Mayor/Council,General Fund,Employee Services,5303266,E,Governmental Funds
+4617,2021,Finance,Willowcreek Lndscpng CFD,Labor and Supply Offset,5595,E,Other Governmental Funds
+4618,2021,Debt Service,"2006 CIRBs, Series B (CRCIP)",Intergovernmental,1115782,R,Other Governmental Funds
+4619,2021,Finance,Village Garden N.-Mtce Dist #1,"Charges, Fees, and Services",29528,R,Other Governmental Funds
+4620,2021,Mayor/Council,General Fund,Labor and Supply Offset,-1443175,E,Governmental Funds
+4621,2021,Finance,Willowcreek Assmnt Md,"Charges, Fees, and Services",71329,R,Other Governmental Funds
+4622,2021,Finance,General Fund,"Charges, Fees, and Services",146293,R,Governmental Funds
+4623,2021,Debt Service,2015 Golden 1 Center Revenue Bonds,"Interest, Rents, and Concessions",6500000,R,Other Governmental Funds
+4624,2021,Mayor/Council,General Fund,Other Services and Supplies,1123408,E,Governmental Funds
+4626,2021,Finance,General Fund,"Fines, Forfeitures, and  Penalties",18000,R,Governmental Funds
+4627,2021,Mayor/Council,Interdepartmental Service Fund,Labor and Supply Offset,1443175,E,Other Governmental Funds
+4629,2021,Finance,General Fund,Intergovernmental,116084,R,Governmental Funds
+4630,2021,Debt Service,2016 Lease Financing-H Street,Intergovernmental,671315,R,Other Governmental Funds
+4631,2021,Finance,Willowcreek Lndscpng CFD,"Charges, Fees, and Services",99800,R,Other Governmental Funds
+4633,2021,Finance,General Fund,Licenses and Permits,386000,R,Governmental Funds
+4634,2021,Fire,General Fund,City Property,780813,E,Governmental Funds
+4635,2021,Debt Service,Worker's Compensation Fund,"Interest, Rents, and Concessions",71000,R,Risk Management
+4636,2021,Non-Appropriated,Interdepartmental Service Fund,Labor and Supply Offset,-25042321,E,Other Governmental Funds
+4638,2021,Finance,General Fund,Miscellaneous Revenue,153533,R,Governmental Funds
+4639,2021,Fire,General Fund,Employee Services,145160120,E,Governmental Funds
+4640,2021,Finance,General Fund,City Property,44400,E,Governmental Funds
+4641,2021,Police,General Fund,City Property,4042926,E,Governmental Funds
+4643,2021,Finance,12th Street Maint Benefit Area,"Charges, Fees, and Services",17277,R,Other Governmental Funds
+4644,2021,Fire,General Fund,Labor and Supply Offset,-22713652,E,Governmental Funds
+4645,2021,Finance,General Fund,Employee Services,10445356,E,Governmental Funds
+4646,2021,Police,General Fund,Employee Services,188423400,E,Governmental Funds
+4647,2021,Police,General Fund,Labor and Supply Offset,-46422312,E,Governmental Funds
+4648,2021,Police,General Fund,Other Services and Supplies,10898612,E,Governmental Funds
+4649,2021,Police,Risk Mgmt Fund,Labor and Supply Offset,560207,E,Risk Management
+4650,2021,Police,General Fund,"Charges, Fees, and Services",9751319,R,Governmental Funds
+4651,2021,Police,General Fund,"Fines, Forfeitures, and  Penalties",415000,R,Governmental Funds
+4652,2021,Police,General Fund,Intergovernmental,579000,R,Governmental Funds
+4653,2021,Police,General Fund,Licenses and Permits,1108000,R,Governmental Funds
+4654,2021,Police,Traffic Safety Fund,"Fines, Forfeitures, and  Penalties",0,R,Other Governmental Funds
+4655,2021,Public Works,Parking Fund,City Property,30097,E,Enterprise Funds
+4656,2021,Public Works,Parking Fund,Employee Services,5465784,E,Enterprise Funds
+4657,2021,Public Works,Parking Fund,Labor and Supply Offset,1612469,E,Enterprise Funds
+4658,2021,Public Works,Parking Fund,Operating Transfers,1924400,E,Enterprise Funds
+4659,2021,Public Works,Parking Fund,Other Services and Supplies,3281830,E,Enterprise Funds
+4660,2021,Public Works,Recycling and Solid Waste,City Property,11251675,E,Enterprise Funds
+4661,2021,Public Works,Recycling and Solid Waste,Employee Services,18130049,E,Enterprise Funds
+4662,2021,Public Works,Recycling and Solid Waste,Labor and Supply Offset,2949315,E,Enterprise Funds
+4663,2021,Public Works,Recycling and Solid Waste,Operating Transfers,7256600,E,Enterprise Funds
+4664,2021,Public Works,Recycling and Solid Waste,Other Services and Supplies,32319022,E,Enterprise Funds
+4665,2021,Public Works,Storm Drainage Fund,Labor and Supply Offset,336050,E,Enterprise Funds
+4666,2021,Public Works,Water Fund,Operating Transfers,0,E,Enterprise Funds
+4667,2021,Public Works,General Fund,City Property,676691,E,Governmental Funds
+4668,2021,Public Works,General Fund,Employee Services,49618823,E,Governmental Funds
+4669,2021,Public Works,General Fund,Labor and Supply Offset,-68711476,E,Governmental Funds
+4670,2021,Public Works,General Fund,Operating Transfers,0,E,Governmental Funds
+4671,2021,Public Works,General Fund,Other Services and Supplies,31905345,E,Governmental Funds
+4672,2021,Finance,General Fund,Labor and Supply Offset,-4809444,E,Governmental Funds
+4673,2021,Fire,General Fund,Other Services and Supplies,14361986,E,Governmental Funds
+4674,2021,Fire,Risk Mgmt Fund,Labor and Supply Offset,500000,E,Risk Management
+4675,2021,Fire,General Fund,"Charges, Fees, and Services",31160763,R,Governmental Funds
+4676,2021,Fire,General Fund,Intergovernmental,6495000,R,Governmental Funds
+4677,2021,Fire,General Fund,Licenses and Permits,1987175,R,Governmental Funds
+4678,2021,Human Resources,Recycling and Solid Waste,Labor and Supply Offset,117545,E,Enterprise Funds
+4679,2021,Human Resources,Storm Drainage Fund,Labor and Supply Offset,45189,E,Enterprise Funds
+4680,2021,Human Resources,Wastewater Fund,Labor and Supply Offset,18585,E,Enterprise Funds
+4681,2021,Human Resources,Water Fund,Labor and Supply Offset,57700,E,Enterprise Funds
+4682,2021,Human Resources,General Fund,City Property,10200,E,Governmental Funds
+4683,2021,Human Resources,General Fund,Employee Services,5732291,E,Governmental Funds
+4684,2021,Human Resources,General Fund,Labor and Supply Offset,-2250362,E,Governmental Funds
+4685,2021,Human Resources,General Fund,Other Services and Supplies,857401,E,Governmental Funds
+4686,2021,Human Resources,Fleet Management Fund,Labor and Supply Offset,59614,E,Internal Service Funds
+4687,2021,Human Resources,Interdepartmental Service Fund,Labor and Supply Offset,1648618,E,Other Governmental Funds
+4688,2021,Human Resources,Risk Mgmt Fund,City Property,128800,E,Risk Management
+4689,2021,Human Resources,Risk Mgmt Fund,Employee Services,2886242,E,Risk Management
+4690,2021,Human Resources,Risk Mgmt Fund,Labor and Supply Offset,3160557,E,Risk Management
+4691,2021,Human Resources,Risk Mgmt Fund,Other Services and Supplies,23383713,E,Risk Management
+4692,2021,Human Resources,Worker's Compensation Fund,City Property,17500,E,Risk Management
+4693,2021,Human Resources,Worker's Compensation Fund,Employee Services,2461588,E,Risk Management
+4694,2021,Human Resources,Worker's Compensation Fund,Labor and Supply Offset,566761,E,Risk Management
+4695,2021,Human Resources,Worker's Compensation Fund,Other Services and Supplies,11730318,E,Risk Management
+4696,2021,Human Resources,Risk Mgmt Fund,"Charges, Fees, and Services",350000,R,Risk Management
+4697,2021,Human Resources,Risk Mgmt Fund,Miscellaneous Revenue,28642000,R,Risk Management
+4698,2021,Human Resources,Worker's Compensation Fund,Miscellaneous Revenue,16257000,R,Risk Management
+4699,2021,Information Technology,Community Center Fund,Labor and Supply Offset,65,E,Enterprise Funds
+4700,2021,Information Technology,Community Center Fund,Transfers,988,E,Enterprise Funds
+4701,2021,Information Technology,Parking Fund,Labor and Supply Offset,4518,E,Enterprise Funds
+4702,2021,Information Technology,Parking Fund,Transfers,69190,E,Enterprise Funds
+4703,2021,Information Technology,Recycling and Solid Waste,Labor and Supply Offset,78557,E,Enterprise Funds
+4704,2021,Information Technology,Recycling and Solid Waste,Transfers,1283340,E,Enterprise Funds
+4705,2021,Information Technology,Storm Drainage Fund,Labor and Supply Offset,2302,E,Enterprise Funds
+4706,2021,Information Technology,Storm Drainage Fund,Other Services and Supplies,0,E,Enterprise Funds
+4707,2021,Information Technology,Storm Drainage Fund,Transfers,68847,E,Enterprise Funds
+4708,2021,Information Technology,Wastewater Fund,Labor and Supply Offset,2776,E,Enterprise Funds
+4709,2021,Finance,Central Midtown Restaurant BID,"Charges, Fees, and Services",96000,R,Other Governmental Funds
+4711,2021,Finance,General Fund,Other Services and Supplies,1765106,E,Governmental Funds
+4712,2021,Finance,Curtis Park CFD 2013-03,"Charges, Fees, and Services",8225,R,Other Governmental Funds
+4713,2021,Finance,General Fund,Transfers,64003,E,Governmental Funds
+4714,2021,Finance,Del Paso Nuevo Landscaping CFD,"Charges, Fees, and Services",17866,R,Other Governmental Funds
+4716,2021,Finance,12th Street Maint Benefit Area,Labor and Supply Offset,4556,E,Other Governmental Funds
+4717,2021,Finance,Del Paso Prop & Business Imprv,"Charges, Fees, and Services",485423,R,Other Governmental Funds
+4719,2021,Finance,3214:65th Street Area Impact Fee,Other Services and Supplies,50000,E,Other Governmental Funds
+4720,2021,Finance,Downtown Management District,"Charges, Fees, and Services",3341883,R,Other Governmental Funds
+4722,2021,Finance,Central Midtown Restaurant BID,Labor and Supply Offset,5000,E,Other Governmental Funds
+4723,2021,Finance,Franklin Boulevard PBID,"Charges, Fees, and Services",149454,R,Other Governmental Funds
+4725,2021,Finance,Central Midtown Restaurant BID,Other Services and Supplies,91000,E,Other Governmental Funds
+4726,2021,Finance,Greater Broadway PBID,"Charges, Fees, and Services",305680,R,Other Governmental Funds
+4728,2021,Finance,Cty/Cnty Office-Water Planning,Labor and Supply Offset,39000,E,Other Governmental Funds
+4729,2021,Finance,Handle BID No 2011-04,"Charges, Fees, and Services",200000,R,Other Governmental Funds
+4731,2021,Finance,Curtis Park CFD 2013-03,Labor and Supply Offset,3270,E,Other Governmental Funds
+4733,2021,Finance,Laguna Creek Maint Dist,"Charges, Fees, and Services",202524,R,Other Governmental Funds
+4734,2021,Finance,Landscaping and Lighting,"Charges, Fees, and Services",18145098,R,Other Governmental Funds
+4735,2021,Finance,Mack Road PBID,"Charges, Fees, and Services",688602,R,Other Governmental Funds
+4736,2021,Finance,Major Street Construction Fund,Taxes,0,R,Other Governmental Funds
+4737,2021,Finance,Midtown Sacramento PBID,"Charges, Fees, and Services",1638082,R,Other Governmental Funds
+4738,2021,Finance,N Nat Lndscp 99-02,"Charges, Fees, and Services",453992,R,Other Governmental Funds
+4739,2021,Finance,N Natomas Lands CFD 3,"Charges, Fees, and Services",2474261,R,Other Governmental Funds
+4740,2021,Finance,N Natomas Transp Mgmt Assoc,"Charges, Fees, and Services",1539402,R,Other Governmental Funds
+4741,2021,Finance,Natomas Crossing CFD 2013-01,"Charges, Fees, and Services",7168,R,Other Governmental Funds
+4742,2021,Finance,Neighborhood Lighting Dist,"Charges, Fees, and Services",46553,R,Other Governmental Funds
+4743,2021,Finance,Neighborhood Park Maint CFD,"Charges, Fees, and Services",1745298,R,Other Governmental Funds
+4744,2021,Finance,Neighborhood Water Quality Dist,"Charges, Fees, and Services",75866,R,Other Governmental Funds
+4745,2021,Finance,Northside Subdiv Maint Dist,"Charges, Fees, and Services",12250,R,Other Governmental Funds
+4746,2021,Finance,NW Land Park CFD 2013-02,"Charges, Fees, and Services",109999,R,Other Governmental Funds
+4747,2021,Finance,Oak Park PBID,"Charges, Fees, and Services",324893,R,Other Governmental Funds
+4748,2021,Finance,Old Sacto Maint Dist,"Charges, Fees, and Services",70060,R,Other Governmental Funds
+4749,2021,Finance,Parkebridge CFD 2014-07,"Charges, Fees, and Services",61599,R,Other Governmental Funds
+4750,2021,Finance,Power Inn Area Prop & Business,"Charges, Fees, and Services",525453,R,Other Governmental Funds
+4751,2021,Finance,Power Inn Rd Md 2003-01,"Charges, Fees, and Services",13276,R,Other Governmental Funds
+4752,2021,Finance,Railyards Impact Fee Fund,"Charges, Fees, and Services",50000,R,Other Governmental Funds
+4753,2021,Finance,Railyards Maint CFD No 2014-04,"Charges, Fees, and Services",134353,R,Other Governmental Funds
+4774,2021,Finance,Curtis Park Village CFD 2014-02,Other Services and Supplies,50000,E,Other Governmental Funds
+4775,2021,Finance,Del Paso Nuevo Landscaping CFD,Labor and Supply Offset,2866,E,Other Governmental Funds
+4776,2021,Finance,Del Paso Prop & Business Imprv,Labor and Supply Offset,2714,E,Other Governmental Funds
+4777,2021,Finance,Downtown Management District,Labor and Supply Offset,9875,E,Other Governmental Funds
+4778,2021,Finance,Franklin Boulevard PBID,Labor and Supply Offset,2422,E,Other Governmental Funds
+4779,2021,Finance,Greater Broadway PBID,Labor and Supply Offset,2544,E,Other Governmental Funds
+4780,2021,Finance,Handle BID No 2011-04,Labor and Supply Offset,2262,E,Other Governmental Funds
+4781,2021,Finance,Handle BID No 2011-04,Other Services and Supplies,197738,E,Other Governmental Funds
+4782,2021,Finance,Interdepartmental Service Fund,Labor and Supply Offset,2693464,E,Other Governmental Funds
+4783,2021,Finance,Laguna Creek Maint Dist,Labor and Supply Offset,13933,E,Other Governmental Funds
+4784,2021,Finance,Landscaping and Lighting,Labor and Supply Offset,330239,E,Other Governmental Funds
+4785,2021,Finance,Mack Road PBID,Labor and Supply Offset,2406,E,Other Governmental Funds
+4786,2021,Finance,Midtown Sacramento PBID,Labor and Supply Offset,5756,E,Other Governmental Funds
+4787,2021,Finance,N Nat Lndscp 99-02,Labor and Supply Offset,28504,E,Other Governmental Funds
+4788,2021,Finance,N Natomas Lands CFD 3,Labor and Supply Offset,52850,E,Other Governmental Funds
+4789,2021,Finance,N Natomas Transp Mgmt Assoc,Labor and Supply Offset,44106,E,Other Governmental Funds
+4790,2021,Finance,Neighborhood Lighting Dist,Labor and Supply Offset,18333,E,Other Governmental Funds
+4791,2021,Finance,Neighborhood Park Maint CFD,Labor and Supply Offset,43788,E,Other Governmental Funds
+4792,2021,Finance,Neighborhood Water Quality Dist,Labor and Supply Offset,13091,E,Other Governmental Funds
+4793,2021,Finance,NNFP Public Facilities Fee Fund,Other Services and Supplies,50000,E,Other Governmental Funds
+4794,2021,Finance,NNFP Public Land Acquisition Fee,Other Services and Supplies,50000,E,Other Governmental Funds
+4795,2021,Finance,NNFP Reg Park Land Acquisition,Other Services and Supplies,50000,E,Other Governmental Funds
+4796,2021,Finance,NNFP Transit Fee Fund,Other Services and Supplies,50000,E,Other Governmental Funds
+4797,2021,Finance,Northside Subdiv Maint Dist,Labor and Supply Offset,5243,E,Other Governmental Funds
+4798,2021,Finance,NW Land Park CFD 2013-02,Labor and Supply Offset,7493,E,Other Governmental Funds
+4799,2021,Finance,Oak Park PBID,Labor and Supply Offset,2735,E,Other Governmental Funds
+4800,2021,Finance,Old Sacto Maint Dist,Labor and Supply Offset,4814,E,Other Governmental Funds
