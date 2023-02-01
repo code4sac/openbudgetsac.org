@@ -127,6 +127,24 @@ svg
 // wrangle the data
 function data_wrangle(dataset, fy) {
   fy = fy.slice(0, 4);
+  switch(fy) {
+    case "FY15":
+    case "FY16":
+    case "FY17":
+    case "FY18":
+      return(data_wrangle_v1(dataset, fy));
+    case "FY13":
+    case "FY14":
+    case "FY19":
+    case "FY20":
+    case "FY21":
+    case "FY22":
+      return(data_wrangle_v2(dataset, fy)); 
+  } 
+}
+
+function data_wrangle_v1(dataset, fy) {
+
   var newdata = dataset.filter(function (v) {
     return v.budget_year == fy;
   });
@@ -234,6 +252,139 @@ function data_wrangle(dataset, fy) {
       var values = v;
       values.total = d3.sum(values, function (d) {
         return d.amount;
+      });
+      return values;
+    })
+    .entries(exp);
+
+  for (var i = 0; i < expdivs.length; i++) {
+    nodes.push({ name: expdivs[i].key, type: "expense" });
+    for (var x = 0; x < expdivs[i].values.length; x++) {
+      var link = {
+        target: i + nodeoffset + revcats.length,
+        value: expdivs[i].values[x].values.total,
+      };
+      if (expdivs[i].values[x].key == "General Fund") {
+        link.source = 0;
+      } else if (expdivs[i].values[x].key == "Non-discretionary funds") {
+        link.source = 1;
+      }
+      links.push(link);
+    }
+  }
+
+  return { nodes: nodes, links: links };
+}
+
+function data_wrangle_v2(dataset, fy) {
+
+  var newdata = dataset.filter(function (v) {
+    return true;
+  });
+  rev_order = [
+    // NOTE(Donny) list is specific to Sacramento Data
+    "Taxes",
+    "Charges, Fees, and Services",
+    "Miscellaneous Revenue",
+    "Intergovernmental",
+    "Contributions from Other Funds",
+    "Licenses and Permits",
+    "Fines, Forfeitures, and  Penalties",
+    "Interest, Rents, and Concessions",
+  ];
+  rev = newdata.filter(function (v, i, a) {
+    return v.ExpenseRevenue == "R";
+  });
+  revcats = d3
+    .nest()
+    .key(function (d) {
+      return d.CATEGORY;
+    })
+    .sortKeys(function (a, b) {
+      return rev_order.indexOf(a) - rev_order.indexOf(b);
+    })
+    .key(function (d) {
+      if (d.Fund == "General Fund") {
+        return "General Fund";
+      } else {
+        return "Non-discretionary funds";
+      }
+    })
+    .rollup(function (v) {
+      var values = v;
+      values.total = d3.sum(values, function (d) {
+        return +d.Amount;
+      });
+      return values;
+    })
+    .entries(rev);
+  nodes = [
+    { name: "General Funds", type: "fund", order: 0 },
+    { name: "Non-discretionary funds", type: "fund", order: 1 },
+  ];
+  nodeoffset = nodes.length;
+  links = [];
+  for (var i = 0; i < revcats.length; i++) {
+    nodes.push({ name: revcats[i].key, type: "revenue" });
+    for (var x = 0; x < revcats[i].values.length; x++) {
+      var link = {
+        source: i + nodeoffset,
+        value: revcats[i].values[x].values.total,
+      };
+      if (revcats[i].values[x].key == "General Fund") {
+        link.target = 0;
+      } else if (revcats[i].values[x].key == "Non-discretionary funds") {
+        link.target = 1;
+      }
+      links.push(link);
+    }
+  }
+  exp = newdata.filter(function (v, i, a) {
+    return v.ExpenseRevenue == "E";
+  });
+
+  // NOTE(Donny) list is specific to Sacramento Data
+  exp_order = [
+    "Police",
+    "Utilities",
+    "Citywide and Community Support",
+    "General Services",
+    "Fire",
+    "Debt Service",
+    "Public Works",
+    "Human Resources",
+    "Parks and Recreation",
+    "Community Development",
+    "Convention and Cultural Services",
+    "Finance",
+    "Information Technology",
+    "City Attorney",
+    "Mayor/Council",
+    "City Manager",
+    "City Treasurer",
+    "Economic Development",
+    "City Clerk",
+    "Non-Appropriated",
+  ];
+  expdivs = d3
+    .nest()
+    .key(function (d) {
+      return d.Department;
+    })
+    .sortKeys(function (a, b) {
+      return exp_order.indexOf(a) - exp_order.indexOf(b);
+    })
+    .key(function (d) {
+      if (d.Fund == "General Fund") {
+        return "General Fund";
+      } else {
+        return "Non-discretionary funds";
+      }
+    })
+    .rollup(function (v) {
+      var values = v;
+      values.total = d3.sum(values, function (d) {
+        return d.Amount;
       });
       return values;
     })
