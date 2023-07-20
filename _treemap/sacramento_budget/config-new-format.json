@@ -1,0 +1,85 @@
+{
+  "amount_header": "amount",
+  "account_type_header": "account_type",
+  "account_types": {
+    "revenue": "Revenues",
+    "expense": "Expenses"
+  },
+  "general_fund_category": {
+    "key": "fund",
+    "value": "General Funds"
+  },
+  "categories": {
+    "department": "department",
+    "account_category": "account_category",
+    "fiscal_year_range": "budget_year"
+  },
+  "grouping_headers": ["account_type", "budget_year"],
+  "groups": [
+    {
+      "values": ["Revenues", "FY15"],
+      "hierarchy": ["fund", "account_category", "account_description"],
+      "filename": "Approved.Revenue.FY15.json"
+    },
+    {
+      "values": ["Revenues", "FY16"],
+      "hierarchy": ["fund", "account_category", "account_description"],
+      "filename": "Approved.Revenue.FY16.json"
+    },
+    {
+      "values": ["Revenues", "FY17"],
+      "hierarchy": ["fund", "account_category", "account_description"],
+      "filename": "Approved.Revenue.FY17.json"
+    },
+    {
+      "values": ["Revenues", "FY18"],
+      "hierarchy": ["fund", "account_category", "account_description"],
+      "filename": "Approved.Revenue.FY18.json"
+    },
+    {
+      "values": ["Expenses", "FY15"],
+      "hierarchy": [
+        "fund",
+        "department",
+        "division",
+        "account_category",
+        "account_description"
+      ],
+      "filename": "Approved.Expense.FY15.json"
+    },
+    {
+      "values": ["Expenses", "FY16"],
+
+      "hierarchy": [
+        "fund",
+        "department",
+        "division",
+        "account_category",
+        "account_description"
+      ],
+      "filename": "Approved.Expense.FY16.json"
+    },
+    {
+      "values": ["Expenses", "FY17"],
+      "hierarchy": [
+        "fund",
+        "department",
+        "division",
+        "account_category",
+        "account_description"
+      ],
+      "filename": "Approved.Expense.FY17.json"
+    },
+    {
+      "values": ["Expenses", "FY18"],
+      "hierarchy": [
+        "fund",
+        "department",
+        "division",
+        "account_category",
+        "account_description"
+      ],
+      "filename": "Approved.Expense.FY18.json"
+    }
+  ]
+}
