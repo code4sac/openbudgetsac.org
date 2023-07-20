@@ -1,1 +1,62 @@
-[{"fiscal_year_range":"FY13-14","budget_type":1,"total":1094533634.0},{"fiscal_year_range":"FY13-14","budget_type":3,"total":1039006929.0},{"fiscal_year_range":"FY14-15","budget_type":1,"total":1090122151.0},{"fiscal_year_range":"FY14-15","budget_type":2,"total":1148691330.0},{"fiscal_year_range":"FY14-15","budget_type":3,"total":1060583969.0},{"fiscal_year_range":"FY15-16","budget_type":1,"total":1202960209.0},{"fiscal_year_range":"FY15-16","budget_type":3,"total":1213893113.0},{"fiscal_year_range":"FY16-17","budget_type":1,"total":1182137681.0},{"fiscal_year_range":"FY16-17","budget_type":2,"total":1239428331.0},{"fiscal_year_range":"FY16-17","budget_type":3,"total":1180808251.0},{"fiscal_year_range":"FY17-18","budget_type":3,"total":1331563727.0},{"fiscal_year_range":"FY18-19","budget_type":3,"total":1363271740.0}]
+[
+  {
+    "budget_type": "1",
+    "fiscal_year_range": "FY13",
+    "total": "1342149366",
+    "general_fund": "367178877"
+  },
+  {
+    "budget_type": "1",
+    "fiscal_year_range": "FY14",
+    "total": "851109452",
+    "general_fund": "372768195"
+  },
+  {
+    "budget_type": "1",
+    "fiscal_year_range": "FY15",
+    "total": "828593876",
+    "general_fund": "378038530"
+  },
+  {
+    "budget_type": "1",
+    "fiscal_year_range": "FY16",
+    "total": "858718871",
+    "general_fund": "394145629"
+  },
+  {
+    "budget_type": "1",
+    "fiscal_year_range": "FY17",
+    "total": "906979132",
+    "general_fund": "426705334"
+  },
+  {
+    "budget_type": "1",
+    "fiscal_year_range": "FY18",
+    "total": "953973022",
+    "general_fund": "450144934"
+  },
+  {
+    "budget_type": "1",
+    "fiscal_year_range": "FY19",
+    "total": "1002190752",
+    "general_fund": "478747999"
+  },
+  {
+    "budget_type": "1",
+    "fiscal_year_range": "FY20",
+    "total": "1087942740",
+    "general_fund": "0"
+  },
+  {
+    "budget_type": "1",
+    "fiscal_year_range": "FY21",
+    "total": "1162061128",
+    "general_fund": "0"
+  },
+  {
+    "budget_type": "1",
+    "fiscal_year_range": "FY22",
+    "total": "1196607155",
+    "general_fund": "0"
+  }
+]
