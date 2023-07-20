@@ -1,0 +1,167 @@
+{
+  "amount_header": "Amount",
+  "account_type_header": "ExpenseRevenue",
+  "account_types": {
+    "revenue": "R",
+    "expense": "E"
+  },
+  "general_fund_category": {
+    "key": "Fund_Category",
+    "value": "General Fund"
+  },
+  "categories": {
+    "department": "Department",
+    "account_category": "CATEGORY",
+    "fiscal_year_range": "Fiscal_Year"
+  },
+  "grouping_headers": [
+    "ExpenseRevenue",
+    "Fiscal_Year"
+  ],
+  "groups": [
+    {
+      "values": [
+        "R",
+        "2013"
+      ],
+      "hierarchy": [
+        "Fund",
+        "CATEGORY"
+      ],
+      "filename": "Approved.Revenue.FY13.json"
+    },
+    {
+      "values": [
+        "R",
+        "2014"
+      ],
+      "hierarchy": [
+        "Fund",
+        "CATEGORY"
+      ],
+      "filename": "Approved.Revenue.FY14.json"
+    },
+    {
+      "values": [
+        "R",
+        "2019"
+      ],
+      "hierarchy": [
+        "Fund",
+        "CATEGORY"
+      ],
+      "filename": "Approved.Revenue.FY19.json"
+    },
+    {
+      "values": [
+        "R",
+        "2020"
+      ],
+      "hierarchy": [
+        "Fund",
+        "CATEGORY"
+      ],
+      "filename": "Approved.Revenue.FY20.json"
+    },
+    {
+      "values": [
+        "R",
+        "2021"
+      ],
+      "hierarchy": [
+        "Fund",
+        "CATEGORY"
+      ],
+      "filename": "Approved.Revenue.FY21.json"
+    },
+    {
+      "values": [
+        "R",
+        "2022"
+      ],
+      "hierarchy": [
+        "Fund",
+        "CATEGORY"
+      ],
+      "filename": "Approved.Revenue.FY22.json"
+    },
+    {
+      "values": [
+        "E",
+        "2013"
+      ],
+      "hierarchy": [
+        "Fund",
+        "Department",
+        "CATEGORY",
+        "Fund_Category"
+      ],
+      "filename": "Approved.Expense.FY13.json"
+    },
+    {
+      "values": [
+        "E",
+        "2014"
+      ],
+      "hierarchy": [
+        "Fund",
+        "Department",
+        "CATEGORY",
+        "Fund_Category"
+      ],
+      "filename": "Approved.Expense.FY14.json"
+    },
+    {
+      "values": [
+        "E",
+        "2019"
+      ],
+      "hierarchy": [
+        "Fund",
+        "Department",
+        "CATEGORY",
+        "Fund_Category"
+      ],
+      "filename": "Approved.Expense.FY19.json"
+    },
+    {
+      "values": [
+        "E",
+        "2020"
+      ],
+      "hierarchy": [
+        "Fund",
+        "Department",
+        "CATEGORY",
+        "Fund_Category"
+      ],
+      "filename": "Approved.Expense.FY20.json"
+    },
+    {
+      "values": [
+        "E",
+        "2021"
+      ],
+      "hierarchy": [
+        "Fund",
+        "Department",
+        "CATEGORY",
+        "Fund_Category"
+      ],
+      "filename": "Approved.Expense.FY21.json"
+    },
+    {
+      "values": [
+        "E",
+        "2022"
+      ],
+      "hierarchy": [
+        "Fund",
+        "Department",
+        "CATEGORY",
+        "Fund_Category"
+      ],
+      "filename": "Approved.Expense.FY22.json"
+    }
+  ]
+}
