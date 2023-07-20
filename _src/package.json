@@ -18,6 +18,7 @@
     "react-spinkit": "^2.1.1"
   },
   "scripts": {
+    "serve": "npx @11ty/eleventy --serve --port=8011",
     "watch": "npx webpack --config webpack.config.js --watch",
     "build": "npx webpack --config webpack.config.js",
     "build-css": "dart-sass --style=compressed css/main.scss styles/main.css"
