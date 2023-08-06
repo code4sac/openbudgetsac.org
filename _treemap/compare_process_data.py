@@ -36,7 +36,7 @@ def load_csv_data(csv_file):
     """
     if os.path.exists(csv_file):  # check for the file
         try:
-            return pd.read_csv(csv_file)  # load it into a pandas dataframe
+            return pd.read_csv(csv_file,encoding='unicode_escape')  # load it into a pandas dataframe
         except Exception as ex:
             print("Couldn't parse .csv file: {}\n\t{}".format(csv_file, ex))
             return pd.DataFrame()  # blank dataframe
@@ -73,74 +73,127 @@ def parse_fiscal_year_key(fiscal_year):
     elif fiscal_year[:2] == "20":
         return int(fiscal_year)
 
-
-def create_files_by_year(department_table, account_categories_table, revenue_key, expense_key, config):
-    for group in config["groups"]:
-        fiscal_year_key = parse_fiscal_year_key(group['values'][1])
-        budget_type = group["values"][0]
-        if budget_type == revenue_key:
-            account_category_list = list()
-            departments_list = list()
-            account_category_by_year = account_categories_table.loc[fiscal_year_key]
-            account_category_budget_table = account_category_by_year[
-                account_category_by_year[budget_type] != 0].reset_index()
-            account_category_budget_table = account_category_budget_table.filter(
-                [config["categories"]["account_category"], budget_type, f"General Fund {budget_type}"])
-            department_by_year = department_table.loc[fiscal_year_key]
-            department_budget_table = department_by_year[department_by_year[budget_type] != 0].reset_index()
-            department_budget_table = department_budget_table.filter(
-                [config["categories"]["department"], budget_type, f"General Fund {budget_type}"])
-            for index, row in account_category_budget_table.iterrows():
-                account_categories_dict = dict()
-                account_categories_dict["budget_type"] = "1"
-                account_categories_dict["fiscal_year_range"] = fiscal_year_key
-                account_categories_dict["account_category"] = row[config["categories"]["account_category"]]
-                account_categories_dict["total"] = str(row[budget_type])
-                account_categories_dict["general_fund"] = str(int(row[f"General Fund {budget_type}"]))
-                account_category_list.append(account_categories_dict)
-            for index, row in department_budget_table.iterrows():
-                departments_dict = dict()
-                departments_dict["budget_type"] = "1"
-                departments_dict["fiscal_year_range"] = fiscal_year_key
-                departments_dict["department"] = row[config["categories"]["department"]]
-                departments_dict["total"] = str(row[budget_type])
-                departments_dict["general_fund"] = str(int(row[f"General Fund {budget_type}"]))
-                departments_list.append(departments_dict)
-            write_json_file(Path("compare", "fiscal-years-revenue", "account-cats", f"FY{str(fiscal_year_key)[-2:]}.json"),
-                            account_category_list)
-            write_json_file(Path("compare", "fiscal-years-revenue", "depts", f"FY{str(fiscal_year_key)[-2:]}.json"), departments_list)
-        elif budget_type == expense_key:
-            account_category_list = list()
-            departments_list = list()
-            account_category_by_year = account_categories_table.loc[fiscal_year_key]
-            account_category_budget_table = account_category_by_year[
-                account_category_by_year[budget_type] != 0].reset_index()
-            account_category_budget_table = account_category_budget_table.filter(
-                [config["categories"]["account_category"], budget_type, f"General Fund {budget_type}"])
-            department_by_year = department_table.loc[fiscal_year_key]
-            department_budget_table = department_by_year[department_by_year[budget_type] != 0].reset_index()
-            department_budget_table = department_budget_table.filter(
-                [config["categories"]["department"], budget_type, f"General Fund {budget_type}"])
-            for index, row in account_category_budget_table.iterrows():
-                account_categories_dict = dict()
-                account_categories_dict["budget_type"] = "1"
-                account_categories_dict["fiscal_year_range"] = fiscal_year_key
-                account_categories_dict["account_category"] = row[config["categories"]["account_category"]]
-                account_categories_dict["total"] = str(row[budget_type])
-                account_categories_dict["general_fund"] = str(int(row[f"General Fund {budget_type}"]))
-                account_category_list.append(account_categories_dict)
-            for index, row in department_budget_table.iterrows():
-                departments_dict = dict()
-                departments_dict["budget_type"] = "1"
-                departments_dict["fiscal_year_range"] = fiscal_year_key
-                departments_dict["department"] = row[config["categories"]["department"]]
-                departments_dict["total"] = str(row[budget_type])
-                departments_dict["general_fund"] = str(int(row[f"General Fund {budget_type}"]))
-                departments_list.append(departments_dict)
-            write_json_file(Path("compare", "fiscal-years-expenses", "account-cats", f"FY{str(fiscal_year_key)[-2:]}.json"),
-                            account_category_list)
-            write_json_file(Path("compare", "fiscal-years-expenses", "depts", f"FY{str(fiscal_year_key)[-2:]}.json"),
-                            departments_list)
+#creating by year json file
+def create_files_by_year(df, cfg):
+    df1 = pd.DataFrame()
+    df2 = pd.DataFrame()
+    df3 = pd.DataFrame()
+    df4 = pd.DataFrame()
+    df5 = pd.DataFrame()
+    df6 = pd.DataFrame()
+    #df5 = df[df.isin(['FY15-16','FY16-17']).any(1)]
+    df5 = df[df.isin(['FY15-16','FY16-17'])]
+    nans = (df5.isna()) & (df5.applymap(type) != type(None))
+    cols = nans.all()[nans.all()].index.to_list()
+    df5 = df5.drop(cols, axis=1)
+    #df6 = df[df.isin(['Expense','Revenue','R','E','Expenses','Revenues']).any(axis=1)]
+    df6 = df[df.isin(['Expense','Revenue','R','E','Expenses','Revenues'])]
+    nans = (df6.isna()) & (df6.applymap(type) != type(None))
+    cols = nans.all()[nans.all()].index.to_list()
+    df6 = df6.drop(cols,axis=1)
+    #for i,j,k in zip(df.index,df['Fiscal Year'],df['Account Type']):
+    for i,j,k in zip(df.index,df5.iloc[:,0],df6.iloc[:,0]):
+    #FY15-16 revenue
+        if  j == list(cfg['groups'][0].values())[0][1] and k == list(cfg['groups'][0].values())[0][0]:
+            df1 = pd.concat([df.iloc[[i]],df1], axis=0, ignore_index=True)
+            df11 = df1.loc[:,[cfg['amount_header'],cfg['grouping_headers'][0],cfg['grouping_headers'][1],list(cfg['groups'][0].values())[1][1],list(cfg['groups'][0].values())[1][2],'Order - Account Name']]
+            #print(df)
+        #FY15-16 expense
+        if j == list(cfg['groups'][2].values())[0][1] and k == list(cfg['groups'][2].values())[0][0] :
+            df2 = pd.concat([df.iloc[[i]],df2], axis=0, ignore_index=True)
+            df22 = df2.loc[:,[cfg['amount_header'],cfg['grouping_headers'][0],cfg['grouping_headers'][1],list(cfg['groups'][2].values())[1][0],list(cfg['groups'][2].values())[1][1],list(cfg['groups'][2].values())[1][2],list(cfg['groups'][2].values())[1][3],'Order - Account Name']]
+        #FY16-17 revenue
+        if j == list(cfg['groups'][1].values())[0][1] and k == list(cfg['groups'][1].values())[0][0]:
+            df3 = pd.concat([df.iloc[[i]],df3], axis=0, ignore_index=True)
+            df33 = df3.loc[:,[cfg['amount_header'],cfg['grouping_headers'][0],cfg['grouping_headers'][1],list(cfg['groups'][1].values())[1][0],list(cfg['groups'][1].values())[1][1],list(cfg['groups'][1].values())[1][2],'Order - Account Name']]
+        #FY16-17 expense
+        if  j == list(cfg['groups'][3].values())[0][1] and k == list(cfg['groups'][3].values())[0][0]:
+            df4 = pd.concat([df.iloc[[i]],df4], axis=0, ignore_index=True)
+            df44 = df4.loc[:,[cfg['amount_header'],cfg['grouping_headers'][0],cfg['grouping_headers'][1],list(cfg['groups'][3].values())[1][0],list(cfg['groups'][3].values())[1][1],list(cfg['groups'][3].values())[1][2],list(cfg['groups'][3].values())[1][3],'Order - Account Name']]
+    d1 = df11.to_dict(orient='records')
+    d2 = df22.to_dict(orient='records')
+    d3 = df33.to_dict(orient='records')
+    d4 = df44.to_dict(orient='records')
+    json1 = json.dumps(d1)
+    json2 = json.dumps(d2)
+    json3 = json.dumps(d3)
+    json4 = json.dumps(d4)
+    with open("Revenue.FY15-16.json", "w") as outfile:
+        outfile.write(json1)
+    with open("Expense.FY15-16.json", "w") as outfile:
+        outfile.write(json2)
+    with open("Revenue.FY16-17.json", "w") as outfile:
+        outfile.write(json3)
+    with open("Expense.FY16-17.json", "w") as outfile:
+        outfile.write(json4)
+    #new1 = pd.concat(df1,df3)new2 = pd.concat(df2,df4)
+#def create_files_by_year(department_table, account_categories_table, revenue_key, expense_key, config):
+#   for group in config["groups"]:
+#       fiscal_year_key = parse_fiscal_year_key(group['values'][1])
+#       budget_type = group["values"][0]
+#       if budget_type == revenue_key:
+#           account_category_list = list()
+#           departments_list = list()
+#           account_category_by_year = account_categories_table.loc[fiscal_year_key]
+#           account_category_budget_table = account_category_by_year[
+#               account_category_by_year[budget_type] != 0].reset_index()
+#           account_category_budget_table = account_category_budget_table.filter(
+#               [config["categories"]["account_category"], budget_type, f"General Fund {budget_type}"])
+#           department_by_year = department_table.loc[fiscal_year_key]
+#           department_budget_table = department_by_year[department_by_year[budget_type] != 0].reset_index()
+#           department_budget_table = department_budget_table.filter(
+#               [config["categories"]["department"], budget_type, f"General Fund {budget_type}"])
+#           for index, row in account_category_budget_table.iterrows():
+#               account_categories_dict = dict()
+#               account_categories_dict["budget_type"] = "1"
+#               account_categories_dict["fiscal_year_range"] = fiscal_year_key
+#               account_categories_dict["account_category"] = row[config["categories"]["account_category"]]
+#               account_categories_dict["total"] = str(row[budget_type])
+#               account_categories_dict["general_fund"] = str(int(row[f"General Fund {budget_type}"]))
+#               account_category_list.append(account_categories_dict)
+#           for index, row in department_budget_table.iterrows():
+#               departments_dict = dict()
+#               departments_dict["budget_type"] = "1"
+#               departments_dict["fiscal_year_range"] = fiscal_year_key
+#               departments_dict["department"] = row[config["categories"]["department"]]
+#               departments_dict["total"] = str(row[budget_type])
+#               departments_dict["general_fund"] = str(int(row[f"General Fund {budget_type}"]))
+#               departments_list.append(departments_dict)
+#           write_json_file(Path("compare", "fiscal-years-revenue", "account-cats", f"FY{str(fiscal_year_key)[-2:]}.json"),
+#                           account_category_list)
+#           write_json_file(Path("compare", "fiscal-years-revenue", "depts", f"FY{str(fiscal_year_key)[-2:]}.json"), departments_list)
+#       elif budget_type == expense_key:
+#           account_category_list = list()
+#           departments_list = list()
+#           account_category_by_year = account_categories_table.loc[fiscal_year_key]
+#           account_category_budget_table = account_category_by_year[
+#               account_category_by_year[budget_type] != 0].reset_index()
+#           account_category_budget_table = account_category_budget_table.filter(
+#               [config["categories"]["account_category"], budget_type, f"General Fund {budget_type}"])
+#           department_by_year = department_table.loc[fiscal_year_key]
+#           department_budget_table = department_by_year[department_by_year[budget_type] != 0].reset_index()
+#           department_budget_table = department_budget_table.filter(
+#               [config["categories"]["department"], budget_type, f"General Fund {budget_type}"])
+#           for index, row in account_category_budget_table.iterrows():
+#               account_categories_dict = dict()
+#               account_categories_dict["budget_type"] = "1"
+#               account_categories_dict["fiscal_year_range"] = fiscal_year_key
+#               account_categories_dict["account_category"] = row[config["categories"]["account_category"]]
+#               account_categories_dict["total"] = str(row[budget_type])
+#               account_categories_dict["general_fund"] = str(int(row[f"General Fund {budget_type}"]))
+#               account_category_list.append(account_categories_dict)
+#           for index, row in department_budget_table.iterrows():
+#               departments_dict = dict()
+#               departments_dict["budget_type"] = "1"
+#               departments_dict["fiscal_year_range"] = fiscal_year_key
+#               departments_dict["department"] = row[config["categories"]["department"]]
+#               departments_dict["total"] = str(row[budget_type])
+#               departments_dict["general_fund"] = str(int(row[f"General Fund {budget_type}"]))
+#               departments_list.append(departments_dict)
+#           write_json_file(Path("compare", "fiscal-years-expenses", "account-cats", f"FY{str(fiscal_year_key)[-2:]}.json"),
+#                           account_category_list)
+#           write_json_file(Path("compare", "fiscal-years-expenses", "depts", f"FY{str(fiscal_year_key)[-2:]}.json"),
+#                           departments_list)
 
 
 def generate_files(df, config):
@@ -189,7 +242,8 @@ def main():
         print("This script requires two extra arguments: <config>.json <budget data>.csv")
     cfg = load_config(sys.argv[1])  # load the config file
     df = load_csv_data(sys.argv[2])  # load the csv data
-    generate_files(df, cfg)
+    create_files_by_year(df, cfg)
+    #generate_files(df, cfg)
 
 
 if __name__ == '__main__':
