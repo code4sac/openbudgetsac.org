@@ -82,7 +82,12 @@ def create_files_by_year(df, cfg):
     df5 = pd.DataFrame()
     df6 = pd.DataFrame()
     #df5 = df[df.isin(['FY15-16','FY16-17']).any(1)]
-    df5 = df[df.isin(['FY15-16','FY16-17'])]
+    #df5 = df[df.isin([cfg['groups'].map(['FY15-16','FY16-17']))]
+    #df5 = df[df.isin[df.map(lambda group: group['values'][0].values(), f"FY-{values[1][:-2]}"))]
+    #map requires a input array to return its function values.
+    # [] is requires for map a list.
+    df5 = df['Fiscal Year'].map(list[cfg['groups']])
+    df5 = pd.DataFrame(list(map(('').join, df5)))
     nans = (df5.isna()) & (df5.applymap(type) != type(None))
     cols = nans.all()[nans.all()].index.to_list()
     df5 = df5.drop(cols, axis=1)
@@ -91,12 +96,22 @@ def create_files_by_year(df, cfg):
     nans = (df6.isna()) & (df6.applymap(type) != type(None))
     cols = nans.all()[nans.all()].index.to_list()
     df6 = df6.drop(cols,axis=1)
-    #for i,j,k in zip(df.index,df['Fiscal Year'],df['Account Type']):
-    for i,j,k in zip(df.index,df5.iloc[:,0],df6.iloc[:,0]):
+    #concat two dataframes together
+    for i in df5:
+        df1 = pd.concat([df5,df6],axis=1)
+
+    for i, j, k in zip(df.index,df1.iloc[:,0],df1.iloc[:,1]):
     #FY15-16 revenue
         if  j == list(cfg['groups'][0].values())[0][1] and k == list(cfg['groups'][0].values())[0][0]:
-            df1 = pd.concat([df.iloc[[i]],df1], axis=0, ignore_index=True)
+            df1 = pd.concat([df.iloc[[i]],df1],axis = 0)
             df11 = df1.loc[:,[cfg['amount_header'],cfg['grouping_headers'][0],cfg['grouping_headers'][1],list(cfg['groups'][0].values())[1][1],list(cfg['groups'][0].values())[1][2],'Order - Account Name']]
+
+    #for i,j,k in zip(df.index,df['Fiscal Year'],df['Account Type']):
+    #for i,j,k in zip(df.index,df5.iloc[:,0],df6.iloc[:,0]):
+    #FY15-16 revenue
+        #if  j == list(cfg['groups'][0].values())[0][1] and k == list(cfg['groups'][0].values())[0][0]:
+        #    df1 = pd.concat([df.iloc[[i]],df1], axis=0, ignore_index=True)
+        #    df11 = df1.loc[:,[cfg['amount_header'],cfg['grouping_headers'][0],cfg['grouping_headers'][1],list(cfg['groups'][0].values())[1][1],list(cfg['groups'][0].values())[1][2],'Order - Account Name']]
             #print(df)
         #FY15-16 expense
         if j == list(cfg['groups'][2].values())[0][1] and k == list(cfg['groups'][2].values())[0][0] :
@@ -179,7 +194,8 @@ def create_files_by_year(df, cfg):
 #               account_categories_dict["budget_type"] = "1"
 #               account_categories_dict["fiscal_year_range"] = fiscal_year_key
 #               account_categories_dict["account_category"] = row[config["categories"]["account_category"]]
-#               account_categories_dict["total"] = str(row[budget_type])
+#               account
+#               nt_categories_dict["total"] = str(row[budget_type])
 #               account_categories_dict["general_fund"] = str(int(row[f"General Fund {budget_type}"]))
 #               account_category_list.append(account_categories_dict)
 #           for index, row in department_budget_table.iterrows():
