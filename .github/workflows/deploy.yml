@@ -1,47 +1,35 @@
-# This workflow will do a clean install of node dependencies, build the source code, run integration and end-to-end tests, and deploy to GitHub Pages.
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
-
-name: Deploy on push to release-eleventy
+name: Deploy on push to main
 
 on:
-  # pull_request:
-  #   branches: [master]
   push:
-    branches: [release-eleventy]
+    branches: [main]
 
 jobs:
   build_and_deploy:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
 
     strategy:
       matrix:
-        # node-version: [8.x, 10.x, 12.x]
         node-version: [16.x]
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-        with:
-          persist-credentials: false
-      - name: Set up Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        name: Set up Node.js ${{ matrix.node-version }}
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Install SSH Client 🔑
-        uses: webfactory/ssh-agent@v0.5.3
-        with:
-          ssh-private-key: ${{ secrets.SSH_KEY }}
-      - name: Run Webpack
+      - name: Run Webpack ⚙️
         run: cd _src && rm -rf node_modules && npm install && npm run build --if-present
         env:
           CI: true
-      - name: Build
+      - name: Build ⚙️
         run: bash _src/_compile.sh
         env:
           CI: true
-      - name: Deploy to gh-pages
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+      - uses: JamesIves/github-pages-deploy-action@v4
+        name: Deploy 🚀
         with:
-          SSH: true
-          BRANCH: gh-pages
-          FOLDER: build
+          folder: build
+          git-config-name: Automated
+          git-config-email: hello@codeforsacramento.org
+          branch: gh-pages
