@@ -95,13 +95,13 @@ This project is coded with, among other things:
 
 ## Publishing Changes
 
-Make changes and review them on your local development site. If everything looks good, push your changes to your personal fork and merge the commit(s) into your master branch. Finally, issue a pull request and we'll take it from there!
+Make changes and review them on your local development site. If everything looks good, push your changes to your personal fork and merge the commit(s) into your main branch. Finally, issue a pull request and we'll take it from there!
 
 ### Issuing a pull request
 
-Simply push your code changes to your repo in whatever branch you used locally, then merge into master. At this point you can either 1) push from your master to the **staging** branch of the upstream repo or 2) just tell an admin of the upstream repo that your work is ready for review. (Anyone with admin privileges on the original repo will be able to create a pull request from your repo). Your changes will then be reviewed, tested, and (if everything looks good) pushed into the master branch.
+1) Create a pull request from your forked repo to the main branch of the upstream project and 2) just tell an admin of the upstream repo that your work is ready for review. Your changes will then be reviewed, tested, and (if everything looks good) pushed into the master branch.
 
-Starting in March 2020, code changes pushed to the master branch of the (original) repo will use GitHub Actions to trigger a continuous integration process that (among other things):
+Changes pushed to the main branch of the (original) repo will use GitHub Actions to trigger a continuous integration process that (among other things):
 
 - runs WebPack;
 - builds static files with Eleventy; and
