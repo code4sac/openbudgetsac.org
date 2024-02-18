@@ -1,0 +1,71 @@
+{
+  "amount_header": "Amount",
+  "account_type_header": "ExpenseRevenue",
+  "account_types": {
+    "revenue": "R",
+    "expense": "E"
+  },
+  "general_fund_category": {
+    "key": "Fund_Category",
+    "value": "General Fund"
+  },
+  "categories": {
+    "department": "Department",
+    "account_category": "CATEGORY",
+    "fiscal_year_range": "Fiscal_Year"
+  },
+  "grouping_headers": [
+    "ExpenseRevenue",
+    "Fiscal_Year"
+  ],
+  "groups": [
+    {
+      "values": [
+        "R",
+        "2023"
+      ],
+      "hierarchy": [
+        "Fund",
+        "CATEGORY"
+      ],
+      "filename": "Approved.Revenue.FY23.json"
+    },
+    {
+      "values": [
+        "R",
+        "2024"
+      ],
+      "hierarchy": [
+        "Fund",
+        "CATEGORY"
+      ],
+      "filename": "Approved.Revenue.FY24.json"
+    },
+    {
+      "values": [
+        "E",
+        "2023"
+      ],
+      "hierarchy": [
+        "Fund",
+        "Department",
+        "CATEGORY",
+        "Fund_Category"
+      ],
+      "filename": "Approved.Expense.FY23.json"
+    },
+    {
+      "values": [
+        "E",
+        "2024"
+      ],
+      "hierarchy": [
+        "Fund",
+        "Department",
+        "CATEGORY",
+        "Fund_Category"
+      ],
+      "filename": "Approved.Expense.FY24.json"
+    }
+  ]
+}
