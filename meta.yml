@@ -1,0 +1,44 @@
+title: Open Budget Sac
+project_type: website
+project_status: active
+description: Fiscal transparency and visualization web app for the City of Sacramento
+image_url: screenshot.jpg
+project_partner: Dan Fey
+project_lead: Brianda Hernandez
+technical_lead: Nate Bass
+lead_designer: Help Needed
+tags: html,css,javascript,react,github,d3js
+contributing:
+  designer:
+    difficulty: easy
+    technologies: Figma
+    ways_to_contribute: improve existing designs, design new pages
+  developer:
+    difficulty: easy
+    frontend: html,css,javascript,react
+    backend: n/a
+    ways_to_contribute: Bug fixing, testing, maintenance; see issues on github
+  project_manager:
+    difficulty: easy
+    technologies: github, slack
+    ways_to_contribute: organize and create issues & milestones, work with team members to stay and track and remove roadblocks
+roadmap:
+  maintenance:
+    time_range: Jan 1, 2023 - Jan 1, 2043
+    objective: Ensure site continues working, patching any issues
+    outcome: Site stays up and running!
+  update_data_2024:
+    time_range: August 1, 2024 - November 1, 2024
+    objective: Update with new data from https://data.cityofsacramento.org/
+    outcome: Most recent data up to date
+  update_data_2025:
+    time_range: August 1, 2025 - November 1, 2025
+    objective: Update with new data from https://data.cityofsacramento.org/
+    outcome: Most recent data up to date
+  update_data_2026:
+    time_range: August 1, 2026 - November 1, 2026
+    objective: Update with new data from https://data.cityofsacramento.org/
+    outcome: Most recent data up to date
+resources:
+screenshots:
+  - screenshot.jpg
