@@ -2,6 +2,9 @@ title: Open Budget Sac
 project_type: website
 project_status: active
 description: Fiscal transparency and visualization web app for the City of Sacramento
+comments: This is a great project for new members to get used to working one issues and tasks. It is one of the more approachable projects.
+communications: Slack
+channels: #proj-openbudgetsac
 image_url: screenshot.jpg
 project_partner: Dan Fey
 project_lead: Brianda Hernandez
@@ -17,6 +20,9 @@ contributing:
     difficulty: easy
     frontend: html,css,javascript,react
     backend: n/a
+    technologies: To be announced
+    version_control: Github
+    repo: /openbudgetsac
     ways_to_contribute: Bug fixing, testing, maintenance; see issues on github
   project_manager:
     difficulty: easy
@@ -25,20 +31,19 @@ contributing:
 roadmap:
   maintenance:
     time_range: Jan 1, 2023 - Jan 1, 2043
-    objective: Ensure site continues working, patching any issues
-    outcome: Site stays up and running!
   update_data_2024:
     time_range: August 1, 2024 - November 1, 2024
-    objective: Update with new data from https://data.cityofsacramento.org/
-    outcome: Most recent data up to date
   update_data_2025:
     time_range: August 1, 2025 - November 1, 2025
-    objective: Update with new data from https://data.cityofsacramento.org/
-    outcome: Most recent data up to date
   update_data_2026:
     time_range: August 1, 2026 - November 1, 2026
-    objective: Update with new data from https://data.cityofsacramento.org/
-    outcome: Most recent data up to date
+  objective: Provide a resource for residents of Sacramento to explore the city budget
+  comments:
+  outcome: Residents are better informed about where their taxpayer dollars are going
 resources:
+  documentation:
+  tutorials:
+  meeting_times: Scheduled for Wednesdays at 6:30 PM and listed on Meetup.
+  office_hours: Saturdays at 3:00 PM (Posted on Slack)
 screenshots:
   - screenshot.jpg
